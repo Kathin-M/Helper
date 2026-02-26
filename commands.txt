@@ -1,0 +1,202 @@
+
+=== ActivitySheet    1 ===
+
+=== Activity Sheet 2 ===
+
+=== Activity Sheet 3 ===
+
+=== Activity Sheet 4 ===
+
+=== ActivitySheet5 ===
+
+=== Activity Sheet 6 ===
+
+=== Activity Sheet 7 ===
+
+=== Activity Sheet 8 ===
+
+=== Activity Sheet 9 ===
+
+=== ActivitySheet    10 ===
+
+=== Activity Sheet 11 ===
+
+=== Activity Sheet 12 ===
+
+=== Activity Sheet 13 ===
+
+=== Activity Sheet 14 ===
+
+[Commands]
+Creating a Row Vector
+Creating a Column Vector
+Creating a Matrix
+Matrix Addition/Subtraction
+Scalar Multiplication
+Matrix Multiplication
+Transpose of Matrix
+Determinant and Inverse
+Rank of Matrix
+Cross and Dot Product
+
+[Commands]
+Compute Left Inverse
+Compute Right Inverse
+Compute Pseudo-Inverse
+Solve Linear System (Square)
+Solve Overdetermined System
+Solve Underdetermined System
+Check Rank
+Compute Residual Error
+
+[Commands]
+Project Vector onto Vector
+Project Vector onto Column Space
+Compute Orthonormal Basis
+Least Squares Solution
+Compute Residual Error
+Simple Linear Regression
+Multiple Linear Regression
+Plot Regression with Data
+Compute R-squared
+
+[Commands]
+Compute Eigenvalues
+Compute Eigenvalues & Eigenvectors
+Characteristic Polynomial
+Find Roots of Characteristic Poly
+Verify Eigenvalue Equation
+Compute Trace (Sum of Eigenvalues)
+Compute Determinant (Product of Eigenvalues)
+Check Diagonalizability
+Power Method Approximation
+
+[Commands]
+Euler Method Implementation
+Voltage in RC Circuit
+Current in RL Circuit
+Second-order LC (Convert to System)
+Absolute/Relative Error
+Time Constant Calculation
+Create Time Series
+Insert Chart
+
+[Commands]
+Numerical Differentiation (diff)
+Using gradient() for Derivatives
+Polynomial Fitting & Derivation
+Plot Kinematic Profiles
+Compute Displacement from Velocity
+Compute Jerk (𝑑𝑎)
+𝑑𝑡
+Smooth Noisy Data
+
+[Commands]
+Trapezoidal Rule (built-in)
+Adaptive Numerical Integration
+Simpson's Rule Implementation
+Gaussian Quadrature
+Monte Carlo Integration
+Composite Methods
+Error Calculation
+Plot Function & Approximation
+Plot Function & Approximation
+
+[Commands]
+Symbolic Taylor Series (1D)
+Manual Taylor Coefficients
+Evaluate Taylor Approximation
+Multi-Variable Taylor (Symbolic)
+Jacobian Computation
+Hessian Computation
+Error Calculation
+3D Visualization
+Compare Different Orders
+
+[Commands]
+Create Mesh Grid
+Explicit Surface Plot
+Parametric Surface (Sphere)
+Multiple Subplots
+Surface with Contours
+Lit Surface
+Color Mapping
+View Control
+Axis Configuration
+Transparency
+Save Figure
+
+[Commands]
+Basic Contour Plot
+Filled Contour Plot
+Contour with Specific Levels
+Contour with Labels
+Mesh with Contour
+Gradient Calculation
+Gradient Vector Plot
+Find Minimum
+Symbolic Gradient
+3D Surface with Contours
+Function Handle Contour
+Optimal Point Marking
+
+[Commands]
+Numerical Gradient (2D)
+Symbolic Gradient
+Gradient Vector Plot
+Gradient Magnitude
+Gradient over Contour Plot
+3D Gradient (for 𝑓(𝑥, 𝑦, 𝑧))
+Directional Derivative
+Evaluate Symbolic Gradient
+Normalize Gradient Vectors
+Streamlines of Gradient Field
+Surface with Normals
+Check if Conservative Field
+
+[Commands]
+Symbolic Hessian
+Evaluate Hessian at Point
+Eigenvalue Analysis
+Test Positive Definiteness
+Numerical Hessian Approximation
+Compute Principal Minors
+Quadratic Form Evaluation
+Surface Curvature Visualization
+Critical Point Classification
+3D Quadratic Approximation
+Gaussian Curvature (for surfaces)
+
+[Commands]
+Normal Distribution PDF
+Normal Distribution CDF
+Generate Normal Random Numbers
+Normal Distribution Inverse
+Exponential Distribution PDF
+Binomial Distribution PMF
+Poisson Distribution PMF
+Fit Distribution to Data
+Plot Histogram with PDF
+Compute Distribution Statistics
+
+[Commands]
+Simple Linear Regression
+Simple Linear Regression
+Multiple Linear Regression
+Calculate R-squared Value
+Calculate Root Mean Square Error
+Correlation Coefficient R
+
+[Commands]
+Generate Multivariate Normal Data
+Compute Covariance Matrix
+Compute Correlation Matrix
+Cholesky Decomposition
+Manual Generation
+Compute Multivariate Normal PDF
+Perform PCA
+Scatter Plot Matrix
+3D Scatter Plot
+Parallel Coordinates Plot
+Biplot for PCA biplot
+Compute Eigenvalues

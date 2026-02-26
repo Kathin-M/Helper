@@ -1,0 +1,664 @@
+
+=== ActivitySheet    1 ===
+
+=== Activity Sheet 2 ===
+
+=== Activity Sheet 3 ===
+
+=== Activity Sheet 4 ===
+
+=== ActivitySheet5 ===
+
+=== Activity Sheet 6 ===
+
+=== Activity Sheet 7 ===
+
+=== Activity Sheet 8 ===
+
+=== Activity Sheet 9 ===
+
+=== ActivitySheet    10 ===
+
+=== Activity Sheet 11 ===
+
+=== Activity Sheet 12 ===
+
+=== Activity Sheet 13 ===
+
+=== Activity Sheet 14 ===
+
+[Tasks]
+Vector Operations
+Compute the combined position vector (sum of `𝑝𝑋` and `𝑝𝑌`).
+Find the dot product of `𝑝𝑋` and `𝑝𝑌` to determine alignment.
+Compute the cross product to find the orthogonal vector between the two positions.
+Matrix Operations:
+Add the velocity and acceleration matrices (`𝑉𝑥 + 𝐴𝑦`).
+Multiply `𝑉𝑥` and `𝐴𝑦` (`𝑉𝑥 ∗ 𝐴𝑦`).
+Find the determinant of `𝑉𝑥`.
+Compute the inverse of `𝐴𝑦`.
+Calculate the eigenvalues of `𝐴𝑦`.
+
+[Viva Questions]
+How does MATLAB’s matrix-oriented design benefit the development of intelligent systems compared to general-purpose languages?
+Explain the difference between array multiplication (`.*`) and matrix multiplication (`*`) with an example relevant to sensor data processing.
+How does vectorization in MATLAB improve computational efficiency in real-time intelligent systems?
+What is the significance of eigenvalues and eigenvectors in robotics and intelligent motion planning?
+Describe how MATLAB handles sparse matrices and why they are useful in large- scale intelligent systems.
+In intelligent systems, data is often represented as high-dimensional vectors. How would you use MATLAB's matrix operations to reduce dimensionality, such as through Principal Component Analysis (PCA), and which built-in functions would you use to perform such transformations efficiently?
+
+[Tasks]
+Inverse Computations
+Compute the left inverse of H (if it exists) and verify 𝐻𝐿 ⋅ 𝐻 ≈ 𝐼.
+Compute the right inverse of G (if it exists) and verify 𝐺 ⋅ 𝐺𝑅 ≈ 𝐼.
+Compute the pseudo-inverse of both 𝐻 and 𝐺 using pinv().
+Solving Linear Systems:
+Solve 𝐻 ⋅ 𝑥 = 𝑦 using:
+Left inverse method
+Pseudo-inverse method
+MATLAB’s backslash operator \
+Compare the solutions and residual errors.
+Solve 𝐺 ⋅ 𝑧 = 𝑑 using:
+Right inverse method
+Pseudo-inverse method
+Backslash operator
+Analyse which solution has the smallest norm.
+
+[Viva Questions]
+Under what conditions does a left inverse or right inverse exist, and how does the rank of a matrix determine this?
+Explain the difference between pinv(A) and inv(A) in MATLAB. When would you use each?
+How does the pseudo-inverse provide a least-squares solution to an overdetermined system?
+In intelligent systems, why might we encounter underdetermined linear systems, and how does the pseudo-inverse help in such cases?
+Describe a real-world application in robotics or signal processing where the Moore– Penrose inverse is essential.
+IHow does the concept of the pseudo-inverse relate to the Singular Value Decomposition (SVD), and why is SVD often used for robust computation of pinv in numerical software?
+
+[Tasks]
+Projection Operations:
+Compute the projection of vector v onto the subspace spanned by {𝑢1, 𝑢2}.
+Verify orthogonality of the residual 𝑣 − 𝑝𝑟𝑜𝑗𝑆(𝑣) to both basis vectors.
+Create a 3D plot showing v, the subspace, and the projection.
+Least Squares & Linear Regression:
+Perform multiple linear regression to predict electricity consumption (𝑦) from features
+(𝑋) using least squares.
+Compute the regression coefficients 𝛽 and the predicted values 𝑦2.
+Calculate and plot the residuals. Compute RMSE and R² values.
+Add a column of ones to X for intercept term and repeat regression.
+Compare the results with MATLAB's built-in fitlm function (if Statistics Toolbox available).
+Approximation Analysis:
+Use the regression model to predict consumption for a new day with Temperature=27°𝐶, Hour=17.
+Project this new prediction point onto the 2D feature space and visualize.
+
+[Viva Questions]
+Explain the geometric interpretation of orthogonal projection and why it minimizes the error in the least squares sense.
+How does multicollinearity in the feature matrix affect least squares solutions, and how can it be detected in MATLAB?
+Compare and contrast the normal equations method (𝐴𝑇𝐴)−1𝐴𝑇𝑏 with QR decomposition for solving least squares problems numerically.
+In intelligent systems, when would you choose polynomial regression over linear regression, and what are the risks of overfitting?
+How does ridge regression (L2 regularization) modify the least squares objective, and why is it useful for intelligent systems with high-dimensional data?
+Describe how projection onto subspaces is used in dimensionality reduction techniques like Principal Component Analysis (PCA) and its role in intelligent data preprocessing.
+
+[Tasks]
+Eigenvalue & Eigenvector Computation:
+Solve the standard eigenvalue problem for matrix 𝐴 = 𝑀−1 K using eig().
+Solve the generalized eigenvalue problem 𝐾𝑣 = 𝜆𝑀𝑣 directly using eig(𝐾, 𝑀).
+Compare eigenvalues from both methods and compute natural frequencies 𝜔 = √𝜆.
+Characteristic Polynomial Analysis:
+Compute the characteristic polynomial of matrix A using poly(A).
+Find the roots of the polynomial using roots() and verify they match the eigenvalues.
+Compute the trace and determinant of A and verify relationships with eigenvalues.
+Eigenvector Visualization & Verification:
+Extract eigenvectors from the generalized eigenvalue problem.
+Normalize eigenvectors and verify orthogonality with respect to mass matrix: 𝑉𝑇𝑀𝑉 = 𝐼.
+Create a visualization showing the three mode shapes (eigenvectors) as displacement patterns.
+Stability Analysis:
+A control system matrix is given: 𝐵 = [0.9, 0.2; −0.1, 0.8].
+Compute eigenvalues of 𝐵.
+Determine system stability based on eigenvalue magnitudes (stable if all ∣ 𝜆 ∣< 1).
+
+[Viva Questions]
+What do eigenvalues and eigenvectors represent in the context of mechanical vibration analysis, and how are they used to determine natural frequencies?
+Explain the relationship between the trace/determinant of a matrix and its eigenvalues.
+How does MATLAB's eig() function handle repeated or complex eigenvalues, and what precautions should be taken when interpreting such results?
+What is the significance of orthogonal eigenvectors in symmetric matrices, and why does this property simplify many engineering calculations?
+Compare the computational efficiency and accuracy of finding eigenvalues via characteristic polynomial roots versus iterative numerical methods.
+Describe how eigenvalue decomposition is used in intelligent systems applications such as Principal Component Analysis (PCA) and facial recognition systems.
+
+[Tasks]
+RC Circuit Analysis:
+Implement Euler's method in Excel to solve the RC circuit differential equation.
+Calculate and plot 𝑉𝑐(𝑡) over 1 second.
+Compute the theoretical time constant 𝜏 = 𝑅𝐶 and mark 1𝜏, 3𝜏, 5𝜏 on the plot.
+𝑡
+−
+Compare numerical results with the analytical solution: 𝑉𝑐(𝑡) = 𝑉𝑠 (1 − 𝑒
+𝑅𝐶).
+RL Circuit Analysis:
+Implement Euler's method for the RL circuit to find 𝑖(𝑡).
+Plot the current response over time.
+Calculate the inductive time constant 𝜏 = 𝐿.
+𝑅
+𝑉𝑅𝑡
+Compare with analytical solution: 𝑖(𝑡) =
+𝑠 (1 − 𝑒− 𝐿 ).
+𝑅
+LC Circuit Analysis:
+Convert the second-order LC differential equation to a system of two first-order equations.
+Implement Euler's method for the system in Excel.
+Plot 𝑉𝑐(𝑡) and 𝐼(𝑡) over 1 second.
+Calculate the natural frequency 𝜔0
+=  1
+√𝐿𝐶
+and compare with oscillation frequency from the plot.
+Comparative Analysis:
+Create a dashboard in Excel comparing all three circuit responses.
+Analyze how each circuit would behave in an intelligent sensing application. (e.g., filtering noise, smoothing signals, resonant detection).
+
+[Viva Questions]
+Why is numerical solution necessary for differential equations in engineering applications, and what are the limitations of analytical solutions?
+Compare Euler's method with more advanced methods like Runge-Kutta. How could you implement a 4th-order Runge-Kutta method in Excel?
+How does step size Δ𝑡 affect the accuracy and stability of numerical solutions in Excel simulations?
+Explain how the time constant 𝜏 characterizes the speed of response in RC and RL circuits, and why it is important in intelligent sensor design.
+How would you modify the Excel simulation to include a time-varying voltage source 𝑉𝑠(𝑡) instead of a constant one?
+Describe how these circuit simulation skills translate to modeling more complex systems in intelligent mechatronics and control engineering.
+
+[Tasks]
+1D Motion Analysis (x-direction only):
+Compute velocity and acceleration using both diff() and gradient() methods.
+Compare the results from both methods and identify which provides better accuracy at boundaries.
+Plot position, velocity, and acceleration versus time on separate subplots.
+Identify the maximum velocity and acceleration achieved during the test.
+2D Motion Analysis:
+Compute velocity components in x and y directions.
+Calculate magnitude of velocity (speed) and direction (angle) at each time point.
+Compute acceleration components and magnitude.
+Create a 2D trajectory plot showing the path of the vehicle with color coding indicating speed.
+Plot velocity and acceleration vectors at selected time points on the trajectory.
+Numerical Accuracy Analysis:
+Add random noise to the position data: x_noisy = x + 0.1*randn(size(x));
+Recompute velocity and acceleration from noisy data.
+Apply smoothing techniques (moving average or smoothdata()) and compare results.
+Calculate the error in velocity and acceleration estimates due to noise.
+Energy Analysis:
+Assuming vehicle mass = 500 kg, compute kinetic energy:
+Plot kinetic energy versus time.
+𝐾𝐸 =
+1 𝑚𝑣2.
+2
+Compute work done using acceleration data and compare with change in kinetic energy.
+
+[Viva Questions]
+Explain the differences between forward, backward, and central difference methods for numerical differentiation. Which is most suitable for computing velocity from experimental data?
+How does measurement noise in position data affect computed velocity and acceleration, and what filtering techniques can mitigate these effects?
+In the context of intelligent vehicles, why is jerk (rate of change of acceleration) an important parameter, and how would you compute it in MATLAB?
+Compare the use of diff() and gradient() functions in MATLAB for kinematic analysis. When would you prefer one over the other?
+How can numerical integration of acceleration data be used to estimate velocity and position when only acceleration measurements are available?
+Describe how real-time computation of velocity and acceleration is crucial for predictive control algorithms in autonomous robotic systems.
+
+[Tasks]
+Implementation of Numerical Methods:
+Composite Trapezoidal Rule (with adjustable segments n)
+Composite Simpson's 1/3 Rule (n must be even)
+3-point Gaussian Quadrature
+Apply each method to all three integration problems.
+Built-in MATLAB Functions:
+Solve each problem using:
+trapz() with different numbers of points (10, 100, 1000)
+integral() with default and custom tolerances
+quadgk() for adaptive Gauss-Kronrod quadrature
+Compare results and computation times.
+Accuracy Analysis:
+For Problem 3, compute the exact integral symbolically using int().
+For all methods, calculate absolute and relative errors.
+Create a table comparing methods by accuracy and computational efficiency.
+Plot error vs. number of function evaluations for different methods.
+Convergence Study:
+For the trapezoidal and Simpson's rules, vary n from 4 to 1000 (doubling each time).
+Plot error vs. n on a log-log scale and estimate the convergence rate.
+Verify theoretical convergence rates: 𝑂(ℎ2) for trapezoidal, 𝑂(ℎ4) for Simpson's.
+Engineering Application:
+For the energy problem, interpret the result in practical terms.
+For the stress problem, calculate additional metrics:
+Root-mean-square stress: 𝜎= √1 ∫5 𝜎(𝑥)2𝑑𝑥 .
+𝑟𝑚𝑠5 0
+Maximum stress concentration factor.
+
+[Viva Questions]
+Explain why numerical integration is necessary in engineering applications and give examples where analytical integration fails.
+Compare the theoretical error bounds for Trapezoidal Rule and Simpson's Rule. Why does Simpson's Rule generally provide better accuracy?
+How does adaptive quadrature (as in integral() or quadgk()) improve efficiency compared to fixed-step methods?
+What is the principle behind Gaussian Quadrature, and why can it achieve high accuracy with few function evaluations?
+Discuss the trade-off between accuracy and computational cost in numerical integration. When would you choose a simpler method over a more accurate one?
+How are numerical integration techniques applied in real-time intelligent systems for tasks such as sensor data processing or control system implementation?
+
+[Tasks]
+Single-Variable Taylor Series:
+Compute Maclaurin series (around 0) for f(x) up to 6th order using symbolic taylor().
+Manually compute coefficients using derivatives evaluated at 0.
+Plot f(x) and its Taylor approximations of orders 2, 4, 6 on the same graph.
+Calculate and plot absolute error for each approximation over 𝑥 ∈ [−2,2].
+Determine the order needed for error < 0.01 over the interval.
+Multi-Variable Taylor Series:
+Compute first and second-order Taylor expansions of g(x,y) around (0.5, 0.5).
+Extract gradient (Jacobian) and Hessian matrix at expansion point.
+Create 3D surface plots showing:
+Original function 𝑔(𝑥, 𝑦)
+First-order (linear) approximation
+Second-order (quadratic) approximation
+Compute RMS error for each approximation over a 20 × 20 grid in [−1,1] × [−1,1].
+Engineering Linearization:
+For 𝑈(𝑥, 𝑦), compute Taylor expansion around (1, 1) up to second order.
+Identify equilibrium conditions from gradient vanishing.
+Linearize the system for small displacements: 𝛿𝑥 = 𝑥 − 1, 𝛿𝑦 = 𝑦 − 1
+Express linearized system as: 𝑈 ≈ 𝑈0
++ 1 [𝛿𝑥, 𝛿𝑦]𝐻[𝛿𝑥, 𝛿𝑦]𝑇
+2
+Analyze stability using Hessian eigenvalues.
+Truncation Error Analysis:
+For the single-variable case, estimate the remainder term 𝑅𝑛(𝑥) using Lagrange form.
+Compare estimated error bound with actual maximum error.
+For multi-variable case, derive error term for second-order approximation.
+Investigate how expansion point affects approximation quality.
+Application to Optimization:
+Use first-order Taylor expansion to implement one step of gradient descent for minimizing 𝑈(𝑥, 𝑦).
+Use second-order expansion to implement one step of Newton's method.
+Compare convergence rates from starting point (1.2, 0.8).
+
+[Viva Questions]
+Explain the mathematical foundation of Taylor series and why higher-order terms improve approximation accuracy.
+How does the choice of expansion point affect the convergence radius and accuracy of a Taylor series?
+Compare and contrast single-variable and multi-variable Taylor expansions. What additional complexities arise in the multi-variable case?
+In the context of intelligent systems, how is Taylor series linearization used in Extended Kalman Filters and other estimation algorithms?
+Discuss the computational trade-offs between using higher-order Taylor expansions versus more frequent function evaluations in real-time control systems.
+How can Taylor series be applied to sensitivity analysis in mechanical design and optimization problems?
+
+[Tasks]
+Basic Surface Plotting:
+For the terrain model, create a mesh grid with 50 × 50 points.
+Generate surface plot using surf() with 'jet' colormap.
+Add contour lines using surfc().
+Label axes and add title "Terrain Elevation Model".
+Create a second plot using mesh() and compare visualization styles.
+Parametric Surface Generation:
+Generate the torus surface using parametric equations.
+Plot with surf() using different colormaps ('parula', 'hsv').
+Adjust lighting using surfl() and light() functions.
+Create a transparent version using alpha(0.6).
+Plot the helical spring surface showing the 3D spiral structure.
+Multi-Plot Comparison:
+Create a 2 × 2 subplot showing:
+Top-left: Terrain model (explicit)
+Top-right: Torus (parametric)
+Bottom-left: Helical spring (parametric)
+Bottom-right: Complex explicit surface with singularity handling
+Use consistent color scheme across all plots.
+Add different viewpoints using view(az, el) for each subplot.
+Surface Analysis:
+For the terrain model:
+Calculate and display maximum and minimum elevation
+Compute average elevation
+Identify saddle points visually
+For the torus:
+Calculate surface area numerically using discretization
+Compute approximate volume
+Create a histogram of surface heights for the terrain model
+Advanced Visualization:
+Plot the terrain model with superimposed gradient vectors showing slope direction.
+Create an animation showing rotation of the torus (use loop with varying view() angles).
+Generate a 3D contour plot of the terrain model at different elevation levels.
+Plot all surfaces together in one figure to show relative sizes and shapes.
+Advanced Visualization:
+Simulate a robotic arm end-effector moving along a path on the helical spring surface.
+Mark specific points of interest on the terrain model (potential robot waypoints).
+Calculate surface normals at selected points on each surface.
+Create a wireframe plot (mesh()) of the complex surface to see internal structure.
+
+[Viva Questions]
+Explain the difference between explicit and parametric surface representations. When would you choose one over the other?
+How does MATLAB's meshgrid() function work, and why is it essential for surface plotting?
+Discuss the role of surface normals in computer graphics and mechanical analysis. How can they be computed from a parametric surface?
+What are the advantages of using parametric representations for complex mechanical components like gears or turbine blades?
+How can surface plots be used in conjunction with contour plots for better understanding of terrain or potential fields in robotic navigation?
+Describe how surface visualization techniques can aid in finite element analysis and stress distribution studies in mechanical components.
+
+[Tasks]
+Basic Contour Visualization:
+For each function, create a mesh grid with appropriate resolution.
+Generate contour plots using contour() with 20 contour levels.
+Create filled contour plots using contourf() with 'jet' colormap.
+Add contour labels using clabel() for the production cost function.
+Create a 2 × 2 subplot showing all four functions with proper labels.
+Create a second plot using mesh() and compare visualization styles.
+Gradient Analysis and Optimal Point Identification:
+Compute gradient vectors for the production cost function using gradient().
+Overlay gradient vectors on contour plot using quiver().
+Visually identify critical points where gradient vectors vanish.
+Use fminsearch() to find local minima for each function from different starting points.
+Mark optimal points on contour plots with red circles.
+Comparative Analysis of Functions:
+For each function, determine:
+Number of local minima/maxima
+Presence of saddle points
+Global minimum location and value
+Contour spacing indicating function steepness
+Create a table summarizing optimization characteristics.
+Optimization Algorithm Visualization:
+For the Rastrigin function (multi-modal):
+Plot the contour with 30 levels
+Mark all local minima found from multiple starting points
+Show gradient descent paths from different starting points
+Annotate the global minimum
+Demonstrate how contour plots help understand algorithm convergence.
+Sensitivity Analysis:
+For the production cost function:
+Identify regions where cost is within 10% of optimal
+Plot this region as a filled contour
+Analyze parameter sensitivity near optimum
+Compute and visualize the Hessian matrix at optimal points.
+Engineering Application:
+For the welding energy function:
+Identify the optimal (𝑣, 𝑓) pair minimizing energy
+Determine allowable parameter ranges where energy increase < 5%
+Plot constraint boundaries (e.g., 𝑣 ≤ 3.5, 𝑓 ≥ 1)
+Create a contour plot with feasible region shaded
+For the mechanical stress function:
+Identify minimum stress configuration
+Plot stress contours with safety threshold (𝑆 < 10)
+Analyze trade-offs between x and y parameters
+3D Visualization with Contours:
+Create surface plots with underlying contours using surfc() for all functions.
+Create a combined visualization showing:
+3D surface plot (top)
+2D contour plot (bottom)
+Optimal point marked on both
+Create an animation showing rotation of 3D plot with contour projection.
+
+[Viva Questions]
+Explain how contour plots help identify optimal points and why gradient vectors are perpendicular to contour lines.
+What information can be deduced about a function's behavior from the spacing and shape of its contour lines?
+How do contour plots help in understanding the convergence behavior of gradient-based optimization algorithms?
+Compare the utility of 2D contour plots versus 3D surface plots for optimization problems. When is each more useful?
+How can contour plots be used for constraint visualization in engineering optimization problems?
+Discuss how contour plots aid in understanding multi-modal functions and the challenges they pose for optimization algorithms.
+
+[Tasks]
+Gradient Computation and Basic Visualization:
+For each function, create a mesh grid with appropriate resolution.
+Compute numerical gradients using gradient() function.
+Compute symbolic gradients for comparison (if Symbolic Toolbox available).
+Create 2×2 subplots showing:
+Surface plot of the function
+Contour plot with gradient vectors
+Gradient magnitude contour
+Streamlines of gradient field
+Gradient Field Analysis:
+For the temperature distribution:
+Plot temperature contours with heat flux vectors (−𝛻𝑇)
+Identify hot spots (maxima) and cold spots (minima)
+Compute maximum temperature gradient magnitude and location
+Analyze heat flow patterns from hot to cold regions
+For the potential energy surface:
+Plot potential energy contours with force vectors (−𝛻𝑈)
+Identify equilibrium points (where ∇U=0)
+Classify equilibrium points as stable/unstable using gradient behavior
+Trace gradient descent paths from different starting points
+Gradient Properties Verification:
+For each function, verify that gradient vectors are perpendicular to contour lines.
+Compute directional derivatives in specific directions (e.g., along x-axis, at 45°).
+Verify the gradient gives the direction of steepest ascent.
+Check if gradient fields are conservative (curl-free for 2D).
+Engineering Applications:
+For the pressure field:
+Plot pressure contours with pressure gradient vectors
+Compute pressure gradient magnitude
+Identify regions of high pressure gradient (potential flow acceleration zones)
+Simulate particle movement along gradient directions
+For Himmelblau's function:
+Plot gradient vectors showing multiple basins of attraction
+Identify all four minima by analyzing gradient vanishing points
+Show gradient descent paths converging to different minima
+Advanced Visualization Techniques:
+Create a 3D visualization showing:
+Surface plot of function
+Gradient vectors projected onto surface
+Contour lines on XY-plane
+Create an animation showing:
+Particle moving along gradient direction
+Gradient vector field evolving (if time-dependent function)
+Plot gradient magnitude as a separate surface
+Numerical Accuracy Analysis:
+Compare gradients computed with different step sizes (ℎ = 0.1, 0.01, 0.001).
+Compare numerical gradient with analytical/symbolic gradient.
+Compute and plot error between numerical and symbolic gradients.
+Test gradient computation on a noisy version of the function.
+Gradient in Optimization Context:
+For each function:
+Implement gradient descent algorithm using computed gradients
+Plot optimization path on contour plot
+Compare convergence from different starting points
+Analyze relationship between gradient magnitude and convergence rate
+For the potential energy function:
+Find minimum energy configuration using gradient information
+Plot convergence of gradient descent algorithm
+
+[Viva Questions]
+Explain the geometric interpretation of the gradient vector. Why is it perpendicular to level curves/surfaces?
+How does the gradient indicate the direction of steepest ascent, and how is this property used in optimization algorithms?
+Compare numerical and symbolic gradient computation methods. What are the advantages and limitations of each?
+Explain the relationship between gradient fields and conservative vector fields in physical systems.
+How does gradient analysis help in understanding stability in mechanical systems and convergence in optimization algorithms?
+Discuss practical applications of gradient vector fields in intelligent systems such as thermal management, fluid dynamics, and robotic path planning.
+
+[Tasks]
+Hessian Computation and Critical Point Analysis:
+For each function:
+Compute symbolic Hessian matrix using hessian().
+Find critical points by solving 𝛻𝑓 = 0.
+Evaluate Hessian at each critical point
+Compute eigenvalues and classify each critical point
+Create a table summarizing:
+Critical point coordinates
+Hessian eigenvalues
+Classification (min/max/saddle)
+Function value at critical point
+Eigenvalue Analysis and Definiteness Tests:
+For the potential energy surface:
+Compute eigenvalues at all critical points
+Test positive/negative definiteness using eigenvalue signs
+Test using principal minors (Sylvester's criterion)
+Test using Cholesky decomposition (chol() function)
+Compare all three methods
+Surface Curvature Visualization:
+For each function:
+Create surface plot
+Compute Hessian eigenvalues at grid points
+Create separate plots showing:
+Surface colored by Gaussian curvature
+Regions of positive/negative curvature
+Contour plot with convex/concave regions marked
+For the stress distribution function:
+Identify regions where Hessian is positive definite (convex, stable)
+Identify regions where Hessian is negative definite (concave, potentially unstable)
+Mark boundary between convex and concave regions
+Quadratic Approximation Analysis:
+For the Rosenbrock function at point (1,1):
+Compute quadratic approximation:  ()()
+()𝑇
+1  𝑇  ()
+𝑓 𝑥, 𝑦  ≈ 𝑓 1,1
++ 𝛻𝑓 1,1
+𝒉 +  𝒉
+2
+𝐻 1,1 𝒉
+Plot original function and quadratic approximation
+Compare shapes in the neighborhood of (1,1)
+Analyze how well Hessian captures local curvature
+Engineering Applications:
+For the potential energy surface:
+Relate Hessian eigenvalues to vibrational frequencies (if mass = 1)
+Determine stability of equilibrium points
+For stable points, compute approximate oscillation frequencies: 𝜔 = √𝜆
+𝑚
+For the stress distribution:
+Identify regions prone to buckling (negative curvature)
+Determine safe operating regions (positive curvature)
+Compute maximum allowable load based on curvature analysis
+Numerical Hessian Accuracy:
+Implement numerical Hessian computation using:
+Central differences on gradient
+Direct second-order finite differences
+Compare numerical Hessian with symbolic Hessian at selected points
+Analyze error as function of step size
+Test on noisy function data
+Advanced Analysis: Convexity and Optimization:
+For each function:
+Determine if function is convex over entire domain (Hessian positive semidefinite everywhere)
+For convex functions, verify global optimality of local minima
+Implement Newton's optimization method using Hessian
+Compare convergence with gradient-only methods
+For the system response surface:
+Identify convex region for controller linearization
+Determine valid operating region for linear controller design
+Advanced Analysis: Convexity and Optimization:
+Create an integrated visualization showing:
+3D surface plot
+Contour plot with gradient vectors
+Hessian eigenvalue contours
+Critical points with classification markers
+Create animation showing:
+Particle moving on surface
+Local quadratic approximation evolving
+Hessian eigenvalues changing along path
+
+[Viva Questions]
+Explain how the Hessian matrix eigenvalues determine the concavity/convexity of a surface at a point.
+Describe the second derivative test for classifying critical points using the Hessian determinant and principal minors.
+How does the Hessian matrix relate to the curvature of a surface, and what is the geometric interpretation of its eigenvalues?
+Compare the computational and accuracy trade-offs between symbolic and numerical Hessian computation in MATLAB.
+Explain the role of the Hessian in Newton's optimization method and why it can converge faster than gradient descent.
+Discuss practical applications of Hessian analysis in mechanical engineering, such as stability analysis of structures and optimization of system parameters.
+
+[Tasks]
+Normal Distribution Application:
+Generate 1000 random shaft diameters from the normal distribution.
+Plot the histogram of generated diameters with the theoretical PDF overlay.
+Calculate the percentage of shafts within tolerance limits.
+Determine the diameter values that contain 95% of all shafts.
+Exponential Distribution Application:
+Generate 500 random bearing lifetimes.
+Plot the empirical CDF and compare with theoretical CDF.
+Calculate the probability that a bearing lasts more than 6000 hours.
+Find the lifetime exceeded by 90% of bearings.
+Binomial Distribution Application:
+Calculate the probability of finding exactly 3 defective shafts in a batch.
+Compute the probability of finding 2 or fewer defective shafts.
+Generate 100 random samples of defect counts for 50 batches.
+Plot the PMF for defect counts.
+Poisson Distribution Application:
+Calculate the probability of exactly 2 breakdowns in a week (7 days).
+Compute the probability of no breakdowns in a day.
+Generate breakdown counts for 30 days and plot the results.
+Compare simulated average breakdown rate with theoretical 𝜆.
+Parameter Estimation:
+Generate sample data from a normal distribution with 𝜇 = 25, 𝜎 = 2.
+Estimate parameters using fitdist() function.
+Plot QQ-plot to check normality.
+Perform Kolmogorov-Smirnov test for goodness of fit.
+
+[Viva Questions]
+Explain the difference between PDF and PMF. When would you use each in mechanical engineering applications?
+How does the Central Limit Theorem justify the common use of normal distribution in manufacturing quality control?
+Differentiate between the exponential and Weibull distributions for reliability analysis of mechanical components.
+Explain how MATLAB's random number generation works for different probability distributions. What is the role of seed in reproducibility?
+Describe how hypothesis testing using probability distributions can help in making decisions about production process improvements.
+How would you choose between binomial and Poisson distributions for modeling defect counts in manufacturing?
+
+[Tasks]
+Simple Linear Regression Implementation:
+For Dataset 1 (Pump Efficiency), perform simple linear regression to model efficiency as a function of speed.
+Calculate regression coefficients (slope and intercept).
+Plot the data points and regression line with proper labels.
+Calculate and display 𝑅² value and RMSE.
+Predict efficiency for speeds of 1300 RPM and 2100 RPM.
+Residual Analysis:
+For Dataset 1, calculate and plot residuals.
+Analyze residual pattern to check assumptions of linear regression.
+Calculate mean of residuals (should be approximately zero).
+Check for homoscedasticity (constant variance of residuals).
+Multiple Linear Regression:
+For Dataset 2 (Engine Performance), perform multiple linear regression to model fuel consumption as a function of both load and temperature.
+Calculate regression coefficients for the model: Fuel = 𝛽₀ + 𝛽₁×Load + 𝛽₂×Temp.
+Compute the 𝑅² value and adjusted 𝑅².
+Predict fuel consumption for Load=160 kW and Temp=98°C.
+Compare with simple linear regression using only Load as predictor.
+Polynomial Regression (Extension):
+For Dataset 3 (Material Strength), try both linear and quadratic (2nd degree polynomial) regression.
+Compare 𝑅² values for both models.
+Determine which model provides better fit visually and statistically.
+Plot both regression curves along with data points.
+Model Validation and Prediction:
+For Dataset 4 (Component Wear), split data into training (first 6 points) and testing (last 2
+points).
+Fit linear model using training data.
+Test model on testing data and calculate prediction error.
+Calculate 95% prediction interval for wear at 1500 hours.
+Comprehensive Analysis:
+For all datasets, calculate correlation coefficients.
+Create a summary table comparing all regression models (coefficients, R², RMSE).
+Identify which relationship is most strongly linear based on statistical measures.
+
+[Viva Questions]
+Explain the mathematical derivation of the normal equations used in the least squares method for linear regression.
+What are the key assumptions of linear regression, and how would you test each assumption using MATLAB?
+Differentiate between R-squared and adjusted R-squared. When would you prefer one over the other?
+Explain the difference between interpolation and extrapolation in the context of regression predictions. Why is extrapolation risky?
+What is the purpose of residual analysis, and what patterns in residual plots indicate problems with the regression model?
+How would you compare the performance of different regression models (e.g., linear vs. quadratic) for the same dataset?
+
+[Tasks]
+Multivariate Normal Data Generation:
+For Scenario 1, define a 5 × 5 covariance matrix 𝛴 based on the given correlations and appropriate variances.
+Define a mean vector 𝜇 representing typical operating values for each parameter.
+Generate 500 samples using both mvnrnd() and manual Cholesky factorization methods.
+Verify that both methods produce datasets with similar statistical properties.
+Covariance and Correlation Analysis:
+For the generated turbocharger data, compute the sample covariance and correlation matrices.
+Compare the sample correlation matrix with the specified population correlations.
+Create a heatmap visualization of the correlation matrix.
+Calculate the determinant and condition number of the covariance matrix.
+Visualization of Multivariate Data:
+Create a scatter plot matrix (SPLOM) for all 5 turbocharger parameters.
+Generate 3D scatter plots for selected parameter triplets (e.g., P1-P2-P3).
+Create parallel coordinate plots to visualize all samples across all dimensions.
+Identify any outliers or patterns in the visualizations.
+Principal Component Analysis (PCA):
+Perform PCA on the turbocharger dataset (centered but not scaled).
+Calculate and plot the variance explained by each principal component.
+Create a scree plot to determine the number of meaningful components.
+Generate a biplot showing both loadings and scores for the first two PCs.
+Interpret what the principal components represent in engineering terms.
+Correlation Structure Manipulation:
+For Scenario 2, generate three datasets with the specified correlation structure.
+Vary the sample size (𝑛 = 50, 200, 1000) and observe how sample correlations approach population values.
+Generate datasets with different correlation strengths (0.3, 0.7, 0.9) to visualize the effect on scatter plots.
+Create a dataset with near-singular covariance matrix and observe its effects on PCA.
+Multivariate Data Transformation:
+Take the turbocharger dataset and apply different transformations:
+Standardization (z-score normalization)
+Min-max scaling to [0,1]
+Logarithmic transformation for positive-skewed variables
+Perform PCA on both original and transformed data.
+Compare the PCA results and interpret the differences.
+Data Generation with Specific Distributions:
+Generate a mixed multivariate dataset where:
+Two variables follow normal distribution
+One variable follows exponential distribution
+One variable follows uniform distribution
+Apply copula-based methods to impose correlation structure.
+Visualize the resulting multivariate distribution.
+
+[Viva Questions]
+Explain the mathematical relationship between covariance matrix, correlation matrix, and the scale (variance) of individual variables.
+What is the geometric interpretation of eigenvalues and eigenvectors in the context of PCA and multivariate data?
+How does the Cholesky decomposition method work for generating correlated multivariate normal random variables?
+Explain why the covariance matrix must be positive semi-definite. What happens if you attempt to use a matrix that doesn't satisfy this condition?
+Differentiate between population parameters (𝜇, 𝛴) and sample statistics (𝑥̅, 𝑆) in multivariate analysis. How does sample size affect their agreement?
+What is the "curse of dimensionality" and how does PCA help mitigate it in mechanical engineering data analysis?

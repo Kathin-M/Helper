@@ -1,0 +1,3456 @@
+MICRO CREDENTIAL VALUE ADDED PROGRAM
+Applied Computational Mathematics Using MATLAB
+Department of Science and Humanities Amrita School of Engineering
+Amrita Vishwa Vidyapeetham, Chennai
+COURSE DELIVERY PLAN (CDP)
+Why VAP?Strengthens mathematical concepts through programming, enabling students to convert theory into computational algorithms using MATLAB.Develops analytical thinking and problem-solving skills through numerical methods, matrix operations, and simulations.Enhances application-oriented learning, preparing students for projects, research, and industry-relevant computational tasks.Course Delivery PlanWhy VAP?Strengthens mathematical concepts through programming, enabling students to convert theory into computational algorithms using MATLAB.Develops analytical thinking and problem-solving skills through numerical methods, matrix operations, and simulations.Enhances application-oriented learning, preparing students for projects, research, and industry-relevant computational tasks.Course Delivery Plan
+Why VAP?
+Strengthens mathematical concepts through programming, enabling students to convert theory into computational algorithms using MATLAB.
+Develops analytical thinking and problem-solving skills through numerical methods, matrix operations, and simulations.
+Enhances application-oriented learning, preparing students for projects, research, and industry-relevant computational tasks.
+Course Delivery Plan
+Why VAP?
+Strengthens mathematical concepts through programming, enabling students to convert theory into computational algorithms using MATLAB.
+Develops analytical thinking and problem-solving skills through numerical methods, matrix operations, and simulations.
+Enhances application-oriented learning, preparing students for projects, research, and industry-relevant computational tasks.
+Course Delivery Plan
+VAP Course Name
+Applied Computational
+Mathematics Using MATLAB
+Program
+UG – B. Tech CSE,AIE,RAI,MECH
+Hours – Credit
+15 – 1
+Semester
+Even Semester
+Name of the Faculty
+Dr. P. Selvaraj, Dr.S.Sweetha, Dr.S.Mohana Priya
+Dr.Soumyendra Singh
+Pre-requisite
+A basic understanding of Linear Algebra and Calculus is essential.
+Course
+Coordinator
+Dr.Soumyendra Singh
+Academic Year
+2025-2026
+Course Overview
+This VAP course Applied Computational Mathematics Using MATLAB equips students with essential computational and mathematical skills for engineering applications. It covers fundamental topics such as vector and matrix operations, linear system solutions using various inverses, projections, least squares approximation, and eigenvalue analysis. Students also learn numerical techniques for solving differential equations and evaluating integrals, along with Taylor series expansions, velocity and acceleration calculations, and probability distributions. The course emphasizes visualization and interpretation through surface plots, contour plots, gradient vectors, and Hessian analysis, enabling students
+to translate mathematical theory into practical computational solutions effectively.
+Course Objectives
+Course Outcomes
+OB1
+To develop proKiciency in MATLAB for representing and manipulating vectors,
+matrices, and linear systems.
+CO1
+Formulate and solve systems of linear equations, inverse problems, and projection-
+based approximations using MATLAB.
+OB2
+To introduce numerical techniques for solvingleastsquaresproblems,
+eigenvalueanalysis,andregression models.
+CO2
+Analyze eigenvalues and eigenvectors to study system characteristics and computational properties.
+OB3
+To apply MATLAB tools for the numerical solution of differential equations   arising   in   engineering
+problems.
+CO3
+Implement numerical methods in MATLAB to solve ordinary differential equations relevant to engineering applications.
+Syllabus
+Module 1: MATLAB Foundations & Matrix Operations (3 Hours)
+Basics- Environment navigation, Command Window vs. Editor, Scripting vs. Live Scripts (.mlx). Data Structures- Creating and manipulating vectors and matrices, Logical Indexing, and colon notation. Programming- Introduction to function Kiles (.m Kiles) and modular code design. Linear Algebra - Left inverse, right inverse, and the Moore-Penrose Pseudo-inverse. System Analysis-Condition numbers, numerical stability, and handling rank-deKicient systems.
+Module 2: Subspaces, Regression, and Data Modelling (3 Hours)
+Geometric Projections- Projections onto subspaces and the geometry of Least Squares. Linear Regression-Deriving and implementing linear models to Kit data. Advanced Modeling-Comparison of polynomial vs. linear regression; introduction to the concept of OverKitting. Matrix Decomposition- Eigenvalues, eigenvectors, and the characteristic polynomial in system stability.
+Module 3: Numerical Calculus and Circuit Simulation (3 Hours)
+Numerical Differentiation- Application to velocity and acceleration calculations. Differential Equations- Solving ODEs for RC, LC, and RL circuits. Solver Comparison- Implementing Euler’s method vs. built-in solvers like ode45. Numerical Integration- DeKinite integrals and error interpretation through visual plots.
+Module 4: Approximation and Multivariable Analysis (3 Hours)
+Taylor Series: Single-variable and multi-variable expansions. Linearization- Using Taylor series for nonlinear system approximation and visualizing error bounds. Scalar Fields- Computing the Gradient (∇𝑓) and understanding its physical signiKicance. Second-Order Analysis: The Hessian Matrix, determining surface concavity, and saddle points.
+Module 5: Optimization and Statistical Analysis (3 Hours)
+Visualizing Surfaces- Surface plots, mesh grids, and contour plots. Optimization- Identifying optima via contours; conceptual intro to Gradient Descent. Toolbox Usage- Simple unconstrained optimization using fminsearch. Probability and Data- Random number generation for simulations, mean, variance, and Covariance Matrices. Multivariate Analysis- Introduction to correlation heatmaps and data trend identiKication.
+Reference books:
+Stephen J. Chapman, MATLAB Programming for Engineers, 7th Edition (2025).
+Steven C. Chapra, Applied Numerical Methods with MATLAB for Engineers and Scientists, 5th Edition (2023).
+William Bober and Andrew Stevens, Numerical and Analytical Methods with MATLAB for Electrical Engineers. 1st Edition (2013)
+Achille Messac, Optimization in Practice with MATLAB: For Engineering Students and Professionals. 1st Edition (2015)
+William J. Palm III, MATLAB for Engineering Applications, 5th Edition (2023).
+Ronald L. Lipsman and Jonathan M. Rosenberg, Multivariable Calculus with MATLAB: With Applications to Geometry and Physics. 1st Edition (2017).
+Evaluation and Grading
+Category
+Details
+Marks
+Total
+VAP Internal Evaluation
+Activity Sheets (15 sheets)
+5
+10 Marks
+Coding Test (1 Easy + 1 Medium)
+5
+VAP Internal
+Mapping
+Above 10 marks will be part of the Internal component and will be mapped to the Course Code & Course Name mentioned below.
+Department
+Course Code & Course Name
+UG- CSE, AIE
+UG-MECH,RAI
+Guidelines
+100% attendance is mandatory
+On Successful Completion of Course, e-certiKicates will be provided.
+LESSON PLAN
+Hour
+Topics to be covered
+Mode of Teaching
+In Class Activities
+Out Class Activities
+CO
+Mapping
+References
+1
+Basic commands in MATLAB: vectors and matrices
+Digital Board and Demonstration
+ActivitySheet    1:
+Implementation of engineer- ing problems using Live Scripts; verification of matrix properties and numerical conditioning analysis.
+Practice worksheet on matrix operations
+CO1
+https://www.ma thworks.com/hel p/matlab/ref/gal lery.html?utm_so urce=chatgpt.co m
+2
+Left inverse, right inverse, pseudo inverse
+Demonstration and Discussion
+Activity Sheet 2: Solvability analysis of underdetermined and overdetermined linear systems   using   Moore-
+Penrose pseudo-inverse.
+Worksheet on inverse methods
+CO1
+https://www.ma thworks.com/hel p/matlab/math/l inear- algebra.html
+3
+Projections onto subspaces, least square approximation
+Demonstration and Discussion
+Activity Sheet 3: Signal and data approximation using projection theory and least- squares formulation.
+Data-fitting tasks
+CO1,CO2
+https://www.yo utube.com/watc h?v=2xpOIav4f1
+I
+4
+Linear regression
+Digital Board Demonstration and Demo
+Activity Sheet 4: Data- driven modeling using linear vs. polynomial regression, analysis of residual errors and   the   concept   of
+overfitting.
+Dataset- based assignment
+CO2
+https://www.m athworks.com/s olutions/machin e- learning/tutori als- examples.html
+5
+Eigenvalues, eigenvectors,
+characteristic polynomial
+Digital Board Demonstration and Demo
+ActivitySheet5:
+Eigenvalue-basedsystem
+behavior interpretation and modal analysis.
+Numerical problems
+CO2
+https://www.m athworks.com/ help/matlab/re f/eig.html
+6
+Numerical solutions
+of differential equation
+Digital Board Demonstration and Demo
+Activity Sheet 6: Dynamic response analysis of RC, RL, and LC circuits comparing Euler’s method vs. ode45 built-in solvers.
+Circuit simulations
+CO3
+https://matlaba cademy.mathwo rks.com/details
+/solving- ordinary- differential- equations-with- matlab/odes
+7
+Velocity and acceleration
+Digital Board Demonstration and Demo
+Activity Sheet 7: Motion analysis using discrete displacement   data   to
+compute velocity and acceleration.
+Kinematic modeling
+CO3
+https://www.m athworks.com/h elp/matlab/mat h/numerical- differentiation.h tml
+8
+Definite integrals – numerical evaluation
+Digital Board Demonstration and Demo
+Activity Sheet 8: Energy and area computation using numericalintegration techniques.
+Practice worksheet
+CO3
+https://www.m athworks.com/h elp/matlab/mat h/numerical- integration.html
+9
+Taylor series expansion (single- variable)
+Digital Board Demonstration and Demo
+Activity Sheet 9: Local approximation of single- variable nonlinear functions using Taylor series with error
+bound evaluation.
+Approximat ion exercises
+CO2
+https://www.m athworks.com/h elp/symbolic/se ries.htm
+Taylor series
+expansion (multi- variable)
+Plottingoftwo- variablefunctions
+(surface plots)
+Contour plots to
+identify the optimum
+Gradientofscalar functions
+13
+Hessian matrix and concavity of surfaces
+Probability distribution basics &
+multivariate data analysis
+Digital Board Demonstration and Demo
+Digital Board Demonstration and Demo
+Digital Board Demonstration and Demo
+Digital Board Demonstration and Demo
+Digital Board Demonstration and Demo
+Digital Board Demonstration and Demo
+ActivitySheet    10:
+Linearizationof
+multivariablefunctions around operating points for system approximation.
+Activity Sheet 11: Surface plot generation of two- variable functions using mesh grids and parametric representation.
+Activity Sheet 12: Use of contour plots and fminsearch for identifying minima, maxima, and saddle points in optimization.
+Activity Sheet 13: Compute gradient vectors of a heat distribution surface; identify direction of maximum temperature increase.
+Activity Sheet 14: Compute Hessian forapotential energysurface;classify minima, maxima, and saddle points in mechanical design. ActivitySheet15:
+Multivariate data analysis of sensor data; generating correlation heatmaps and analyzingprobability distributions.
+Practice problems
+Visualizatio n tasks
+Optimizatio n exercises
+Numerical gradient problems
+Practice Worksheet
+Data analysis mini- project
+CO2
+CO2
+CO2
+CO2
+CO2
+CO1, CO3
+https://ompraka shsahani.github.i o/Mathematical- Visualization-in- MATLAB/
+https://www.m athworks.com/h elp/matlab/ref/ contour.html
+https://www.mat hworks.com/help
+/optim/ug/symb olic-math- toolbox- calculates- gradients-and- hessians.html https://www.m athworks.com/h elp/optim/ug/s ymbolic-math- toolbox- calculates- gradients-and- hessians.html https://www.m athworks.com/h elp/stats/proba bility- distribution- objects.html
+https://www.mat hworks.com/help
+/stats/examples. html
+Annexure : Lab Activity Sheets [ 15 Sheets]
+Dr.Soumyendra Singh
+Faculty
+Dr.K.Anitha
+ChairpersonPrincipal
+Module 1: MATLAB Foundations & Matrix Operations
+MATLAB Environment
+Basic Definitions
+Command Window: Interactive interface for executing commands directly.
+Editor: Used for writing, editing, and saving scripts/functions.
+Script(.mfile):SequenceofMATLABcommandssavedforreuse(no
+input/output arguments).
+Live Script (.mlx file): Interactive document combining code, output, and formatted text.
+Navigation
+Use cd to change directory.
+clc clears Command Window; clear removes variables; close all closes figures.
+Data Structures – Vectors & Matrices
+Creating Vectors/Matrices
+Row vector: v = [1 2 3] or v = 1:3 (colon notation)
+Column vector: v = [1; 2; 3]
+Matrix: A = [1 2; 3 4]
+Colon Notation
+start: step: end
+Example: 1:2:9 gives [1 3 5 7 9]
+Transpose Operator
+A' (conjugate transpose); A.' (non-conjugate transpose)
+Logical Indexing
+Selecting elements using logical conditions.
+Example
+A = [1 2; 3 4];
+idx = A > 2; % Logical matrix B = A(idx); % Returns [3; 4]
+Function Files & Modular Design
+Function File (.m file) Structure
+function [outputs] = functionName(inputs)
+% Brief description
+% Detailed comments
+code here end
+Linear Algebra – Inverses
+Left Inverse
+For tall matrix 𝐴
+−1
+𝑙𝑒𝑓𝑡
+, if rank
+𝑚 × 𝑛, 𝑚 > 𝑛𝑚 × 𝑛, 𝑚 > 𝑛𝐴𝐴𝐴𝑇𝐴𝐴𝑇𝐴𝐴=𝐴=−1𝐴𝑇
+𝑚 × 𝑛, 𝑚 > 𝑛
+𝑚 × 𝑛, 𝑚 > 𝑛
+𝐴
+𝐴
+𝐴𝑇𝐴
+𝐴𝑇𝐴
+𝐴=
+𝐴=
+= 𝑛:
+Solves overdetermined systems (least squares).
+Right Inverse
+For wide matrix 𝐴(𝑚 × 𝑛, 𝑚 < 𝑛), if rank
+𝐴𝐴𝑇𝐴𝐴𝑇𝐴= 𝐴𝐴= 𝐴−1𝑇
+𝐴𝐴𝑇
+𝐴𝐴𝑇
+𝐴= 𝐴
+𝐴= 𝐴
+𝑟𝑖𝑔ℎ𝑡
+= 𝑚:
+𝐴𝐴−1
+𝐴
+𝐴
+Solves underdetermined systems (infinite solutions).
+Moore-Penrose Pseudo-inverse
+Generalization of inverse for any matrix (including singular/rectangular).
+Using SVD: If 𝐴 = 𝑈Σ𝑉𝑇,
+𝐴+ = 𝑉Σ+𝑈𝑇
+where Σ+ replaces non-zero singular values 𝜎𝑖 with 1/𝜎𝑖.
+MATLAB Command: pinv(A)
+Properties
+𝐴𝐴+𝐴 = 𝐴
+𝐴+𝐴𝐴+ = 𝐴+
+𝐴𝐴+𝐴𝐴+𝑇 = 𝐴𝐴+
+𝐴𝐴+
+𝐴𝐴+
+𝐴+𝐴𝐴+𝐴𝑇 = 𝐴+𝐴
+𝐴+𝐴
+𝐴+𝐴
+Condition Number & Numerical Stability
+Condition Number
+Measures sensitivity of solution 𝑥 in 𝐴𝑥 = 𝑏 to errors in A or b.
+For matrix A:
+𝜅
+or using singular values:
+𝐴𝐴
+𝐴
+𝐴
+𝜅
+=  𝐴  ∙  𝐴−1 
+𝐴𝐴= 𝜎𝑚𝑎𝑥
+𝐴
+𝐴
+𝜎𝑚𝑖𝑛
+MATLAB Command: cond(A)
+Rank-Deficient Systems
+𝐴𝐴𝑚, 𝑛𝑚, 𝑛If rank
+𝐴
+𝐴
+𝑚, 𝑛
+𝑚, 𝑛
+< min
+is singular or rectangular with linearly dependent
+rows/columns.
+MATLAB Command:
+Use pinv(A) for least squares solution.
+Use rank(A) to check numerical rank.
+Regularization (e.g., Tikhonov) for ill-posed problems:
+𝑚𝑖𝑛  𝐴𝑥 − 𝑏  2 + 𝜆  𝑥  2
+Example:
+x = pinv(A)*b (more stable than inv(A)*b).
+Module 2: Subspaces, Regression, and Data Modelling
+Geometric Projections onto Subspaces
+𝐴𝐴Projection of vector 𝑏 onto subspace 𝒞
+𝐴
+𝐴
+𝐴𝑇𝐴𝐴𝑇𝐴Projection Matrix:
+𝐴𝑇𝐴
+𝐴𝑇𝐴
+(column space of A).
+𝑃 = 𝐴
+𝐴𝐴Projected any vector b onto 𝒞.
+𝐴
+𝐴
+Projected Vector:
+𝑝 = 𝑃𝑏 = 𝐴
+Residual/Error Vector:
+−1𝐴𝑇
+𝐴𝑇𝐴𝐴𝑇𝐴−1𝐴𝑇𝑏
+𝐴𝑇𝐴
+𝐴𝑇𝐴
+𝑒 = 𝑏 − 𝑝 = 𝑏 − 𝐴𝑥ො
+Orthogonal to 𝒞(𝐴): 𝐴𝑇𝑒 = 0.
+MATLAB: P = A*inv(A'*A)*A'; p = P*b;
+Geometry of Least Squares
+Problem: Solve 𝐴𝑥 ≈ 𝑏 when 𝑏 ∉ 𝒞(𝐴).
+Geometric Insight:
+Find 𝑝 = projection of 𝑏 onto 𝒞(𝐴).
+Minimize 𝑏 − 𝐴𝑥  2 is perpendicular error.
+Normal Equations:
+𝐴𝑇𝐴𝑥ො = 𝐴𝑇𝑏
+𝑏 − 𝐴𝑥ො𝑏 − 𝐴𝑥ොDerived from orthogonality condition 𝐴𝑇
+𝑏 − 𝐴𝑥ො
+𝑏 − 𝐴𝑥ො
+𝐴𝑇𝐴𝐴𝑇𝐴Solution:
+𝐴𝑇𝐴
+𝐴𝑇𝐴
+= 0.
+𝑥ො
+=
+−1𝐴𝑇𝑏
+MATLAB: x_hat = inv(A'*A)*(A'*b)
+Linear Regression – Derivation
+Model: 𝑦 = 𝛽0 + 𝛽1𝑥 + 𝜖
+Matrix Form: For 𝑛 data points, 𝑦 = 𝑋𝛽 + 𝜖
+1𝑥1
+𝑦1
+where, 𝑋 =1
+⋮
+1
+𝑥2
+⋮
+𝑥𝑛
+, 𝛽 =𝛽0
+𝛽1
+, 𝑦 =
+𝑦2
+⋮
+𝑦𝑛
+𝑋𝑇𝑋𝑋𝑇𝑋Least Squares Solution:
+𝑋𝑇𝑋
+𝑋𝑇𝑋
+𝛽መ
+=
+−1𝑋𝑇y
+Predicted Values:
+𝑦ො = 𝑋𝛽መ = 𝑃𝑦
+Linear Regression – Implementation in MATLAB
+Method 1 – Direct Calculation:
+X = [ones(n,1), x]; % Design matrix beta = inv(X'*X)*(X'*y);
+y_hat = X*beta;
+Method 2 – Backslash Operator:
+Beta = X\y; % Solves least squares (preferred)
+Method 3 – Built-in Functions:
+beta = polyfit(x, y, 1); % For simple linear regression
+mdl = fitlm(x, y);% Statistics Toolbox
+Residual Calculation:
+residuals = y - y_hat;
+SSE = sum(residuals.^2); % Sum of Squared Errors
+Polynomial Regression
+𝑦 = 𝛽0 + 𝛽1𝑥 + 𝛽2𝑥2 + ⋯ + 𝛽𝑘𝑥𝑘 + 𝜖
+Design Matrix:
+1𝑥1𝑥2⋯𝑥𝑘
+11
+1𝑥2𝑥2⋯𝑥𝑘
+𝑋 =
+⋮⋮
+1𝑥𝑛
+22
+⋮⋱⋮
+𝑥2⋯𝑥𝑘
+Same Least Squares Solution:
+MATLAB:
+k = 3; % Degree of polynomial
+X = zeros(n, k+1);
+for j = 0:k X(:,j+1) = x.^j;
+end
+beta = X\y;
+𝛽መ
+=
+𝑛𝑛
+𝑋𝑇𝑋𝑋𝑇𝑋−1𝑋𝑇𝑦
+𝑋𝑇𝑋
+𝑋𝑇𝑋
+Overfitting & Model Comparison
+Model fits noise rather than underlying relationship.
+Indicators:
+Excellent fit on training data, poor on new data.
+High polynomial degree relative to data points.
+Large coefficient values.
+Model Comparison Metrics:
+𝑦𝑖 − 𝑦ෝ𝑖𝑦𝑖 − 𝑦ෝ𝑖𝑖=1𝑖=1Sum of Squared Errors (SSE): 𝑆𝑆𝐸 = σ𝑛2
+𝑦𝑖 − 𝑦ෝ𝑖
+𝑦𝑖 − 𝑦ෝ𝑖
+𝑖=1
+𝑖=1
+𝑦𝑖 − 𝑦ത𝑦𝑖 − 𝑦തR² (Coefficient of Determination): 𝑅2 = 1 − 𝑆𝑆𝐸, 𝑆𝑆𝑇 = σ𝑛2
+𝑦𝑖 − 𝑦ത
+𝑦𝑖 − 𝑦ത
+𝑆𝑆𝑇
+𝑖=1
+Adjusted R²: 𝑅2= 1 − 𝑆𝑆𝐸Τ(𝑛−0), where 𝑝 = number of parameters.
+𝑎𝑑𝑗
+𝑆𝑆𝑇Τ(𝑛−1)
+Eigenvalues & Eigenvectors
+Definition:
+For square matrix 𝐴, 𝐴𝑣 = 𝜆𝑣, where 𝜆= eigenvalue, 𝑣 ≠ 0 = eigenvector.
+Characteristic Polynomial:
+𝐴 − 𝜆𝐼𝐴 − 𝜆𝐼det
+𝐴 − 𝜆𝐼
+𝐴 − 𝜆𝐼
+MATLAB:
+= 0, roots are eigenvalues.
+[V, D] = eig(A); % V = eigenvectors, D = eigenvalues (diagonal) eigvals = eig(A); % Just eigenvalues
+poly(A);% Characteristic polynomial coefficients
+Properties:
+Trace = sum of eigenvalues.
+Determinant = product of eigenvalues.
+Module 3: Numerical Calculus and Circuit Simulation
+Numerical Differentiation
+Approximating derivatives using discrete data.
+𝑥𝑥Forward Difference (1st order): 𝑓′≈
+𝑥
+𝑥
+, Error: 𝑂(ℎ)
+𝑓 𝑥+ℎ −𝑓 𝑥𝑓 𝑥+ℎ −𝑓 𝑥ℎ
+𝑓 𝑥+ℎ −𝑓 𝑥
+𝑓 𝑥+ℎ −𝑓 𝑥
+𝑥𝑥Backward Difference (1st order): 𝑓′
+𝑥
+𝑥
+≈ 𝑓 𝑥 −𝑓(𝑥−ℎ), Error: 𝑂(ℎ)
+ℎ
+Central Difference (2nd order): 𝑓′(𝑥) ≈ 𝑓 𝑥+ℎ −𝑓(𝑥−ℎ), Error: 𝑂(ℎ2)
+2ℎ
+Second Derivative (3-point): 𝑓′′(𝑥) ≈ 𝑓 𝑥+ℎ −2𝑓 𝑥 +𝑓(𝑥−ℎ), Error: 𝑂(ℎ2)
+ℎ2
+Velocity & Acceleration Calculations
+Given position 𝑠(𝑡) at times 𝑡1, 𝑡2, ⋯
+Velocity:
+𝑠 𝑡𝑖+1 −𝑠(𝑡𝑖−1)𝑠 𝑡𝑖+1 −𝑠(𝑡𝑖−1)𝑣(𝑡𝑖) ≈𝑡−𝑡(central difference)
+𝑠 𝑡𝑖+1 −𝑠(𝑡𝑖−1)
+𝑠 𝑡𝑖+1 −𝑠(𝑡𝑖−1)
+𝑖+1𝑖−1
+𝑡𝑖+1𝑡𝑖+1𝑡𝑖𝑡𝑖Acceleration:
+𝑡𝑖+1
+𝑡𝑖+1
+𝑡𝑖
+𝑡𝑖
+𝑎(𝑡𝑖
+) ≈ 𝑣 𝑡𝑖+1− 𝑣(𝑡𝑖−1) ≈ 𝑠
+𝑡𝑖+1 − 𝑡𝑖−1
+− 2𝑠
+(∆𝑡)2
++ 𝑠(𝑡𝑖−1)
+MATLAB:
+% Given t (time vector) and s (position vector) dt = t(2) - t(1); % Assuming uniform spacing v = gradient(s, dt); % Uses central difference a = gradient(v, dt); % Second derivative
+% Or manually for central difference: n = length(t);
+v = zeros(size(s));
+v(2:end-1) = (s(3:end) - s(1:end-2)) / (2*dt); v(1) = (s(2) - s(1))/dt; % Forward at start
+v(end) = (s(end) - s(end-1))/dt; % Backward at end
+Circuit ODE Fundamentals
+Basic Circuit Elements:
+Resistor: 𝑉 = 𝐼𝑅
+Capacitor: 𝐼 = 𝐶 𝑑𝑉 or 𝑉 = 1 ׬ 𝐼 𝑑
+𝑑𝑡𝐶
+Inductor: 𝑉 = 𝐿 𝑑𝐼
+𝑑𝑡
+or 𝐼 = 1 ׬ 𝑉 𝑑
+𝐿
+Kirchhoff's Laws:
+KVL: Sum of voltages around any loop = 0
+KCL: Sum of currents at any node = 0
+RC Circuit Analysis
+Governing ODE: 𝑅𝐶 𝑑𝑉𝑐 + 𝑉 = 𝑉 (𝑡), where 𝑉 = capacitor voltage, 𝑉 = source voltage.
+𝑑𝑡
+𝑐𝑠𝑐𝑠
+𝑡𝑡Solution (for constant 𝑉𝑠): 𝑉𝑐
+𝑡
+𝑡
+= 𝑉𝑠 +
+𝑒−𝑡Τ(𝑅𝐶)
+𝑉0 − 𝑉𝑠𝑉0 − 𝑉𝑠MATLAB Form (1st order ODE):
+𝑉0 − 𝑉𝑠
+𝑉0 − 𝑉𝑠
+% dVc/dt = (Vs - Vc)/(R*C)
+RC = R*C;
+dydt = @(t, Vc) (Vs(t) - Vc)/RC;
+RL & LC Circuit ODEs
+RL Circuit: 𝐿 𝑑𝐼 + 𝑅𝐼 = 𝑉 (𝑡), Time constant: 𝜏 =
+𝐿Τ𝑅.
+𝑑𝑡
+LC Circuit: 𝐿𝐶 𝑑2𝑉𝑐 + 𝑉
+𝑠
+= 𝑉 (𝑡), Natural frequency: 𝜔
+= 1Τ
+𝐿𝐶.
+𝑑𝑡2
+𝑐𝑠0
+Converting to 1st Order System:
+For LC circuit: Let 𝑥= 𝑉 , 𝑥
+= 𝑑𝑉𝑐
+1𝑐2
+𝑑𝑡
+𝑑𝑥1
+𝑑𝑡
+= 𝑥2
+Matrix Form:
+𝑑𝑥2
+𝑑𝑡
+1
+= − 𝐿𝐶
+𝑥1
+1
+01𝐿𝐶01𝐿𝐶+ 𝐿𝐶
+0
+1
+𝐿𝐶
+0
+1
+𝐿𝐶
+𝑉𝑠(𝑡)
+𝑑𝑥1
+01𝑥1
+𝑑𝑡
+𝑥2
+=1
+− 𝐿𝐶
+0𝑥2
++
+𝑉𝑠(𝑡)
+Euler's Method Implementation
+Forward Euler Formula:
+𝑦𝑛+1 = 𝑦𝑛 + ℎ ∙ 𝑓(𝑡𝑛, 𝑦𝑛), where ℎ = step size, 𝑓(𝑡, 𝑦) = derivative function.
+MATLAB Code for RC Circuit:
+function [t, Vc] = eulerRC(R, C, Vs, V0, tspan, h)
+% Solve RC circuit using Euler's method
+t = tspan(1):h:tspan(2); Vc = zeros(size(t)); Vc(1) = V0;
+for n = 1:length(t)-1
+dVdt = (Vs(t(n)) - Vc(n))/(R*C); Vc(n+1) = Vc(n) + h*dVdt;
+end
+end
+Built-in ODE Solvers (ode45)
+MATLAB's ode45: Runge-Kutta 4th/5th order adaptive solver.
+Basic Syntax:
+[t, y] = ode45(odefun, tspan, y0, options)
+RC Circuit Example:
+R = 1000; % 1kΩ C = 1e-6; % 1μF
+Vs = @(t) 5; % 5V constant source V0 = 0;% Initial capacitor voltage
+% Define ODE function RC = R*C;
+odefun = @(t, Vc) (Vs(t) - Vc)/RC;
+% Solve
+tspan = [0, 5*RC]; % Simulate for 5 time constants [t, Vc] = ode45(odefun, tspan, V0);
+% Analytical solution for comparison
+Vc_analytical = 5*(1 - exp(-t/(R*C)));
+Numerical Integration
+Definite Integral Approximation:
+𝑏
+න𝑓
+𝑛
+𝑥𝑥𝑑𝑥 ≈ ෍ 𝑤𝑖𝑓(𝑥𝑖)
+𝑥
+𝑥
+Methods:
+Rectangular (Left):
+𝑎𝑖=1
+𝑥𝑥׬𝑏 
+𝑥
+𝑥
+𝑑𝑥 ≈ ℎ σ𝑛−1 𝑓(𝑥
+), Error: 𝑂(ℎ)
+𝑎
+𝑖=0𝑖
+Trapezoidal Rule:
+𝑥𝑥𝑎𝑎׬𝑏 
+𝑥
+𝑥
+𝑎
+𝑎
+𝑑𝑥 ≈ ℎ
+2
+𝑓
++ 2 σ𝑛−1 𝑓
++ 𝑓
+, Error: 𝑂(ℎ2)
+𝑥𝑛𝑥𝑛𝑥0𝑥0𝑥𝑖𝑥𝑖𝑥0𝑥0𝑥𝑖𝑥𝑖𝑥𝑖𝑥𝑖𝑖=1𝑖=1Simpson's 1/3 Rule (n even):
+𝑥𝑛
+𝑥𝑛
+𝑥0
+𝑥0
+𝑥𝑖
+𝑥𝑖
+𝑥0
+𝑥0
+𝑥𝑖
+𝑥𝑖
+𝑥𝑖
+𝑥𝑖
+𝑖=1
+𝑖=1
+𝑥𝑥𝑎𝑎׬𝑏 
+𝑥
+𝑥
+𝑎
+𝑎
+𝑑𝑥 ≈ ℎ
+3
+𝑓
++ 4 σ𝑜𝑑𝑑 𝑖
+𝑓
++ 2 σ𝑒𝑣𝑒𝑛 𝑖
+𝑓
++ 𝑓(𝑥𝑛
+), Error: 𝑂(ℎ4)
+Module 4: Approximation and Multivariable Analysis
+Single-Variable Taylor Series
+Approximate function 𝑓(𝑥) near point 𝑎 using polynomial:
+Taylor Series Formula:
+𝑓
+∞  𝑓𝑛
+𝑥𝑥𝑎𝑎= ෍𝑛!
+𝑥
+𝑥
+𝑎
+𝑎
+(𝑥 − 𝑎)𝑛
+Common Expansions (around a=0):
+𝑛=0
+𝑒𝑥 = 1 + 𝑥 +
+𝑥2
+𝑥3
+++ ⋯
+𝑠𝑖𝑛𝑥 = 𝑥 −
+𝑐𝑜𝑠𝑥 = 1 −
+𝑥23 !
+3! +
+𝑥2
+2! +
+𝑥35 !
+5! − ⋯
+𝑥4
+4! − ⋯
+MATLAB
+syms x;
+f = exp(x);
+1
+1 − 𝑥
+= 1 + 𝑥 + 𝑥2 + 𝑥3 + ⋯( 𝑥< 1)
+T = taylor(f, x, 'Order', 5, 'ExpansionPoint', 0);
+pretty(T)
+Taylor Remainder & Error Bounds
+𝑥𝑥Taylor Polynomial of Degree n: 𝑇𝑛
+𝑥
+𝑥
+= 𝑓
++ 𝑓′
++
+𝑓′′ 𝑎𝑓′′ 𝑎𝑥 − 𝑎𝑥 − 𝑎2!
+𝑓′′ 𝑎
+𝑓′′ 𝑎
+𝑥 − 𝑎
+𝑥 − 𝑎
+2 + ⋯ +
+𝑛
+𝑓𝑛 𝑎𝑓𝑛 𝑎𝑥 − 𝑎𝑥 − 𝑎𝑛!
+𝑓𝑛 𝑎
+𝑓𝑛 𝑎
+𝑥 − 𝑎
+𝑥 − 𝑎
+𝑎𝑎𝑎𝑥 − 𝑎𝑎𝑥 − 𝑎𝑥 − 𝑎𝑥 − 𝑎𝑥𝑥Lagrange Remainder: 𝑅𝑛
+𝑎
+𝑎
+𝑎𝑥 − 𝑎
+𝑎𝑥 − 𝑎
+𝑥 − 𝑎
+𝑥 − 𝑎
+𝑥
+𝑥
+=
+𝑓𝑛+1 𝑐𝑓𝑛+1 𝑐𝑛+1 !
+𝑓𝑛+1 𝑐
+𝑓𝑛+1 𝑐
+𝑛+1, where 𝑐 is between 𝑎 and 𝑥.
+𝑥𝑥Error Bound: If𝑓𝑛+1(𝑐)≤ 𝑀 for 𝑐 ∈ [𝑎, 𝑥], then 𝑓
+𝑥
+𝑥
+Visualizing Error:
+x = linspace(-1, 1, 100);
+f = @(x) exp(x);
+T2 = @(x) 1 + x + x.^2/2; % 2nd order Taylor
+T4 = @(x) 1 + x + x.^2/2 + x.^3/6 + x.^4/24; % 4th order
+figure;
+plot(x, f(x), 'k', 'LineWidth', 2); hold on;
+plot(x, T2(x), 'r--', 'LineWidth', 1.5);
+plot(x, T4(x), 'b:', 'LineWidth', 1.5);
+legend('e^x', '2nd order', '4th order'); title('Taylor Approximation of e^x'); xlabel('x'); ylabel('f(x)');
+− 𝑇𝑛
+(𝑥)≤𝑀
+𝑛+1 !
+𝑥 − 𝑎 𝑛+1
+Multivariable Taylor Series
+For function 𝑓(𝑥, 𝑦) at point (𝑎, 𝑏):
+First-order (Linear) Expansion:
+𝑥, 𝑦𝑥, 𝑦𝑎, 𝑏𝑎, 𝑏𝑎, 𝑏𝑥 − 𝑎𝑎, 𝑏𝑥 − 𝑎𝑓
+𝑥, 𝑦
+𝑥, 𝑦
+𝑎, 𝑏
+𝑎, 𝑏
+𝑎, 𝑏𝑥 − 𝑎
+𝑎, 𝑏𝑥 − 𝑎
+≈ 𝑓
++ 𝑓𝑥
++ 𝑓𝑦(𝑎, 𝑏)(𝑦 − 𝑏)
+Second-order (Quadratic) Expansion:
+𝑥, 𝑦𝑥, 𝑦𝑎, 𝑏𝑥 − 𝑎𝑦 − 𝑏𝑎, 𝑏𝑥 − 𝑎𝑦 − 𝑏𝑎, 𝑏𝑦 − 𝑏𝑎, 𝑏𝑦 − 𝑏𝑓
+𝑥, 𝑦
+𝑥, 𝑦
+𝑎, 𝑏𝑥 − 𝑎𝑦 − 𝑏
+𝑎, 𝑏𝑥 − 𝑎𝑦 − 𝑏
+𝑎, 𝑏𝑦 − 𝑏
+𝑎, 𝑏𝑦 − 𝑏
+≈ 𝑓
++ 𝑓𝑥
+𝑎, 𝑏𝑥 − 𝑎𝑎, 𝑏𝑥 − 𝑎1
+𝑎, 𝑏𝑥 − 𝑎
+𝑎, 𝑏𝑥 − 𝑎
++ 2 [𝑓𝑥𝑥
++ 𝑓𝑦
+𝑎, 𝑏𝑦 − 𝑏𝑎, 𝑏𝑦 − 𝑏𝑎, 𝑏𝑥 − 𝑎𝑎, 𝑏𝑥 − 𝑎2
+𝑎, 𝑏𝑦 − 𝑏
+𝑎, 𝑏𝑦 − 𝑏
+𝑎, 𝑏𝑥 − 𝑎
+𝑎, 𝑏𝑥 − 𝑎
++ 2𝑓𝑥𝑦
+𝑎, 𝑏𝑎, 𝑏+ 𝑓𝑦𝑦2]
+𝑎, 𝑏
+𝑎, 𝑏
+General Form using Gradient & Hessian:
+𝑥𝑥𝑓
+𝑥
+𝑥
+≈ 𝑓
++ ∇𝑓
+𝑇
++ 1
+𝑥 − 𝑎𝑥 − 𝑎2
+𝑥 − 𝑎
+𝑥 − 𝑎
+𝑇𝐻𝑓
+(𝑎)(𝑥 − 𝑎),
+𝑎𝑎𝑎𝑎𝑥 − 𝑎𝑥 − 𝑎where 𝑥 = 𝑥, 𝑦𝑇, 𝑎 = 𝑎, 𝑏𝑇.
+𝑎
+𝑎
+𝑎
+𝑎
+𝑥 − 𝑎
+𝑥 − 𝑎
+Linearization of Nonlinear Systems
+Approximate nonlinear function 𝑓(𝑥) near operating point a:
+𝑥𝑥𝐿
+𝑥
+𝑥
+= 𝑓
++ ∇𝑓
+𝑇(𝑥 − 𝑎)
+𝑎𝑎𝑎𝑎MATLAB Linearization:
+𝑎
+𝑎
+𝑎
+𝑎
+syms x y;
+f = x^2 + sin(x*y) + exp(y); a = 0; b = 1;
+% Compute gradient at (a,b) grad_f = gradient(f);
+fx = subs(grad_f(1), [x,y], [a,b]);
+fy = subs(grad_f(2), [x,y], [a,b]);
+% Linear approximation
+L = subs(f, [x,y], [a,b]) + fx*(x-a) + fy*(y-b);
+Error Visualization:
+% Compare f(x,y) and L(x,y) near (a,b)
+[X,Y] = meshgrid(-0.5:0.1:0.5, 0.5:0.1:1.5);
+F = X.^2 + sin(X.*Y) + exp(Y);
+L_val = double(subs(f, [x,y], [a,b])) + double(fx)*(X-a) + double(fy)*(Y-b); figure;
+surf(X, Y, F); hold on;
+surf(X, Y, L_val, 'FaceAlpha', 0.5); title('Function vs. Linear Approximation'); legend('f(x,y)', 'L(x,y)');
+Scalar Fields & Gradient (∇f)
+Scalar Field: Function 𝑓 ∶ ℝ𝑛 ⇢ ℝ assigning assigning scalar to each point.
+𝜕𝑓𝜕𝑥1𝜕𝑓𝜕𝑥2⋮𝜕𝑓𝜕𝑥𝑛𝜕𝑓𝜕𝑥1𝜕𝑓𝜕𝑥2⋮𝜕𝑓𝜕𝑥𝑛Gradient Vector:
+𝜕𝑓
+𝜕𝑥1
+𝜕𝑓
+𝜕𝑥2
+⋮
+𝜕𝑓
+𝜕𝑥𝑛
+𝜕𝑓
+𝜕𝑥1
+𝜕𝑓
+𝜕𝑥2
+⋮
+𝜕𝑓
+𝜕𝑥𝑛
+∇𝑓 =
+Properties of Gradient:
+Points in direction of steepest ascent.
+Magnitude = rate of change in that direction.
+Orthogonal to level curves/surfaces.
+MATLAB
+% Symbolic
+syms x y;
+f = x^2 + y^2; grad_f = gradient(f)
+% Numerical (on grid)
+[X,Y] = meshgrid(-2:0.2:2, -2:0.2:2);
+F = X.^2 + Y.^2;
+[FX, FY] = gradient(F, 0.2, 0.2); % Spatial steps = 0.2
+Physical Significance of Gradient
+Directional Derivative:
+𝑎𝑎Rate of change in direction 𝑢: 𝐷𝑢𝑓
+𝑎
+𝑎
+Maximized when 𝑢 aligns with ∇𝑓.
+Normal to Level Curves:
+= ∇𝑓(𝑎) ∙ 𝑢
+𝑥, 𝑦𝑥, 𝑦For curve 𝑓= 𝑐, normal vector = ∇𝑓.
+𝑥, 𝑦
+𝑥, 𝑦
+Gradient in Physics:
+Temperature field: ∇𝑇 = heat flux direction.
+Potential field: ∇𝑉 = electric field.
+Pressure field: ∇𝑃 related to fluid acceleration.
+Visualization:
+% Gradient field of f(x,y) = x^2 + y^2 [X,Y] = meshgrid(-2:0.2:2, -2:0.2:2); F = X.^2 + Y.^2;
+% Compute gradient
+[FX, FY] = gradient(F, 0.2, 0.2);
+figure;
+contour(X, Y, F, 20, 'LineWidth', 1); hold on; quiver(X, Y, FX, FY, 'r');
+title('Gradient Field of f(x,y)=x^2+y^2'); xlabel('x'); ylabel('y');
+axis equal;
+Hessian Matrix & Second Derivatives
+𝜕2𝑓𝜕𝑥2𝜕2𝑓𝜕𝑦𝜕𝑥𝜕2𝑓𝜕𝑥2𝜕2𝑓𝜕𝑦𝜕𝑥𝜕2𝑓𝜕𝑥𝜕𝑦𝜕2𝑓𝜕𝑦2𝜕2𝑓𝜕𝑥𝜕𝑦𝜕2𝑓𝜕𝑦2Hessian Matrix for 𝑓(𝑥, 𝑦):
+𝜕2𝑓
+𝜕𝑥2
+𝜕2𝑓
+𝜕𝑦𝜕𝑥
+𝜕2𝑓
+𝜕𝑥2
+𝜕2𝑓
+𝜕𝑦𝜕𝑥
+𝜕2𝑓
+𝜕𝑥𝜕𝑦
+𝜕2𝑓
+𝜕𝑦2
+𝜕2𝑓
+𝜕𝑥𝜕𝑦
+𝜕2𝑓
+𝜕𝑦2
+𝐻𝑓 =
+For 𝐶2 functions: 𝛛2𝑓
+𝛛𝑥𝛛𝑦
+n-Dimensional Case:
+MATLAB
+% Symbolic syms x y;
+f = x^3 + y^3 - 3*x*y; H = hessian(f, [x,y])
+= 𝛛2𝑓
+𝛛𝑦𝛛𝑥
+(symmetry).
+𝐻𝑓
+⋯
+𝑥𝑥𝜕2𝑓𝜕𝑥21⋮𝜕2𝑓𝜕𝑥𝑛𝜕𝑥1𝜕2𝑓𝜕𝑥21⋮𝜕2𝑓𝜕𝑥𝑛𝜕𝑥1𝜕2𝑓𝜕𝑥1𝜕𝑥𝑛⋮𝜕2𝑓𝜕𝑥2𝑛𝜕2𝑓𝜕𝑥1𝜕𝑥𝑛⋮𝜕2𝑓𝜕𝑥2𝑛=⋱
+𝑥
+𝑥
+𝜕2𝑓
+𝜕𝑥2
+1
+⋮
+𝜕2𝑓
+𝜕𝑥𝑛𝜕𝑥1
+𝜕2𝑓
+𝜕𝑥2
+1
+⋮
+𝜕2𝑓
+𝜕𝑥𝑛𝜕𝑥1
+𝜕2𝑓
+𝜕𝑥1𝜕𝑥𝑛
+⋮
+𝜕2𝑓
+𝜕𝑥2
+𝑛
+𝜕2𝑓
+𝜕𝑥1𝜕𝑥𝑛
+⋮
+𝜕2𝑓
+𝜕𝑥2
+𝑛
+⋯
+% Numerical approximation h = 1e-5;
+[FX, FY] = gradient(F, h, h); [FXX, FXY] = gradient(FX, h, h); [FYX, FYY] = gradient(FY, h, h);
+Surface Concavity & Saddle Points
+Concavity from Eigenvalues of Hessian: Let 𝜆1, 𝜆2= eigenvalues of 𝐻𝑓 at critical point:
+Both 𝜆𝑖 > 0 ⟶ Local minimum (concave up).
+Both 𝜆𝑖 < 0 ⟶ Local maximum (concave down).
+𝜆1 > 0, 𝜆2 < 0 ⟶ Saddle point.
+Visualization Code:
+% Visualize f(x,y) = x^2 - y^2
+[X,Y] = meshgrid(-2:0.1:2, -2:0.1:2);
+F = X.^2 - Y.^2;
+figure; surf(X, Y, F); hold on;
+plot3(0, 0, 0, 'ro', 'MarkerSize', 10, 'MarkerFaceColor', 'r'); title('Saddle Point: f(x,y)=x^2-y^2');
+xlabel('x'); ylabel('y'); zlabel('f(x,y)'); colormap('jet');
+Module 5: Optimization and Statistical Analysis
+Visualizing 3D Surfaces – Mesh Grids
+Mesh Grid Creation:
+Generate coordinate matrices for surface plotting: [X, Y] = meshgrid(x_vector, y_vector);
+where x_vector and y_vector define grid points.
+Example:
+x = -2:0.1:2;% x from -2 to 2, step 0.1
+y = -2:0.1:2;% y from -2 to 2, step 0.1 [X, Y] = meshgrid(x, y);
+Z = X.^2 + Y.^2;% f(x,y) = x² + y²
+Key Functions:
+meshgrid: Creates 2D grid from 1D vectors. ndgrid: For higher dimensions (n-dimensional).
+Surface Visualization Techniques
+Answer: Stress, deformation, or heat gradients can be mapped directly as explicit surface colormaps acting over arbitrary complex parametric structural skeletons, allowing visual identification of fatigue or fracture points.
+Three Main Plot Types:
+Surface Plot (surf): Colored 3D surface with lighting
+surf(X, Y, Z); colormap('jet'); colorbar;
+shading interp; % Smooth shading
+Mesh Plot (mesh): Wireframe mesh without filled faces
+mesh(X, Y, Z);
+Contour Plot (contour, contourf): 2D slices/level curves
+contour(X, Y, Z, 20); % 20 contour levels contourf(X, Y, Z);% Filled contours Combined Visualization:
+figure;
+subplot(2,2,1); surf(X,Y,Z); title('Surface');
+subplot(2,2,2); mesh(X,Y,Z); title('Mesh');
+subplot(2,2,3); contour(X,Y,Z); title('Contour'); subplot(2,2,4); surfc(X,Y,Z); title('Surface + Contour');
+Optimization via Contour Plots
+Visual Optimization Principle:
+Find minima/maxima where contour lines are:
+Closest together → Steep gradient.
+𝑥, 𝑦𝑥, 𝑦Circles/ellipses around point → Potential optimum. Example: Rosenbrock Function (Banana function): 𝑓 MATLAB Visualization:
+𝑥, 𝑦
+𝑥, 𝑦
+% Rosenbrock function
+rosen = @(x,y) (1-x).^2 + 100*(y-x.^2).^2;
+% Create grid
+[X,Y] = meshgrid(-2:0.1:2, -1:0.1:3);
+Z = rosen(X,Y);
+% Plot with optimum figure;
+contour(X, Y, Z, logspace(-2, 3, 20)); hold on;
+plot(1, 1, 'r*', 'MarkerSize', 15);
+xlabel('x'); ylabel('y'); title('Rosenbrock Function Contours'); colorbar;
+=
+1 − 𝑥1 − 𝑥2 + 100
+1 − 𝑥
+1 − 𝑥
+𝑦 − 𝑥2𝑦 − 𝑥22, Global minimum at (1,1).
+𝑦 − 𝑥2
+𝑦 − 𝑥2
+Gradient Descent Visualization
+Tracking Optimization Path:
+% Gradient descent on quadratic function f = @(x) x(1)^2 + 2*x(2)^2;
+grad_f = @(x) [2*x(1); 4*x(2)];
+% Run gradient descent x0 = [3; 2];
+alpha = 0.1;
+[x_opt, history] = gradient_descent(f, grad_f, x0, alpha, 50);
+% Visualize
+[X,Y] = meshgrid(-3:0.1:3, -3:0.1:3); Z = X.^2 + 2*Y.^2;
+figure;
+contour(X, Y, Z, 20); hold on;
+plot(history(:,1), history(:,2), 'r-o', 'LineWidth', 1.5);
+plot(x_opt(1), x_opt(2), 'g*', 'MarkerSize', 15); xlabel('x_1'); ylabel('x_2');
+title('Gradient Descent Optimization Path');
+legend('Contours', 'GD Path', 'Optimum');
+Unconstrained Optimization with fminsearch
+fminsearch Overview:
+Uses Nelder-Mead simplex (direct search) method
+No gradient required
+Handles non-differentiable functions
+Basic Syntax:
+[x_opt, fval, exitflag] = fminsearch(fun, x0, options) Example: Minimizing Rosenbrock Function: rosen = @(x) (1-x(1))^2 + 100*(x(2)-x(1)^2)^2;
+x0 = [0, 0]; % Initial guess
+options = optimset('Display', 'iter', ...
+'MaxIter', 1000, ...
+'TolX', 1e-6);
+[x_opt, fval] = fminsearch(rosen, x0, options); fprintf('Optimum at: (%.4f, %.4f)\n', x_opt(1), x_opt(2)); fprintf('Function value: %.6f\n', fval);
+Random Number Generation & Statistics
+Random Number Generation:
+% Uniform distribution [0,1]
+U = rand(n, m);% n×m matrix
+U_range = a + (b-a)*rand(n, m); % Uniform in [a,b]
+% Normal distribution N(μ,σ²)
+N = randn(n, m);% Standard normal N(0,1) N_scaled = mu + sigma*randn(n, m); % N(μ,σ)
+% Other distributions
+exp_rv = exprnd(mu, n, m);  % Exponential poiss_rv = poissrnd(lambda, n, m); % Poisson Statistical Moments:
+Mean: 𝑥ҧ
+= 1 σ𝑛𝑥
+𝑛𝑖=1𝑖
+Variance: 𝜎2 =1
+𝑛−1
+𝑛2
+𝑥𝑖 − 𝑥ҧ𝑥𝑖 − 𝑥ҧσσ𝑖=1
+𝑥𝑖 − 𝑥ҧ
+𝑥𝑖 − 𝑥ҧ
+σ
+σ
+𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒Standard Deviation: σ =
+𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒
+𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒
+Covariance Matrices
+Covariance: Measures how two variables change together:
+𝑛
+𝐶𝑜𝑣
+1
+𝑋, 𝑌𝑋, 𝑌= 𝑛 − 1 ෍(𝑥𝑖 − 𝑥ҧ)(𝑦𝑖 − 𝑦ത)
+𝑋, 𝑌
+𝑋, 𝑌
+𝑖=1
+Covariance Matrix (for p variables):
+𝜎11
+𝜎12
+…𝜎1𝑝
+Σ =𝜎21𝜎22…𝜎2𝑝
+where 𝜎𝑖𝑗 = Cov(Xi, Xj)
+MATLAB Calculation:
+⋮
+𝜎𝑝1
+⋮
+𝜎𝑝2
+⋱⋮
+⋯𝜎𝑝𝑝
+data = randn(100, 3); % 100 samples, 3 variables C = cov(data);% 3×3 covariance matrix
+Multivariate Data Analysis
+Principal Component Analysis (PCA) Preview: Reduces dimensionality while preserving variance. MATLAB Implementation:
+% Generate multivariate data mu = [0, 0, 0];
+Sigma = [1.0, 0.8, 0.3;
+0.8, 1.0, 0.5;
+0.3, 0.5, 1.0];
+data = mvnrnd(mu, Sigma, 200);
+% Perform PCA
+[coeff, score, latent] = pca(data);
+% Explained variance
+explained = 100*latent/sum(latent); fprintf('Variance explained by PCs:\n');
+fprintf('PC1: %.1f%%, PC2: %.1f%%, PC3: %.1f%%\n', ...
+explained(1), explained(2), explained(3));
+% Visualize figure;
+scatter(score(:,1), score(:,2));
+xlabel('Principal Component 1');
+ylabel('Principal Component 2'); title('PCA Projection (2D)');
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+MATLAB Basic Commands for Vector and Matrix Operations
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic,
+Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Basic commands in MATLAB (Vectors, matrices)
+Experiment Background:
+MATLAB (Matrix Laboratory) is a high-performance language for technical computing, widely used in engineering and data science for numerical analysis, algorithm development, and data visualization. In intelligent systems, vectors and matrices are fundamental for representing data, training models, and performing linear algebra operations. This lab introduces basic MATLAB commands for creating and manipulating vectors and matrices, covering operations such as arithmetic, indexing, transposition, determinant, inverse, and eigenvalue computation. Mastery of these basics is essential for implementing machine learning algorithms, signal processing, and control systems.
+Lab Activity
+Writing and executing basic MATLAB commands to create, manipulate, and perform arithmetic operations on vectors and matrices.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to identify and perform vector and matrix operations in MATLAB.
+Description
+Details
+Tools Required
+MATLAB Command Window, Editor, Workspace, Figure Window.
+Vector
+An ordered list of numbers, represented as a row or column.
+Matrix
+A 2D array of numbers arranged in rows and columns.
+Element-wise Operation
+Operations applied element-by-element using `.`, e.g., `.*`, `./`, `.^
+Transpose
+Swaps rows and columns. Syntax: `A'`.
+Built-in Functions
+Predefined functions for matrix algebra: `det()`, `inv()`, `rank()`,
+`eig()`, `zeros()`, `ones()`, `eye()`.
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Enter commands directly for immediate execution.
+Workspace
+View variables, sizes, and types.
+Editor/Script File
+Write and save sequences of commands as `.m` files.
+Command History
+Access and rerun previous commands.
+Current Folder
+Manage and navigate project files.
+Figure Window
+Display plots and visual outputs.
+MATLAB
+Functions
+Use built-in functions like `sum()`, `mean()`, `norm()`, `dot()`,
+`cross()`.
+MATLAB Commands Used
+For each operation, give the commands with example:
+Operation
+Command(s)
+Creating a Row Vector
+v = [1, 2, 3] or v = 1:3
+Creating a Column Vector
+v = [1; 2; 3]
+Creating a Matrix
+A = [1, 2; 3, 4]
+Matrix Addition/Subtraction
+C = A + B or C = A - B
+Scalar Multiplication
+C = 5 * A
+Matrix Multiplication
+C = A * B
+Transpose of Matrix
+B = A' (conjugate) or B = A.' (non-conjugate)
+Determinant and Inverse
+d = det(A); and inv_A = inv(A);
+Rank of Matrix
+r = rank(A);
+Cross and Dot Product
+c = cross(v1, v2); and d = dot(v1, v2);
+Problem Statement
+An intelligent system is being designed to monitor sensor data from two robotic arms (Arm X and Arm Y). The data is represented as vectors and matrices for processing in MATLAB.
+Thefollowingscenarioshavebeenidentified:
+Position vector of Arm X (in cm):
+Position vector of Arm Y (in cm):
+Velocity matrix for Arm X (cm/sec):
+𝑝𝑋 = [5 3 7]
+𝑝𝑌 = [2 8 4]
+𝑉𝑥 = [2 4 6; 1 3 5; 7 8 9]
+Acceleration matrix for Arm Y (cm/sec²):
+𝐴𝑦 = [1 2 3; 4 5 6; 7 9 10]
+Tasks
+Vector Operations
+Compute the combined position vector (sum of `𝑝𝑋` and `𝑝𝑌`).
+Find the dot product of `𝑝𝑋` and `𝑝𝑌` to determine alignment.
+Compute the cross product to find the orthogonal vector between the two positions.
+Matrix Operations:
+Add the velocity and acceleration matrices (`𝑉𝑥 + 𝐴𝑦`).
+Multiply `𝑉𝑥` and `𝐴𝑦` (`𝑉𝑥 ∗ 𝐴𝑦`).
+Find the determinant of `𝑉𝑥`.
+Compute the inverse of `𝐴𝑦`.
+Calculate the eigenvalues of `𝐴𝑦`.
+Results and Inference
+Please summarize the conclusions drawn from the experiment on performing vector and matrix operations in MATLAB for analyzing robotic arm sensor data.
+Viva Questions
+How does MATLAB’s matrix-oriented design benefit the development of intelligent systems compared to general-purpose languages?
+Answer: MATLAB abstracts away low-level looping constructs by allowing users to operate directly on entire matrices and vectors. This reduces code complexity and leverages highly optimized libraries (like BLAS and LAPACK) out of the box, drastically speeding up computations critical for intelligent systems.
+Explain the difference between array multiplication (`.*`) and matrix multiplication (`*`) with an example relevant to sensor data processing.
+Answer: Array multiplication (`.*`) performs element-by-element multiplication (e.g., scaling independent sensor readings by respective calibration factors: `calibrated_data = raw_data .* calibration_factors`). Matrix multiplication (`*`) performs mathematical dot-product based multiplication (e.g., applying a coordinate transformation matrix to a position vector: `transformed_position = Transformation_Matrix * position_vector`).
+How does vectorization in MATLAB improve computational efficiency in real-time intelligent systems?
+Answer: Vectorization eliminates interpreted `for` and `while` loops, executing operations as single, highly optimized block operations in C/C++ backend, greatly reducing execution time needed for real-time processing.
+What is the significance of eigenvalues and eigenvectors in robotics and intelligent motion planning?
+Answer: They determine the principal axes of inertia, stability of control systems, and modes of vibration. The eigenvectors represent independent structural or dynamic modes, while eigenvalues dictate whether these modes are stable (decaying) or unstable.
+Describe how MATLAB handles sparse matrices and why they are useful in large- scale intelligent systems.
+Answer: MATLAB stores sparse matrices using compressed formats (storing only non-zero elements and their indices). This drastically reduces memory usage and computational overhead in large systems (like massive neural networks or graph systems) which are predominantly zeroes.
+In intelligent systems, data is often represented as high-dimensional vectors. How would you use MATLAB's matrix operations to reduce dimensionality, such as through Principal Component Analysis (PCA), and which built-in functions would you use to perform such transformations efficiently?
+Answer: I would perform PCA by computing the covariance matrix of the data using `cov()`, then finding its eigenvalues and eigenvectors using `eig()` or `svd()`. I'd project the data onto the eigenvectors with the largest eigenvalues using matrix multiplication to reduce dimensionality. Alternatively, `pca()` built-in function can be used.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Matrix Inverses and Solutions of Linear Systems
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic,
+Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Matrix Inverses and Solutions of Linear Systems
+Experiment Background:
+In intelligent systems, solving linear equations is fundamental for tasks such as regression, optimization, sensor fusion, and control. Often, systems are overdetermined or underdetermined, requiring generalized inverses. This experiment explores the concepts of left inverse, right inverse, and pseudo-inverse (Moore–Penrose inverse) in MATLAB. Students will learn to compute these inverses and apply them to solve linear systems, especially when the matrix is not square or invertible. Mastery of these techniques is essential for data fitting, state estimation, and machine learning model training.
+Lab Activity
+Computing left inverse, right inverse, and pseudo-inverse using MATLAB, and solving linear systems for full-rank, overdetermined, and underdetermined cases.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to identify and perform vector and matrix operations in MATLAB.
+Description
+Details
+Tools Required
+MATLAB Command Window, Editor, Workspace.
+Left Inverse
+For a tall matrix 𝐴 (𝑚 > 𝑛) with full column rank, 𝐴𝐿 = (𝐴𝑇𝐴)−1𝐴𝑇.
+Right Inverse
+For a wide matrix 𝐴 (𝑚 < 𝑛) with full row rank, 𝐴𝑅 = 𝐴𝑇(𝐴𝐴𝑇)−1.
+Pseudo-Inverse (Moore–Penrose)
+Generalizedinverseforanymatrix,computedusing pinv(A). Solves 𝐴𝑥 = 𝑏 in least-squares sense.
+LinearSystem Solution
+Using \ operator (backslash) or inv() for square systems, pinv() for others.
+Rank of a Matrix
+Determines if left/right inverses exist. Computed via rank(A).
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Direct input of inverse and system-solving commands.
+Workspace
+Check matrix dimensions, rank, and inverse results.
+Editor/Script File
+Write reusable scripts for different inverse cases.
+Command History
+Review previously used inverse commands.
+Current Folder
+Manage script files and data for linear systems.
+MATLAB
+Functions
+pinv(), inv(), rank(), mldivide() (backslash \), rref().
+MATLAB Commands Used
+For each operation, give the commands with example:
+Operation
+Command(s)
+Compute Left Inverse
+A_left = inv(A' * A) * A'
+Compute Right Inverse
+A_right = A' * inv(A * A')
+Compute Pseudo-Inverse
+A_pinv = pinv(A)
+Solve Linear System (Square)
+x = A \ y or x = inv(A) * y
+Solve Overdetermined System
+x = A \ y or x = pinv(A) * y (Least squares)
+Solve Underdetermined System
+x = pinv(A) * y (Minimum norm solution)
+Check Rank
+r = rank(A)
+Compute Residual Error
+res = b - A * x; RMSE = sqrt(mean(res.^2))
+Problem Statement
+An intelligent robotic system uses sensor measurements to estimate its position and velocity. The system is modeled using linear equations where the measurement matrix may not be square.
+Thefollowingscenarioshavebeenidentified:
+Measurement Matrix 𝑯 (𝟒 × 𝟑, tall matrix):
+𝐻 = [1 2 3; 4 5 6; 7 8 9; 10 11 12]
+State-to-Measurement Matrix 𝑮 (𝟐 × 𝟒, wide matrix):
+𝐺 = [1 0 2 1; 0 1 1 2]
+Measurement Vector 𝒚 (𝟒 × 𝟏):
+Desired Output Vector 𝒅 (𝟐 × 𝟏):
+𝑦 = [3; 7; 11; 15]
+𝑑 = [4; 5]
+Tasks
+Inverse Computations
+Compute the left inverse of H (if it exists) and verify 𝐻𝐿 ⋅ 𝐻 ≈ 𝐼.
+Compute the right inverse of G (if it exists) and verify 𝐺 ⋅ 𝐺𝑅 ≈ 𝐼.
+Compute the pseudo-inverse of both 𝐻 and 𝐺 using pinv().
+Solving Linear Systems:
+Solve 𝐻 ⋅ 𝑥 = 𝑦 using:
+Left inverse method
+Pseudo-inverse method
+MATLAB’s backslash operator \
+Compare the solutions and residual errors.
+Solve 𝐺 ⋅ 𝑧 = 𝑑 using:
+Right inverse method
+Pseudo-inverse method
+Backslash operator
+Analyse which solution has the smallest norm.
+Results and Inference
+Summarize the findings regarding the applicability of left/right inverses, the role of the pseudo-inverse in solving inconsistent or rank-deficient systems, and the practical implications for sensor fusion in intelligent robotic systems.
+Viva Questions
+Under what conditions does a left inverse or right inverse exist, and how does the rank of a matrix determine this?
+Answer: A left inverse exists for a 'tall' matrix ($m > n$) if it has full column rank ($r = n$). A right inverse exists for a 'wide' matrix ($m < n$) if it has full row rank ($r = m$).
+Explain the difference between pinv(A) and inv(A) in MATLAB. When would you use each?
+How does the pseudo-inverse provide a least-squares solution to an overdetermined system?
+Answer: For $Ax = b$, the pseudo-inverse $x = A^+ b$ calculates the vector $x$ that minimizes the Euclidean norm of the residual error $||Ax - b||^2$.
+In intelligent systems, why might we encounter underdetermined linear systems, and how does the pseudo-inverse help in such cases?
+Answer: Underdetermined systems occur when there are more unknown variables than equations (e.g., controlling a robotic arm with redundant joints). The pseudo-inverse helps by finding the solution $x$ that has the minimum $L_2$ norm, ensuring optimal energy or minimal movement.
+Describe a real-world application in robotics or signal processing where the Moore– Penrose inverse is essential.
+IHow does the concept of the pseudo-inverse relate to the Singular Value Decomposition (SVD), and why is SVD often used for robust computation of pinv in numerical software?
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Projections, Least Squares Approximation, and Linear Regression
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic,
+Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Projections, Least Squares Approximation, and Linear Regression
+Experiment Background:
+In intelligent systems, data often contains noise and errors, making exact solutions to linear systems impractical. Projection onto subspaces provides the mathematical foundation for finding optimal approximations when data cannot be perfectly modeled. This experiment explores orthogonal projection, least squares approximation, and linear regression — fundamental techniques for data fitting, prediction, and machine learning. Students will implement these concepts in MATLAB to project vectors onto subspaces, solve overdetermined systems using least squares, and perform linear regression with real-world datasets, developing skills essential for pattern recognition, predictive modeling, and intelligent data analysis.
+Lab Activity
+Implementing vector projection, subspace projection, least squares approximation, and linear regression models using MATLAB, including visualization and error analysis.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform projection and regression operations in MATLAB.
+Description
+Details
+Tools Required
+MATLAB Command Window, Editor, Figure Window for plots,
+Statistics Toolbox.
+Orthogonal Projection
+Projection of vector 𝑏 onto vector 𝑎: proj 𝑏 = 𝑎⋅𝑏 𝑎.
+𝑎𝑎⋅𝑎
+Projectiononto Subspace
+For matrix 𝐴 with orthonormal columns 𝑄: proj 𝑏 = 𝑄𝑄𝑇𝑏
+𝐴
+General case: proj 𝑏 = 𝐴(𝐴𝑇𝐴)−1𝐴𝑇𝑏.
+𝐴
+LeastSquares Solution
+Solution to 𝐴𝑥 = 𝑏 minimizing ∥ 𝐴𝑥 − 𝑏 ∥2:
+𝑥 = (𝐴𝑇𝐴)−1𝐴𝑇𝑏 Computed in MATLAB as 𝑥 = 𝐴\𝑏 or 𝑥 = pinv(𝐴) ∗
+𝑏
+Linear Regression
+Statistical model 𝑦 = 𝑋𝛽 + 𝜖, where 𝛽 is found via least squares.
+Residual/Error Analysis
+residual= 𝑏 − 𝐴𝑥, RMSE = √mean(residual2).
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute projection formulas, regression commands.
+Workspace
+Inspect projection matrices, regression coefficients, residuals.
+Editor/Script File
+Write scripts for projection algorithms and regression models.
+Current Folder
+Store and access datasets for regression analysis.
+Figure Window
+Visualize data points, regression lines, and projection vectors.
+MATLAB
+Functions
+dot(), norm(), orth(), plot(), polyfit(), regress(), lsqnonneg(), fitlm() (Statistics Toolbox).
+MATLAB Commands Used
+For each operation, give the commands with example:
+Operation
+Command(s)
+Project Vector onto Vector
+p = (dot(a, b) / dot(a, a)) * a
+Project Vector onto Column Space
+P = A * inv(A' * A) * A'; p = P * b
+Compute Orthonormal Basis
+Q = orth(A)
+Least Squares Solution
+x = A \ b or x = inv(A' * A) * (A' * b)
+Compute Residual Error
+res = b - A * x; RMSE = sqrt(mean(res.^2))
+Simple Linear Regression
+beta = polyfit(x, y, 1) or mdl = fitlm(x, y)
+Multiple Linear Regression
+beta = X \ y (where X includes column of ones)
+Plot Regression with Data
+plot(x, y, 'o', x, polyval(beta, x), '-')
+Compute R-squared
+mdl.Rsquared.Ordinary or 1 - sum((y - y_hat).^2)/sum((y - mean(y)).^2)
+Problem Statement
+An intelligent energy management system is being developed to predict electricity consumption based on weather conditions and time of day. The system uses sensor data collected over a week.
+Thefollowingscenarioshavebeenidentified:
+Feature Matrix 𝑿: Contains two features - Temperature (°C) and Hour of Day
+𝑋 = [25, 14; 28, 16; 22, 10; 30, 20; 26, 15; 24, 12; 29, 18]
+(Rows represent days, columns: [Temperature, Hour]).
+Target Vector 𝒚: Electricity Consumption (kWh)
+𝑦 = [120; 145; 110; 160; 130; 115; 150]
+New Measurement Vector 𝒗 to project onto consumption pattern subspace:
+𝑣 = [140; 125; 155]
+Basis Vectors for subspace 𝑺:
+𝑢1 = [1; 0.5; 0.8]
+𝑢2 = [0.3; 1; 0.6]
+Tasks
+Projection Operations:
+Compute the projection of vector v onto the subspace spanned by {𝑢1, 𝑢2}.
+Verify orthogonality of the residual 𝑣 − 𝑝𝑟𝑜𝑗𝑆(𝑣) to both basis vectors.
+Create a 3D plot showing v, the subspace, and the projection.
+Least Squares & Linear Regression:
+Perform multiple linear regression to predict electricity consumption (𝑦) from features
+(𝑋) using least squares.
+Compute the regression coefficients 𝛽 and the predicted values 𝑦2.
+Calculate and plot the residuals. Compute RMSE and R² values.
+Add a column of ones to X for intercept term and repeat regression.
+Compare the results with MATLAB's built-in fitlm function (if Statistics Toolbox available).
+Approximation Analysis:
+Use the regression model to predict consumption for a new day with Temperature=27°𝐶, Hour=17.
+Project this new prediction point onto the 2D feature space and visualize.
+Results and Inference
+Summarize the findings regarding projection accuracy, regression model performance, and the practical implications for intelligent energy prediction systems. Discuss how subspace projection aids in feature understanding and how least squares optimization enables reliable predictions from noisy sensor data.
+Viva Questions
+Explain the geometric interpretation of orthogonal projection and why it minimizes the error in the least squares sense.
+Answer: Orthogonal projection drops a perpendicular line from the target vector $b$ onto the subspace defined by $A$. The orthogonal projection is the shortest path between $b$ and the subspace, geometrically proving it minimizes the error magnitude $||Ax - b||$.
+How does multicollinearity in the feature matrix affect least squares solutions, and how can it be detected in MATLAB?
+Answer: Multicollinearity causes the matrix $A^T A$ to be nearly singular, resulting in highly sensitive and unstable coefficients. It can be detected in MATLAB by checking the condition number `cond(A^T*A)` or evaluating Variance Inflation Factors (VIF).
+Compare and contrast the normal equations method (𝐴𝑇𝐴)−1𝐴𝑇𝑏 with QR decomposition for solving least squares problems numerically.
+In intelligent systems, when would you choose polynomial regression over linear regression, and what are the risks of overfitting?
+Answer: Polynomial regression is chosen when the underlying data exhibits nonlinear curvature explicitly. The risk is overfitting, where the high-degree polynomial models the noise rather than the underlying trend, leading to poor generalization on unseen data.
+How does ridge regression (L2 regularization) modify the least squares objective, and why is it useful for intelligent systems with high-dimensional data?
+Answer: Ridge regression adds a penalty term $\lambda ||x||^2$ to the least squares objective. This forces coefficients to be small, stabilizing the inversion of $(A^T A + \lambda I)$ and preventing overfitting, specially when variables outnumber samples.
+Describe how projection onto subspaces is used in dimensionality reduction techniques like Principal Component Analysis (PCA) and its role in intelligent data preprocessing.
+Answer: PCA finds a new orthogonal basis (subspace) corresponding to the highest variance in data. Projecting the original high-dimensional data onto this lower-dimensional subspace reduces noise and computational cost while preserving critical features for machine learning pipelines.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Eigenvalues, Eigenvectors, characteristic polynomial
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic,
+Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Eigenvalues, Eigenvectors, characteristic polynomial.
+Experiment Background:
+Eigenvalues and eigenvectors are fundamental concepts in linear algebra with extensive applications in intelligent systems, including stability analysis, principal component analysis (PCA), vibration analysis, and machine learning algorithms. Eigenvalues represent the scaling factors by which eigenvectors are transformed when a linear transformation is applied. The characteristic polynomial provides a systematic way to compute eigenvalues. This experiment focuses on computing eigenvalues and eigenvectors of matrices, analyzing their properties, and understanding their significance in intelligent systems. Through MATLAB implementation, students will gain practical skills in spectral decomposition and its applications in data science and engineering.
+Lab Activity
+Computing eigenvalues, eigenvectors, and characteristic polynomials of matrices using MATLAB, analyzing their properties, and visualizing eigenvector transformations.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform eigenvalue computations in MATLAB.
+Description
+Details
+Tools Required
+MATLAB Command Window, Editor, Figure Window for visualization.
+Eigenvalue (𝜆)
+A scalar such that 𝐴v = 𝜆v for eigenvector v.
+Eigenvector (𝑣)
+A non-zero vector that only scales when linear transformation 𝐴 is applied.
+Characteristic
+Polynomial
+𝑝(𝜆) = det(𝐴 − 𝜆𝐼), whose roots are eigenvalues.
+Spectral Decomposition
+𝐴 = 𝑉𝛬𝑉−1, where 𝑉 contains eigenvectors and 𝚲 contains eigenvalues.
+Diagonalizability
+A matrix is diagonalizable if it has a complete set of linearly independent eigenvectors.
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute eigenvalue/eigenvector commands.
+Workspace
+Inspect eigenvalues, eigenvectors, and matrices.
+Editor/Script File
+Write scripts for repeated eigenvalue analysis.
+Current Folder
+Store and access matrix data files.
+Figure Window
+Visualize eigenvectors and transformations.
+MATLAB
+Functions
+eig(), poly(), det(), trace(), rank(), svd(), schur().
+MATLAB Commands Used
+For each operation, give the commands with example:
+Operation
+Command(s)
+Compute Eigenvalues
+e = eig(A)
+Compute Eigenvalues & Eigenvectors
+e = eig(A)
+Characteristic Polynomial
+p = poly(A)
+Find Roots of Characteristic Poly
+r = roots(p)
+Verify Eigenvalue Equation
+norm(A * V - V * D) (should ideally be 0)
+Compute Trace (Sum of Eigenvalues)
+t = trace(A)
+Compute Determinant (Product of Eigenvalues)
+d = det(A)
+Check Diagonalizability
+rank(V) == size(A, 1)
+Power Method Approximation
+e1 = eigs(A, 1) (Finds largest magnitude eigenvalue)
+Problem Statement
+An intelligent vibration monitoring system for a mechanical structure uses eigenvalue analysis to determine natural frequencies and mode shapes. The stiffness and mass matrices of a 3-DOF (DegreeofFreedom)systemaregiven:
+Stiffness Matrix 𝑲 (N/m):
+𝐾 = [20, −10, 0; −10, 30, −10; 0, −10, 20]
+Mass Matrix 𝑴 (kg):
+𝑀 = [2, 0, 0; 0, 3, 0; 0, 0, 2]
+The generalized eigenvalue problem is: 𝐾v = 𝜆𝑀v, where 𝜆 represents 𝜔2 (square of natural frequency) and 𝑣 represents mode shapes.
+Tasks
+Eigenvalue & Eigenvector Computation:
+Solve the standard eigenvalue problem for matrix 𝐴 = 𝑀−1 K using eig().
+Solve the generalized eigenvalue problem 𝐾𝑣 = 𝜆𝑀𝑣 directly using eig(𝐾, 𝑀).
+Compare eigenvalues from both methods and compute natural frequencies 𝜔 = √𝜆.
+Characteristic Polynomial Analysis:
+Compute the characteristic polynomial of matrix A using poly(A).
+Find the roots of the polynomial using roots() and verify they match the eigenvalues.
+Compute the trace and determinant of A and verify relationships with eigenvalues.
+Eigenvector Visualization & Verification:
+Extract eigenvectors from the generalized eigenvalue problem.
+Normalize eigenvectors and verify orthogonality with respect to mass matrix: 𝑉𝑇𝑀𝑉 = 𝐼.
+Create a visualization showing the three mode shapes (eigenvectors) as displacement patterns.
+Stability Analysis:
+A control system matrix is given: 𝐵 = [0.9, 0.2; −0.1, 0.8].
+Compute eigenvalues of 𝐵.
+Determine system stability based on eigenvalue magnitudes (stable if all ∣ 𝜆 ∣< 1).
+Results and Inference
+Summarize the findings regarding natural frequencies, mode shapes, and stability analysis. Discuss how eigenvalue analysis enables intelligent vibration monitoring and predictive maintenance in mechanical systems, and how characteristic polynomials provide insight into system dynamics.
+Viva Questions
+What do eigenvalues and eigenvectors represent in the context of mechanical vibration analysis, and how are they used to determine natural frequencies?
+Answer: Eigenvectors represent the mode shapes (the pattern of vibration), while eigenvalues relate to the square of the natural angular frequencies ($\omega^2$). They characterize how the mechanical system inherently vibrates.
+Explain the relationship between the trace/determinant of a matrix and its eigenvalues.
+Answer: The sum of the eigenvalues equals the trace (sum of diagonal elements) of the matrix. The product of the eigenvalues equals the determinant of the matrix.
+How does MATLAB's eig() function handle repeated or complex eigenvalues, and what precautions should be taken when interpreting such results?
+What is the significance of orthogonal eigenvectors in symmetric matrices, and why does this property simplify many engineering calculations?
+Answer: A symmetric matrix (like mass or stiffness matrices) guarantees real eigenvalues and orthogonal eigenvectors. This allows the system to easily decouple into independent mode shapes, diagonalizing equations of motion without needing matrix inverses.
+Compare the computational efficiency and accuracy of finding eigenvalues via characteristic polynomial roots versus iterative numerical methods.
+Answer: Finding roots of a characteristic polynomial is highly susceptible to numerical instability for large matrices (Wilkinson's polynomials). Iterative methods (like QR algorithm used in `eig()`) are far more computationally stable and efficient for discovering eigenvalues of large systems.
+Describe how eigenvalue decomposition is used in intelligent systems applications such as Principal Component Analysis (PCA) and facial recognition systems.
+Answer: Eigenvalue decomposition is performed on the data's covariance matrix. The eigenvectors forming the 'Eigenfaces' represent the most significant facial variations. Projecting faces onto these eigenvectors dramatically compresses image data, facilitating rapid comparison and recognition.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Numerical Solutions of Differential Equations Using MATLAB
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Numerical Solutions of Differential Equations Using MATLAB
+Experiment Background:
+Differential equations are fundamental to modeling dynamic systems in engineering and intelligent systems. Electrical circuits containing resistors (R), capacitors (C), and inductors (L) are classic examples described by first and second-order differential equations. This experiment focuses on solving these equations numerically using Excel, a widely accessible computational tool. Students will implement numerical methods such as Euler's method and Runge-Kutta techniques to simulate the transient response of RC, RL, and LC circuits. This practical approach develops skills in computational modeling, data visualization, and numerical analysis applicable to control systems, signal processing, and intelligent mechatronics.
+Lab Activity
+Numerical solution of differential equations describing RC, RL, and LC circuits using Excel, including implementation of numerical methods, data visualization, and analysis of circuit responses.
+Tools Required and Important Definitions
+Based on the given objective, list the various tools required with their specifications to perform numerical solutions in Excel.
+Description
+Details
+Tools Required
+Microsoft Excel with Charting Tools, Equation Editor.
+RCCircuit
+Differential Equation
+𝑑𝑉𝑐 = 1 (𝑉𝑠 − 𝑉𝑐) for charging/discharging.
+𝑑𝑡𝑅𝐶
+RLCircuit
+Differential Equation
+𝑑𝑉𝑐 = 1 (𝑉𝑠 − 𝑖𝑅).
+𝑑𝑡𝐿
+LCCircuit
+Differential Equation
+𝑑2𝑉𝑐 +  1  𝑉 = 0 (undamped oscillations).
+𝑑𝑡2𝐿𝐶  𝐶
+Euler's Method
+𝑦(𝑛+1) = 𝑦𝑛 + ℎ ⋅ 𝑓(𝑡𝑛, 𝑦𝑛), where ℎ is step size.
+Numerical Integration
+Using Excel formulas to implement iterative solutions.
+Component Identification
+Before the experiment, write the procedure to identify the Excel components and their functions.
+Excel Component
+Procedure to Identify / Purpose
+Worksheet
+Organize time steps, voltages, currents, and formulas.
+Formula Bar
+Enter and edit numerical method formulas.
+Charts / Graphs
+Visualize voltage/current vs. time responses.
+Data Validation
+Ensure correct input of parameters (𝑅, 𝐿, 𝐶, 𝑉𝑠).
+Solver Add-in
+Optional: Solve for parameters or optimize responses.
+Named Ranges
+Use named cells for parameters for easier reference.
+Excel Commands & Formulas Used
+For each operation, give the Excel formulas with example:
+Operation
+Excel Formula(s)
+Euler Method Implementation
+=B2 + $G$2 * C2 (new_y = old_y + h * f(t, y))
+Voltage in RC Circuit
+dV/dt: *(Vs - Vc)/(R*C)*
+Current in RL Circuit
+di/dt: *(Vs - i*R)/L*
+Second-order LC (Convert to System)
+dV/dt = I/C, dI/dt = -V/L (split into two columns)
+Absolute/Relative Error
+=ABS(Numerical - Analytical) / =ABS(Error/Analytical)
+Time Constant Calculation
+=R * C (RC circuit) or =L / R (RL circuit)
+Create Time Series
+=A2 + $G$2 (where A2 is previous time, G2 is step $h$)
+Insert Chart
+Select Data -> Insert -> Scatter with Smooth Lines
+Problem Statement
+An intelligent sensor system uses RC, RL, and LC circuits for signal conditioning and filtering. Thefollowingcircuitsneedtobeanalyzedfortheirtransientresponse:
+Circuit Parameters:
+RC Circuit: 𝑅 = 10kΩ, 𝐶 = 100𝜇F, 𝑉𝑠 = 12𝑉, initial 𝑉𝑐(0) = 0𝑉.
+RL Circuit: 𝑅 = 100Ω, 𝐿 = 0.1H, 𝑉𝑠 = 5𝑉, initial 𝑖(0) = 0𝐴.
+LC Circuit: 𝐿 = 0.05H, 𝐶 = 100𝜇F, initial 𝑉 (0) = 10𝑉, 𝑑𝑉𝑐 (0) = 0.
+𝑐𝑑𝑡
+Simulation Time: 𝑡 = 0 to 1 second with Δ𝑡 = 0.001 s (1000 steps).
+Tasks
+RC Circuit Analysis:
+Implement Euler's method in Excel to solve the RC circuit differential equation.
+Calculate and plot 𝑉𝑐(𝑡) over 1 second.
+Compute the theoretical time constant 𝜏 = 𝑅𝐶 and mark 1𝜏, 3𝜏, 5𝜏 on the plot.
+ 𝑡 
+−
+Compare numerical results with the analytical solution: 𝑉𝑐(𝑡) = 𝑉𝑠 (1 − 𝑒
+𝑅𝐶).
+RL Circuit Analysis:
+Implement Euler's method for the RL circuit to find 𝑖(𝑡).
+Plot the current response over time.
+Calculate the inductive time constant 𝜏 = 𝐿.
+𝑅
+𝑉𝑅𝑡
+Compare with analytical solution: 𝑖(𝑡) =
+𝑠 (1 − 𝑒− 𝐿 ).
+𝑅
+LC Circuit Analysis:
+Convert the second-order LC differential equation to a system of two first-order equations.
+Implement Euler's method for the system in Excel.
+Plot 𝑉𝑐(𝑡) and 𝐼(𝑡) over 1 second.
+Calculate the natural frequency 𝜔0
+=  1
+√𝐿𝐶
+and compare with oscillation frequency from the plot.
+Comparative Analysis:
+Create a dashboard in Excel comparing all three circuit responses.
+Analyze how each circuit would behave in an intelligent sensing application. (e.g., filtering noise, smoothing signals, resonant detection).
+Results and Inference
+Summarize the numerical accuracy of Euler's method, the transient behavior of each circuit, and the practical implications for designing intelligent electronic systems. Discuss the trade-offs between simulation accuracy and computational efficiency in Excel.
+Viva Questions
+Why is numerical solution necessary for differential equations in engineering applications, and what are the limitations of analytical solutions?
+Answer: Many real-world systems contain non-linear components or complex boundary conditions that make closed-form analytical solutions fundamentally impossible to find.
+Compare Euler's method with more advanced methods like Runge-Kutta. How could you implement a 4th-order Runge-Kutta method in Excel?
+Answer: Euler's Method is 1st order and accumulates significant truncation error over time unless step sizes are incredibly small. RK4 provides much higher accuracy ($O(h^4)$) at larger steps. In Excel, RK4 requires calculating four intermediate slopes ($k_1, k_2, k_3, k_4$) in separate spreadsheet columns, then combining them to find the next state.
+How does step size Δ𝑡 affect the accuracy and stability of numerical solutions in Excel simulations?
+Explain how the time constant 𝜏 characterizes the speed of response in RC and RL circuits, and why it is important in intelligent sensor design.
+How would you modify the Excel simulation to include a time-varying voltage source 𝑉𝑠(𝑡) instead of a constant one?
+Describe how these circuit simulation skills translate to modeling more complex systems in intelligent mechatronics and control engineering.
+Answer: The fundamental skill of turning continuous differential equations into discrete time-steps applies equally to mechanical systems (mass-spring-damper), thermal processes, and PID loop simulations. It is the core basis for predicting arbitrary system behaviors programmatically.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Computation of Velocity and Acceleration
+Answer: Predictive models (like MPC) rely on current kinematic states to forecast future behavior. Without accurate real-time values, the controller will fail to anticipate slip, overshoot, or dynamic obstacles in the operating environment.
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Velocity and Acceleration
+Experiment Background:
+Velocity and acceleration are fundamental kinematic quantities in mechanics and intelligent systems, crucial for motion analysis, trajectory planning, and control of autonomous vehicles and robotic systems. While velocity describes the rate of change of position with respect to time, acceleration represents the rate of change of velocity. In intelligent systems, accurate computation and analysis of these quantities enable predictive control, collision avoidance, and optimal path planning. This experiment focuses on computing velocity and acceleration from position data using numerical differentiation techniques in MATLAB, analyzing motion characteristics, and visualizing kinematic profiles for various motion patterns relevant to mechanical and intelligent systems.
+Lab Activity
+Computing velocity and acceleration from position-time data using numerical differentiation methods in MATLAB, analyzing motion characteristics, and visualizing kinematic profiles for various mechanical systems.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform kinematic analysis in MATLAB.
+Description
+Details
+Tools Required
+MATLABCommandWindow,Editor,FigureWindowfor visualization.
+Velocity (𝑣)
+Rate of change of position: 𝑣 = 𝑑𝑠 or v = 𝑑𝐫 .
+𝑑𝑡𝑑𝑡
+Acceleration (𝑎)
+2
+Rate of change of velocity: 𝑎 = 𝑑𝑣 = 𝑑 𝑠 .
+𝑑𝑡𝑑𝑡2
+Numerical Differentiation
+Approximation of derivatives using finite difference methods.
+ForwardDifference Method
+𝑓′(𝑥) ≈ 𝑓(𝑥+ℎ)−𝑓(𝑥)
+.
+ℎ
+CentralDifference Method
+𝑓′(𝑥) ≈ 𝑓(𝑥+ℎ)−𝑓(𝑥−ℎ) (more accurate).
+2ℎ
+Kinematic Equations
+For constant acceleration: 𝑠 = 𝑢𝑡 + 1 𝑎𝑡2, 𝑣 = 𝑢 + 𝑎𝑡.
+2
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute differentiation commands and kinematic calculations.
+Workspace
+Inspect position, velocity, acceleration arrays.
+Editor / Script File
+Write scripts for numerical differentiation and analysis.
+Figure Window
+Visualize position, velocity, acceleration vs time.
+Current Folder
+Store and access motion data files.
+MATLAB
+Functions
+diff(), gradient(), polyder(), trapz(), plot(), subplot(), legend().
+Excel Commands & Formulas Used
+For each operation, give the commands with example:
+Operation
+Excel Formula(s)
+Numerical Differentiation (diff)
+v = diff(s) ./ diff(t)
+Using gradient() for Derivatives
+v = gradient(s, dt)
+Polynomial Fitting & Derivation
+p = polyfit(t, s, 2); v_p = polyder(p)
+Plot Kinematic Profiles
+plot(t, v, 'LineWidth', 2)
+Compute Displacement from Velocity
+s = cumtrapz(t, v)
+Compute Jerk (𝑑𝑎)
+𝑑𝑡
+Smooth Noisy Data
+s_smooth = smoothdata(s, 'gaussian')
+Problem Statement
+An autonomous robotic vehicle is being tested on a test track. Position data (in meters) has been recorded at regular time intervals (in seconds) by its onboard GPS and inertial sensors. The vehicle performs three different motion segments: constant velocity, accelerated motion, and deceleratedmotion.
+Motion Data:
+Time vector: 𝑡 = 0: 0.1: 10; (101 data points from 0 to 10 seconds)
+Position data (x-coordinate):
+% Segment 1 (0-3s): Constant velocity motion
+% Segment 2 (3-7s): Accelerated motion
+% Segment 3 (7-10s): Decelerated motion to stop
+x = zeros(size(t)); for i = 1:length(t)
+if t(i) <= 3
+x(i) = 5*t(i);% Constant velocity: 5 m/s elseif t(i) <= 7
+x(i) = 15 + 5*(t(i)-3) + 2*(t(i)-3).^2; % Acceleration: 4 m/s² else
+x(i) = 63 + 21*(t(i)-7) - 3*(t(i)-7).^2; % Deceleration: -6 m/s² end
+end
+Additional Data for 2D Motion Analysis:
+Y-position data: y = 2*sin(0.5*t) + 0.1*t.^2;
+Tasks
+1D Motion Analysis (x-direction only):
+Compute velocity and acceleration using both diff() and gradient() methods.
+Compare the results from both methods and identify which provides better accuracy at boundaries.
+Plot position, velocity, and acceleration versus time on separate subplots.
+Identify the maximum velocity and acceleration achieved during the test.
+2D Motion Analysis:
+Compute velocity components in x and y directions.
+Calculate magnitude of velocity (speed) and direction (angle) at each time point.
+Compute acceleration components and magnitude.
+Create a 2D trajectory plot showing the path of the vehicle with color coding indicating speed.
+Plot velocity and acceleration vectors at selected time points on the trajectory.
+Numerical Accuracy Analysis:
+Add random noise to the position data: x_noisy = x + 0.1*randn(size(x));
+Recompute velocity and acceleration from noisy data.
+Apply smoothing techniques (moving average or smoothdata()) and compare results.
+Calculate the error in velocity and acceleration estimates due to noise.
+Energy Analysis:
+Assuming vehicle mass = 500 kg, compute kinetic energy:
+Plot kinetic energy versus time.
+𝐾𝐸 =
+1 𝑚𝑣2.
+2
+Compute work done using acceleration data and compare with change in kinetic energy.
+Results and Inference
+Summarize the kinematic behavior of the autonomous vehicle, compare numerical differentiation methods, analyze the effects of measurement noise, and discuss the implications for intelligent motion planning and control systems in mechanical engineering applications.
+Viva Questions
+Explain the differences between forward, backward, and central difference methods for numerical differentiation. Which is most suitable for computing velocity from experimental data?
+Answer: Forward uses current and next points, backward uses current and previous points. Both have $O(h)$ error. Central difference averages both and has a higher $O(h^2)$ accuracy, making it strictly superior (except at boundaries). Central difference is the most suitable due to its symmetry and precision.
+How does measurement noise in position data affect computed velocity and acceleration, and what filtering techniques can mitigate these effects?
+Answer: Numerical derivatives drastically amplify high-frequency noise because they calculate the slope between tightly-packed adjacent noisy data points. Applying low-pass filters like moving averages or Savitzky-Golay filters smoothing algorithms mitigates these effects before computing derivatives.
+In the context of intelligent vehicles, why is jerk (rate of change of acceleration) an important parameter, and how would you compute it in MATLAB?
+Answer: Jerk governs passenger comfort and mechanical wear on drivetrain actuators. High jerk means abrupt changes in acceleration, damaging structural integrity. In MATLAB, jerk is computed by taking the numerical derivative of the acceleration signal: `jerk = gradient(acceleration, dt)`.
+Compare the use of diff() and gradient() functions in MATLAB for kinematic analysis. When would you prefer one over the other?
+How can numerical integration of acceleration data be used to estimate velocity and position when only acceleration measurements are available?
+Answer: You can reconstruct velocity by integrating acceleration (e.g., using `trapz()` iteratively or `cumtrapz()`), and reconstruct position by integrating the newly calculated velocity. This requires known initial conditions.
+Describe how real-time computation of velocity and acceleration is crucial for predictive control algorithms in autonomous robotic systems.
+Answer: Predictive models (like MPC) rely on current kinematic states to forecast future behavior. Without accurate real-time values, the controller will fail to anticipate slip, overshoot, or dynamic obstacles in the operating environment.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Numerical Evaluation of Definite Integrals
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Numerical Evaluation of Definite Integrals
+Experiment Background:
+Numerical integration is a fundamental computational technique in mathematics and engineering, essential for solving problems where analytical integration is difficult or impossible. In intelligent systems and mechanical engineering, definite integrals appear in areas such as signal processing, control system design, probability distributions, and energy calculations. This experiment focuses on implementing and comparing various numerical integration methods in MATLAB, including the Trapezoidal Rule, Simpson's Rule, and Gaussian Quadrature. Students will develop skills in approximating definite integrals, analyzing error characteristics, and applying these techniques to practical engineering problems where exact solutions are unavailable.
+Lab Activity
+Implementing numerical integration methods in MATLAB to approximate definite integrals, comparing their accuracy and efficiency, and applying these techniques to engineering problems relevant to intelligent systems.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform numerical integration in MATLAB.
+Description
+Details
+Tools Required
+MATLABCommandWindow,Editor,FigureWindowfor visualization.
+Definite Integral
+𝑏
+∫𝑎 𝑓(𝑥) 𝑑𝑥 represents the signed area under 𝑓(𝑥) from 𝑎 to 𝑏 .
+Trapezoidal Rule
+𝑏ℎ
+∫ 𝑓(𝑥) 𝑑𝑥 ≈[𝑓(𝑥0) + 2 ∑𝑛−1 𝑓(𝑥𝑖) + 𝑓(𝑥𝑛)] .
+𝑎2𝑖=1
+Simpson's 1 Rule
+3
+𝑏ℎ
+∫𝑎 𝑓(𝑥) 𝑑𝑥 ≈ 3 [𝑓(𝑥0) + 4 ∑𝑖=1,3,5,… 𝑓(𝑥𝑖) + 2 ∑𝑖=2,4,6,… 𝑓(𝑥𝑖) +
+𝑓(𝑥𝑛)].
+Gaussian Quadrature
+1ℎ
+∫𝑓(𝑥) 𝑑𝑥 ≈∑𝑛𝑤 𝑓(𝑥 ) using optimized weights and nodes.
+−12𝑖=1  𝑖𝑖
+NumericalError Analysis
+AbsoluteError=∣ Exact − Approximate ∣,RelativeError
+= Absolute Error.
+∣Exact∣
+Kinematic Equations
+For constant acceleration: 𝑠 = 𝑢𝑡 + 1 𝑎𝑡2, 𝑣 = 𝑢 + 𝑎𝑡.
+2
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute integration commands and compare results.
+Workspace
+Inspect integral approximations, errors, and parameters.
+Editor / Script File
+Write functions for different integration methods.
+Figure Window
+Visualize functions and integration approximations.
+Current Folder
+Store integration scripts and data files.
+MATLAB
+Functions
+trapz(), integral(), quad(), quadgk(), polyint(), polyval().
+MATLAB Commands & Formulas Used
+For each operation, give the commands with example:
+Operation
+Command(s)
+Trapezoidal Rule (built-in)
+Q = trapz(x, y)
+Adaptive Numerical Integration
+Q = integral(fun, a, b) or quadgk(fun, a, b)
+Simpson's Rule Implementation
+(h/3)*(y(1) + 4*sum(y(2:2:end-1)) + 2*sum(y(3:2:end-2)) + y(end))
+Gaussian Quadrature
+[x, w] = lgwt(N, a, b); Q = w'*f(x) (requires custom/external function)
+Monte Carlo Integration
+mean(f(rand(1, N)*(b-a))) * (b-a)
+Composite Methods
+Iteration splitting integral domain using loops
+Error Calculation
+err = abs(double(subs(f, x, val)) - double(subs(T, x, val)))
+Plot Function & Approximation
+plot(x, y); hold on; area(x_nodes, y_nodes);
+Plot Function & Approximation
+plot(x, y); hold on; area(x_nodes, y_nodes);
+Problem Statement
+An intelligent energy management system for a mechanical assembly line requires calculation of total energy consumption over a production cycle. The power consumption rate 𝑃(𝑡) (in kW) varies with time according to complex patterns that cannot be integrated analytically.
+Additionally, stress distribution analysis in a mechanical component requires integration of non- standard functions.
+Integration Problems:
+Energy Consumption Problem:
+Position data (x-coordinate):
+00Power function: 𝑃(𝑡) = 50 + 10sin(2𝜋𝑡/8) + 5𝑒−0.2𝑡cos(3𝑡) for 𝑡 ∈ [0,24] hours Total energy consumed: 𝐸 = ∫24 𝑃(𝑡)𝑑𝑡 (in kWh)
+0
+0
+Stress Distribution Problem:
+Stress function: 𝜎(𝑥) = 1000 + 50 sin(𝜋𝑥) for 𝑥 ∈ [0,5] meters
+1+𝑥2
+00Total force: 𝐹 = ∫5 𝜎(𝑥)𝑑𝑥 (in N)
+0
+0
+Average stress: 𝜎ˉ = 1 ∫5 𝜎(𝑥)𝑑𝑥
+5 0
+Probability Calculation (Gaussian-like):
+Function: 𝑓(𝑥) =  1
+√2𝜋
+𝑒−𝑥2/2 for 𝑥 ∈ [−3,3]
+−3−3Approximate probability: 𝑃 = ∫3
+−3
+−3
+𝑓(𝑥)𝑑𝑥 (should be ≈ 0.9973)
+Tasks
+Implementation of Numerical Methods:
+Composite Trapezoidal Rule (with adjustable segments n)
+Composite Simpson's 1/3 Rule (n must be even)
+3-point Gaussian Quadrature
+Apply each method to all three integration problems.
+Built-in MATLAB Functions:
+Solve each problem using:
+trapz() with different numbers of points (10, 100, 1000)
+integral() with default and custom tolerances
+quadgk() for adaptive Gauss-Kronrod quadrature
+Compare results and computation times.
+Accuracy Analysis:
+For Problem 3, compute the exact integral symbolically using int().
+For all methods, calculate absolute and relative errors.
+Create a table comparing methods by accuracy and computational efficiency.
+Plot error vs. number of function evaluations for different methods.
+Convergence Study:
+For the trapezoidal and Simpson's rules, vary n from 4 to 1000 (doubling each time).
+Plot error vs. n on a log-log scale and estimate the convergence rate.
+Verify theoretical convergence rates: 𝑂(ℎ2) for trapezoidal, 𝑂(ℎ4) for Simpson's.
+Engineering Application:
+For the energy problem, interpret the result in practical terms.
+For the stress problem, calculate additional metrics:
+Root-mean-square stress: 𝜎= √1 ∫5 𝜎(𝑥)2𝑑𝑥 .
+𝑟𝑚𝑠5 0
+Maximum stress concentration factor.
+Results and Inference
+Summarize the performance of different numerical integration methods, analyze their error characteristics and convergence rates, and discuss their suitability for various engineering applications in intelligent systems and mechanical engineering.
+Viva Questions
+Explain why numerical integration is necessary in engineering applications and give examples where analytical integration fails.
+Answer: Many real functions (like $\int e^{-x^2} dx$) or sensor-measured discrete data cannot be integrated analytically. Integrating area under an arbitrary sensor trace over time strictly requires numerical summation.
+Compare the theoretical error bounds for Trapezoidal Rule and Simpson's Rule. Why does Simpson's Rule generally provide better accuracy?
+Answer: Trapezoidal error scales with $O(h^2)$ by fitting lines between points. Simpson's error scales with $O(h^4)$ by fitting parabolic arcs over contiguous three points segment. Using higher-order polynomial arcs naturally shrinks geometric approximation error.
+How does adaptive quadrature (as in integral() or quadgk()) improve efficiency compared to fixed-step methods?
+What is the principle behind Gaussian Quadrature, and why can it achieve high accuracy with few function evaluations?
+Answer: Instead of using evenly spaced points, Gaussian Quadrature intelligently picks optimal node placement and corresponding optimal weights. An N-point Gaussian rule guarantees an exact integral for a polynomial of degree up to $2N-1$.
+Discuss the trade-off between accuracy and computational cost in numerical integration. When would you choose a simpler method over a more accurate one?
+Answer: Higher accuracy techniques (like high-order Gaussian Quadrature) run complex algorithms per node. For ultra-dense datasets streaming from hardware (like 1MHz voltage readings), simple $O(h^2)$ trapezoidal sums are mathematically adequate to eliminate error while minimizing CPU time.
+How are numerical integration techniques applied in real-time intelligent systems for tasks such as sensor data processing or control system implementation?
+Answer: In IMU processing, gyroscope data is numerically integrated to estimate tilt angles, and PID controllers dynamically compute the `Integral` term across arbitrary time steps to eliminate steady-state error.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Taylor series expansion for single and multi-variable functions
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Taylor series expansion for single and multi-variable functions
+Experiment Background:
+Taylor series expansions are powerful mathematical tools that approximate complex functions using polynomials, enabling simplification and analysis in engineering and intelligent systems. For single-variable functions, Taylor series provide local approximations around a point using derivatives. For multi-variable functions, these expansions become essential in optimization, machine learning, and control theory where functions depend on multiple inputs. This experiment focuses on deriving, implementing, and applying Taylor series expansions in MATLAB for both single and multi-variable cases. Students will learn to approximate functions, analyze truncation errors, and apply these techniques to problems in mechanical systems and intelligent control.
+Lab Activity
+Implementing Taylor series expansions for single and multi-variable functions in MATLAB, analyzing approximation accuracy, and applying these expansions to engineering optimization and system linearization problems.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform Taylor series computations in MATLAB.
+Description
+Details
+Tools Required
+MATLAB Command Window, Editor, Figure Window, Symbolic
+Math Toolbox.
+Single-Variable Taylor Series
+′′( )𝑛( )
+𝑓(𝑥) ≈ 𝑓(𝑎) + 𝑓′(𝑎)(𝑥 − 𝑎) + 𝑓  𝑎 (𝑥 − 𝑎)2 + ⋯ + 𝑓  𝑎 (𝑥 −
+2!𝑛!
+𝑎)𝑛.
+Multi-Variable Taylor Series (2 variables)
+𝑓(𝑥, 𝑦) ≈ 𝑓(𝑎, 𝑏) + 𝑓𝑥(𝑎, 𝑏)(𝑥 − 𝑎) + 𝑓𝑦(𝑎, 𝑏)(𝑦 − 𝑏)
+1
++[𝑓𝑥𝑥(𝑎, 𝑏)(𝑥 − 𝑎)2 + 2𝑓𝑥𝑦(𝑎, 𝑏)(𝑥 − 𝑎)(𝑦 − 𝑏) 2!
++ 𝑓𝑦𝑦(𝑎, 𝑏)(𝑦 − 𝑏)2] + ⋯
+Maclaurin Series
+Taylor series expansion around 𝑎 = 0
+RemainderTerm (Lagrange form)
+𝑅 (𝑥) = 𝑓 (𝑛+1)(𝑐) (𝑥 − 𝑎)𝑛+1 for some 𝑐 between 𝑎 and 𝑥.
+𝑛(𝑛+1)!
+Hessian Matrix
+𝑓𝑥𝑥𝑓𝑥𝑦 For multi-variable functions: 𝐻 = [𝑓𝑓 ].
+𝑦𝑥𝑦𝑦
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute Taylor series commands and evaluate approximations.
+Workspace
+Inspect coefficients, approximations, and error terms.
+Editor / Script File
+Write functions for Taylor series generation.
+Figure Window
+Visualize function and Taylor approximations.
+Current Folder
+Store Taylor series scripts and data.
+MATLAB
+Functions
+taylor(), diff(), subs(), symsum(), jacobian(), hessian(), ezsurf().
+Excel Commands & Formulas Used
+For each operation, give the commands with example:
+Operation
+Excel Formula(s)
+Symbolic Taylor Series (1D)
+taylor(f, x, 'ExpansionPoint', 0, 'Order', 6)
+Manual Taylor Coefficients
+subs(diff(f, x, n), x, 0) / factorial(n)
+Evaluate Taylor Approximation
+val = subs(T_expr, x, 0.5) or double(val)
+Multi-Variable Taylor (Symbolic)
+taylor(f, [x, y], [a, b], 'Order', 3)
+Jacobian Computation
+J = jacobian(F, [x, y])
+Hessian Computation
+H = hessian(f, [x, y])
+Error Calculation
+err = abs(double(subs(f, x, val)) - double(subs(T, x, val)))
+3D Visualization
+fsurf(f); hold on; fsurf(T_approx);
+Compare Different Orders
+Iterative plotting of T_2, T_4, T_6 over same domain
+Problem Statement
+An intelligent robotic arm's energy consumption and trajectory optimization require function approximations using Taylor series. The system involves both single-variable and multi-variable functions   that   are   computationally   expensive   to   evaluate   exactly.
+Functions to Analyze:
+Single-Variable Function (Energy Profile):
+𝑓(𝑥) = 𝑒−𝑥2/2cos(3𝑥) for 𝑥 ∈ [−2,2] Expansion point: 𝑎 = 0 (Maclaurin series) Orders to compute: 𝑛 = 2,4,6
+Multi-Variable Function (System Response):
+𝑔(𝑥, 𝑦) = sin(𝑥2 + 𝑦2) +1
+1+𝑥2+𝑦2
+for 𝑥, 𝑦 ∈ [−1,1]
+Expansion point: (𝑎, 𝑏) = (0.5,0.5)
+Compute up to second-order terms
+Engineering Application (Robot Arm Trajectory):
+Potential energy: 𝑈(𝑥, 𝑦) = 𝑥4 − 4𝑥2 + 𝑦4 − 4𝑦2 + 𝑥𝑦
+Find Taylor expansion around equilibrium point (𝑥0, 𝑦0) = (1,1)
+Linearize system for small oscillations
+Tasks
+Single-Variable Taylor Series:
+Compute Maclaurin series (around 0) for f(x) up to 6th order using symbolic taylor().
+Manually compute coefficients using derivatives evaluated at 0.
+Plot f(x) and its Taylor approximations of orders 2, 4, 6 on the same graph.
+Calculate and plot absolute error for each approximation over 𝑥 ∈ [−2,2].
+Determine the order needed for error < 0.01 over the interval.
+Multi-Variable Taylor Series:
+Compute first and second-order Taylor expansions of g(x,y) around (0.5, 0.5).
+Extract gradient (Jacobian) and Hessian matrix at expansion point.
+Create 3D surface plots showing:
+Original function 𝑔(𝑥, 𝑦)
+First-order (linear) approximation
+Second-order (quadratic) approximation
+Compute RMS error for each approximation over a 20 × 20 grid in [−1,1] × [−1,1].
+Engineering Linearization:
+For 𝑈(𝑥, 𝑦), compute Taylor expansion around (1, 1) up to second order.
+Identify equilibrium conditions from gradient vanishing.
+Linearize the system for small displacements: 𝛿𝑥 = 𝑥 − 1, 𝛿𝑦 = 𝑦 − 1
+Express linearized system as: 𝑈 ≈ 𝑈0
++ 1 [𝛿𝑥, 𝛿𝑦]𝐻[𝛿𝑥, 𝛿𝑦]𝑇
+2
+Analyze stability using Hessian eigenvalues.
+Truncation Error Analysis:
+For the single-variable case, estimate the remainder term 𝑅𝑛(𝑥) using Lagrange form.
+Compare estimated error bound with actual maximum error.
+For multi-variable case, derive error term for second-order approximation.
+Investigate how expansion point affects approximation quality.
+Application to Optimization:
+Use first-order Taylor expansion to implement one step of gradient descent for minimizing 𝑈(𝑥, 𝑦).
+Use second-order expansion to implement one step of Newton's method.
+Compare convergence rates from starting point (1.2, 0.8).
+Results and Inference
+Summarize the accuracy of Taylor approximations for different orders and variables, analyze the role of expansion point selection, discuss truncation error behavior, and evaluate the practical utility of Taylor series for linearization in intelligent mechanical systems.
+Viva Questions
+Explain the mathematical foundation of Taylor series and why higher-order terms improve approximation accuracy.
+Answer: Taylor series represents a function as an infinite sum of polynomial terms calculated from derivatives at a single point. Higher-order derivatives match the deeper curvature characteristics (concavity, inflection points) of the function further from the origin point.
+How does the choice of expansion point affect the convergence radius and accuracy of a Taylor series?
+Answer: Functions deviate further from the polynomial the further from the expansion point you evaluate them. Setting the expansion point exactly around the expected system operating point guarantees minimal truncation error for typical inputs.
+Compare and contrast single-variable and multi-variable Taylor expansions. What additional complexities arise in the multi-variable case?
+Answer: Multi-variable expansions introduce cross terms involving mixed partial derivatives. Furthermore, the second-order term explicitly requires computing the 2D/3D Hessian matrix, drastically increasing algorithmic complexity versus single-variable series.
+In the context of intelligent systems, how is Taylor series linearization used in Extended Kalman Filters and other estimation algorithms?
+Answer: EKF linearizes non-linear dynamic models dynamically taking the first-order Taylor expansion (the Jacobian matrix) at every time step's operating point, making non-linear tracking mathematically tenable with simple linear matrix algebra.
+Discuss the computational trade-offs between using higher-order Taylor expansions versus more frequent function evaluations in real-time control systems.
+Answer: Computing third-order Hessian derivatives per real-time frame incurs massive overhead. Frequently updating a cheap first-order expansion (Linear Jacobian iteration) tends to be computationally preferable in real-time controllers than calculating exact high-order terms.
+How can Taylor series be applied to sensitivity analysis in mechanical design and optimization problems?
+Answer: In optimization algorithms like Gradient Descent/Newton's Method, an objective function is locally modeled quadratically via 2nd-order Taylor expansions to mathematically compute the optimal step size and direction for a parameter search.
+Department of Science & Humanities (Mathematics) 23MAT126 – Mathematics for Intelligent Systems–1
+Title of Experiment
+Plotting of two-variable functions-surface plots using parametric representation
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic,
+Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Plotting of two-variable functions-surface plots using parametric representation.
+Experiment Background:
+Visualization of multi-variable functions is essential in intelligent systems and mechanical engineering for understanding complex relationships, analyzing system behaviors, and interpreting data. While explicit functions 𝑧 = 𝑓(𝑥, 𝑦) can be directly visualized, many surfaces in engineering applications are better described using parametric representations. Parametric surfaces define points in 3D space using two parameters (𝑢, 𝑣) rather than explicit coordinates (𝑥, 𝑦, 𝑧). This approach enables visualization of complex geometries, including cylinders, spheres, tori, and other surfaces common in mechanical design. This experiment focuses on creating surface plots in MATLAB using both explicit and parametric representations, with applications to mechanical component design, terrain modeling, and system response visualization.
+Lab Activity
+Creating and analyzing 3D surface plots in MATLAB using both explicit and parametric representations of two-variable functions, with applications to mechanical systems and intelligent data visualization.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform surface plotting in MATLAB.
+Description
+Details
+Tools Required
+MATLAB Command Window, Editor, Figure Window for 3D visualization.
+ExplicitSurface
+Representation
+where 𝑧 = 𝑓(𝑥, 𝑦) is expressed directly in terms of 𝑥 and 𝑦.
+ParametricSurface Representation
+𝑥 = 𝑥(𝑢, 𝑣), 𝑦 = 𝑦(𝑢, 𝑣), 𝑧 = 𝑧(𝑢, 𝑣) where 𝑢, 𝑣 are parameters.
+SurfaceNormal Vector
+Vector perpendicular to the surface at a point, important for lighting and shading.
+Mesh Grid Creation
+𝑅 (𝑥) = 𝑓 (𝑛+1)(𝑐) (𝑥 − 𝑎)𝑛+1 for some 𝑐 between 𝑎 and 𝑥.
+𝑛(𝑛+1)!
+SurfacePlotting Functions
+surf(), mesh(), surfc(), surfl(), ezsurf(), fmesh(), fsurf().
+Parameter Domain
+The region in (𝑢, 𝑣)-space over which the surface is defined.
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute plotting commands and visualize surfaces.
+Workspace
+Inspect coordinate matrices, parameter arrays.
+Editor / Script File
+Write scripts for complex surface generation.
+Figure Window
+Display 3D surface plots with interactive rotation.
+Current Folder
+Store surface plotting scripts and data.
+MATLAB
+Functions
+meshgrid(), surf(), mesh(), colormap(), light(), view(), axis(), subplot().
+MATLAB Commands & Formulas Used
+For each operation, give the commands with example:
+Operation
+Command(s)
+Create Mesh Grid
+[X, Y] = meshgrid(-2:0.1:2, -2:0.1:2)
+Explicit Surface Plot
+surf(X, Y, Z)
+Parametric Surface (Sphere)
+[x,y,z] = sphere(50); surf(x,y,z);
+Multiple Subplots
+subplot(2, 2, 1); surf(X,Y,Z);
+Surface with Contours
+surfc(X, Y, Z)
+Lit Surface
+surfl(X, Y, Z); shading interp;
+Color Mapping
+colormap('jet') or colormap('parula')
+View Control
+view(45, 30) (azimuth, elevation)
+Axis Configuration
+axis equal; axis tight;
+Transparency
+alpha(0.6) or surf(..., 'FaceAlpha', 0.5)
+Save Figure
+saveas(gcf, 'surface_plot.png')
+Problem Statement
+An intelligent robotic system requires visualization of complex surfaces for path planning and obstacle avoidance. The system includes mechanical components with various surface geometries that need to be analyzed. Additionally, terrain mapping for autonomous navigation requires visualizationofelevationdata.
+Surface Visualization Tasks:
+Explicit Surface (Terrain Model):
+Function: 𝑧(𝑥, 𝑦) = 5𝑒−0.1(𝑥2+𝑦2)sin(𝑥)cos(𝑦)
+Domain: 𝑥 ∈ [−5,5], 𝑦 ∈ [−5,5]
+Create surface plot with contour lines
+Parametric Surface (Mechanical Component - Torus):
+Parameters: 𝑢 ∈ [0,2𝜋], 𝑣 ∈ [0,2𝜋]
+Equations:
+𝑥(𝑢, 𝑣) = (𝑅 + 𝑟cos 𝑣)cos 𝑢
+𝑦(𝑢, 𝑣) = (𝑅 + 𝑟cos 𝑣)sin 𝑢
+𝑧(𝑢, 𝑣) = 𝑟sin 𝑣
+Use 𝑅 = 3 (major radius), 𝑟 = 1 (minor radius)
+Parametric Surface (Helical Spring): Parameters: 𝑡 ∈ [0,6𝜋], 𝜃 ∈ [0,2𝜋] Equations:
+𝑥(𝑡, 𝜃) = (2 + 0.3cos 𝜃)cos 𝑡
+𝑦(𝑡, 𝜃) = (2 + 0.3cos 𝜃)sin 𝑡
+𝑡
+𝑧(𝑡, 𝜃) =
+ + 0.3 sin 𝜃 3
+Complex Explicit Surface (System Response):
+Function: 𝑓(𝑥, 𝑦) = sin(√𝑥2+𝑦2) (avoid singularity at origin)
+√𝑥2+𝑦2
+Domain: 𝑥, 𝑦 ∈ [−10,10] excluding origin region
+Tasks
+Basic Surface Plotting:
+For the terrain model, create a mesh grid with 50 × 50 points.
+Generate surface plot using surf() with 'jet' colormap.
+Add contour lines using surfc().
+Label axes and add title "Terrain Elevation Model".
+Create a second plot using mesh() and compare visualization styles.
+Parametric Surface Generation:
+Generate the torus surface using parametric equations.
+Plot with surf() using different colormaps ('parula', 'hsv').
+Adjust lighting using surfl() and light() functions.
+Create a transparent version using alpha(0.6).
+Plot the helical spring surface showing the 3D spiral structure.
+Multi-Plot Comparison:
+Create a 2 × 2 subplot showing:
+Top-left: Terrain model (explicit)
+Top-right: Torus (parametric)
+Bottom-left: Helical spring (parametric)
+Bottom-right: Complex explicit surface with singularity handling
+Use consistent color scheme across all plots.
+Add different viewpoints using view(az, el) for each subplot.
+Surface Analysis:
+For the terrain model:
+Calculate and display maximum and minimum elevation
+Compute average elevation
+Identify saddle points visually
+For the torus:
+Calculate surface area numerically using discretization
+Compute approximate volume
+Create a histogram of surface heights for the terrain model
+Advanced Visualization:
+Plot the terrain model with superimposed gradient vectors showing slope direction.
+Create an animation showing rotation of the torus (use loop with varying view() angles).
+Generate a 3D contour plot of the terrain model at different elevation levels.
+Plot all surfaces together in one figure to show relative sizes and shapes.
+Advanced Visualization:
+Simulate a robotic arm end-effector moving along a path on the helical spring surface.
+Mark specific points of interest on the terrain model (potential robot waypoints).
+Calculate surface normals at selected points on each surface.
+Create a wireframe plot (mesh()) of the complex surface to see internal structure.
+Results and Inference
+Summarize the visualization techniques for different surface types, analyze the advantages of parametric representations for complex geometries, discuss the role of surface visualization in mechanical design and robotic path planning, and evaluate MATLAB's capabilities for 3D data representation in intelligent systems.
+Viva Questions
+Explain the difference between explicit and parametric surface representations. When would you choose one over the other?
+Answer: Explicit curves are strictly defined as $Z = f(X, Y)$, mapping 2D grids to height maps (e.g., altitude maps). Parametric representations map arrays parameterized by variables like angle or time $(X(u,v), Y(u,v), Z(u,v))$, needed for self-intersecting or fully enclosed structures like spheres or toruses.
+How does MATLAB's meshgrid() function work, and why is it essential for surface plotting?
+Discuss the role of surface normals in computer graphics and mechanical analysis. How can they be computed from a parametric surface?
+Answer: Surface normals dictate how light reflects accurately in graphics or the angle of structural forces pointing outward. They are mathematically derived by computing the cross product of the two partial derivative tangent vectors $(\partial P/\partial u \times \partial P/\partial v)$.
+What are the advantages of using parametric representations for complex mechanical components like gears or turbine blades?
+Answer: Strictly $Z=f(X,Y)$ limits you to one $Z$ height per $XY$ coordinate on blades forming curves over themselves (overhangs). Parametric mapping allows continuous sweeping of 3D profile structures arbitrarily.
+How can surface plots be used in conjunction with contour plots for better understanding of terrain or potential fields in robotic navigation?
+Answer: Surface plots provide intuitive, holistic 3D visualization. Contour plots precisely map constant elevation slices onto a flat $XY$ plane. Combining them lets you read precise height demarcations directly atop 3D geometric slopes.
+Describe how surface visualization techniques can aid in finite element analysis and stress distribution studies in mechanical components.
+Answer: Stress, deformation, or heat gradients can be mapped directly as explicit surface colormaps acting over arbitrary complex parametric structural skeletons, allowing visual identification of fatigue or fracture points.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Contour Plots to Identify the Optimum
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Contour Plots to Identify the Optimum.
+Experiment Background:
+Contour plots are powerful visualization tools for analyzing functions of two variables, particularly in optimization problems common to intelligent systems and mechanical engineering. These plots display lines of constant function value (isopleths) on a 2D plane, allowing engineers to visualize the topography of a function's landscape, identify valleys, ridges, peaks, and saddle points, and locate optimal points (minima or maxima). In mechanical engineering and intelligent systems, contour plots are essential for multi-objective optimization, design space exploration, and understanding the sensitivity of system performance to parameter changes. This experiment focuses on creating and interpreting contour plots in MATLAB to identify optimal points in engineering optimization problems.
+Lab Activity
+Creating and analyzing contour plots in MATLAB to visualize functions of two variables, identify optimal points (minima/maxima), and understand optimization landscapes for engineering applications.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform contour plotting and optimization in MATLAB.
+Description
+Details
+Tools Required
+MATLABCommandWindow,Editor,FigureWindowfor
+visualization.
+Contour Plot (Level Curves)
+Lines connecting points where function 𝑓(𝑥, 𝑦) has constant value.
+Gradient Vector
+𝛻𝑓 = ( 𝛛𝑓 ,  𝛛𝑓), perpendicular to contours.
+𝛛𝑥𝛛𝑦
+Critical Point
+Point where ∇𝑓 = 0 (candidate for optimum).
+Hessian Matrix
+𝑓𝑥𝑥𝑓𝑥𝑦
+𝐻 = [𝑓𝑓  ], determines nature of critical point.
+𝑦𝑥𝑦𝑦
+Local Minimum/Maximum
+Point where function value is lower/higher than all nearby points.
+Saddle Point
+Critical point that is neither minimum nor maximum.
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute contour plotting and optimization commands.
+Workspace
+Inspect function values, coordinates, gradient data.
+Editor / Script File
+Write scripts for contour analysis and optimization.
+Figure Window
+Display contour plots with annotations.
+Current Folder
+Store optimization scripts and data files.
+MATLAB
+Functions
+contour(), contourf(), meshc(), fcontour(), gradient(), fminsearch(), fminunc().
+Excel Commands & Formulas Used
+For each operation, give the commands with example:
+Operation
+Excel Formula(s)
+Basic Contour Plot
+contour(X, Y, Z)
+Filled Contour Plot
+contourf(X, Y, Z)
+Contour with Specific Levels
+contour(X, Y, Z, 20) or contour(X, Y, Z, [0.5 1.5 2.5])
+Contour with Labels
+[C, h] = contour(X, Y, Z); clabel(C, h);
+Mesh with Contour
+meshc(X, Y, Z)
+Gradient Calculation
+[FX, FY] = gradient(Z, dx, dy)
+Gradient Vector Plot
+quiver(X, Y, FX, FY)
+Find Minimum
+[x_opt, fval] = fminsearch(@fun, x0)
+Symbolic Gradient
+grad = gradient(f, [x, y])
+3D Surface with Contours
+surfc(X, Y, Z)
+Function Handle Contour
+fcontour(@(x,y) sin(x)+cos(y))
+Optimal Point Marking
+hold on; plot(x_opt(1), x_opt(2), 'r*', 'MarkerSize', 10);
+Problem Statement
+An intelligent manufacturing system requires optimization of production parameters to minimize cost while maintaining quality. The cost function depends on two critical parameters: processing temperature (T) and pressure (P). Additionally, a robotic arm's energy consumption during a welding    operation    depends    on    speed    and    force    parameters.
+Optimization Problems:
+Production Cost Function:
+𝐶(𝑇, 𝑃) = (𝑇 − 150)2 + 2(𝑃 − 100)2 + 50 sin(0.1𝑇) cos(0.05𝑃). Domain: 𝑇 ∈ [100,200] °𝐶, 𝑃 ∈ [50,150] 𝑘𝑃𝑎
+Welding Energy Function:
+𝐸(𝑣, 𝑓) = 100 + (𝑣 − 2)4 + (𝑓 − 3)2 + 20𝑒(−0.5((𝑣−1)2+(𝑓−2)2).
+Domain: 𝑣 ∈ [0,4] m/s, 𝑓 ∈ [0,5] kN
+Mechanical Component Design:
+Stress function: 𝑆(𝑥, 𝑦) = 𝑥4 + 𝑦4 − 4𝑥𝑦 + 2. Domain: 𝑥, 𝑦 ∈ [−2,2].
+Multi-modal Test Function (Rastrigin):
+𝑅(𝑥, 𝑦) = 20 + (𝑥2 − 10cos(2𝜋𝑥)) + (𝑦2 − 10cos(2𝜋𝑦)). Domain: 𝑥, 𝑦 ∈ [−5.12,5.12] .
+Tasks
+Basic Contour Visualization:
+For each function, create a mesh grid with appropriate resolution.
+Generate contour plots using contour() with 20 contour levels.
+Create filled contour plots using contourf() with 'jet' colormap.
+Add contour labels using clabel() for the production cost function.
+Create a 2 × 2 subplot showing all four functions with proper labels.
+Create a second plot using mesh() and compare visualization styles.
+Gradient Analysis and Optimal Point Identification:
+Compute gradient vectors for the production cost function using gradient().
+Overlay gradient vectors on contour plot using quiver().
+Visually identify critical points where gradient vectors vanish.
+Use fminsearch() to find local minima for each function from different starting points.
+Mark optimal points on contour plots with red circles.
+Comparative Analysis of Functions:
+For each function, determine:
+Number of local minima/maxima
+Presence of saddle points
+Global minimum location and value
+Contour spacing indicating function steepness
+Create a table summarizing optimization characteristics.
+Optimization Algorithm Visualization:
+For the Rastrigin function (multi-modal):
+Plot the contour with 30 levels
+Mark all local minima found from multiple starting points
+Show gradient descent paths from different starting points
+Annotate the global minimum
+Demonstrate how contour plots help understand algorithm convergence.
+Sensitivity Analysis:
+For the production cost function:
+Identify regions where cost is within 10% of optimal
+Plot this region as a filled contour
+Analyze parameter sensitivity near optimum
+Compute and visualize the Hessian matrix at optimal points.
+Engineering Application:
+For the welding energy function:
+Identify the optimal (𝑣, 𝑓) pair minimizing energy
+Determine allowable parameter ranges where energy increase < 5%
+Plot constraint boundaries (e.g., 𝑣 ≤ 3.5, 𝑓 ≥ 1)
+Create a contour plot with feasible region shaded
+For the mechanical stress function:
+Identify minimum stress configuration
+Plot stress contours with safety threshold (𝑆 < 10)
+Analyze trade-offs between x and y parameters
+3D Visualization with Contours:
+Create surface plots with underlying contours using surfc() for all functions.
+Create a combined visualization showing:
+3D surface plot (top)
+2D contour plot (bottom)
+Optimal point marked on both
+Create an animation showing rotation of 3D plot with contour projection.
+Results and Inference
+Summarize the effectiveness of contour plots in identifying optimal points, analyzing function landscapes, and guiding optimization algorithms. Discuss the insights gained about each engineering optimization problem and how contour visualization aids in understanding trade-offs, sensitivities, and algorithm behavior in intelligent systems.
+Viva Questions
+Explain how contour plots help identify optimal points and why gradient vectors are perpendicular to contour lines.
+Answer: Optimal points exist at the "mountain peaks" or "valleys" (nested circular contour centers). The contour line represents constant function value; stepping along it produces 0 change. Because the gradient is the direction of maximum change, it must point orthogonal to the path of 0 change.
+What information can be deduced about a function's behavior from the spacing and shape of its contour lines?
+Answer: Densely spaced contour lines denote a steep gradient (fast change in value), while widely spaced lines imply a flatter, low-slope plateau area. Round contours denote quadratic wells, while heavily elliptical contours imply high sensitivity to specific axis directions.
+How do contour plots help in understanding the convergence behavior of gradient-based optimization algorithms?
+Answer: Contour visualizations can overlay iterative optimization steps (dots and lines tracking gradient trajectory). You can watch visually whether an algorithm successfully navigates a steep ravine linearly or "stair-steps" wildly inefficiently due to high step size in poor directions.
+Compare the utility of 2D contour plots versus 3D surface plots for optimization problems. When is each more useful?
+Answer: 2D contour plots are vastly superior for analyzing paths because you aren't fighting visual occlusion from 3D camera angles; they're excellent for tracking $XY$ variable interactions directly. 3D surface plots intuitively display deep minima or high maximums at a broad scale instantly.
+How can contour plots be used for constraint visualization in engineering optimization problems?
+Answer: Constraint limits (like stress limits $< 10$MPa) can be drawn as thick demarcation overlays atop the objective function's contour plot. Everything outside the valid region gets shaded out, leaving a visual "feasible region" containing the optimal valid point.
+Discuss how contour plots aid in understanding multi-modal functions and the challenges they pose for optimization algorithms.
+Answer: Contour maps clearly expose multiple distinct, independent "bullseyes" (local minima). They visually illustrate why a gradient descent algorithm initialized in the wrong region gets trapped inside a local minimum, completely failing to reach the central global minimum because it strictly tracks downhill.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Gradient of Scalar Functions and Plotting of Gradient Vectors
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Gradient of Scalar Functions and Plotting of Gradient Vectors
+Experiment Background:
+The gradient is a fundamental vector calculus concept that plays a crucial role in optimization, machine learning, and engineering analysis. For a scalar function of multiple variables, the gradient represents the direction and rate of steepest ascent. In intelligent systems and mechanical engineering, gradient analysis is essential for optimization algorithms, sensitivity analysis, and understanding system behavior. This experiment focuses on computing gradients of scalar functions in MATLAB, visualizing gradient fields, and analyzing their geometric and physical significance. Students will learn to calculate gradients numerically and symbolically, plot gradient vectors over contour plots, and apply gradient concepts to engineering optimization problems.
+Lab Activity
+Computing gradients of scalar functions in MATLAB using numerical and symbolic methods, visualizing gradient vector fields, and analyzing gradient behavior for engineering applications.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform gradient computation and visualization in MATLAB.
+Description
+Details
+Tools Required
+MATLAB Command Window, Editor, Figure Window, Symbolic Math Toolbox.
+GradientofScalar
+Function
+𝛻𝑓 = ( 𝛛𝑓 ,  𝛛𝑓), for 𝑓(𝑥, 𝑦).
+𝛛𝑥𝛛𝑦
+Directional Derivative
+Rate of change of f in direction 𝑢: Duf = ∇f ⋅ u.
+Gradient as Normal to Level Sets
+Gradient is perpendicular to contour lines of constant function value.
+Numerical Gradient
+Approximation using finite differences: 𝛛𝑓 ≈ 𝑓(𝑥+ℎ,𝑦)−𝑓(𝑥−ℎ,𝑦) .
+𝛛𝑥2ℎ
+Gradient Vector Field
+Collection of gradient vectors at points in domain, showing direction of steepest ascent.
+Conservative Vector Field
+Vector field that is gradient of some scalar potential function.
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute gradient computation and plotting commands.
+Workspace
+Inspect gradient components, function values.
+Editor / Script File
+Write scripts for gradient analysis and visualization.
+Figure Window
+Display gradient vector fields and contour plots.
+Current Folder
+Store gradient analysis scripts and data files.
+MATLAB
+Functions
+gradient(), quiver(), quiver3(), jacobian(), surfnorm(), fcontour(), streamslice().
+Excel Commands & Formulas Used
+For each operation, give the commands with example:
+Operation
+Excel Formula(s)
+Numerical Gradient (2D)
+[FX, FY] = gradient(Z, dx, dy)
+Symbolic Gradient
+grad = gradient(f, [x, y])
+Gradient Vector Plot
+quiver(X, Y, FX, FY)
+Gradient Magnitude
+mag = sqrt(FX.^2 + FY.^2)
+Gradient over Contour Plot
+contour(X, Y, Z); hold on; quiver(X, Y, FX, FY)
+3D Gradient (for 𝑓(𝑥, 𝑦, 𝑧))
+Directional Derivative
+Du_f = dot(double(subs(grad)), u_unit)
+Evaluate Symbolic Gradient
+grad = gradient(f, [x, y])
+Normalize Gradient Vectors
+quiver(X, Y, FX./mag, FY./mag)
+Streamlines of Gradient Field
+streamline(X, Y, FX, FY, startX, startY)
+Surface with Normals
+surfnorm(X, Y, Z)
+Check if Conservative Field
+curl(X, Y, FX, FY) (Check if result is exactly 0 everywhere)
+Problem Statement
+An intelligent thermal management system for electronic components involves temperature distribution analysis. The temperature field 𝑇(𝑥, 𝑦) and associated heat flux (proportional to temperature gradient) need to be analyzed. Additionally, a mechanical system's potential energy surface and corresponding force fields (negative gradient of potential) require investigation.
+Functions for Gradient Analysis:
+Temperature Distribution Function:
+𝑇(𝑥, 𝑦) = 100𝑒(−0.1(𝑥2+𝑦2) + 20𝑠𝑖𝑛(0.5𝑥)𝑐𝑜𝑠(0.3𝑦). Domain: 𝑥, 𝑦 ∈ [−5,5]
+Heat flux: q = −𝑘∇𝑇 (where 𝑘 = 0.5 is thermal conductivity)
+Potential Energy Surface (Mechanical System):
+𝑈(𝑥, 𝑦) = 𝑥4 + 𝑦4 − 4𝑥2 − 4𝑦2 + 𝑥𝑦. Domain: 𝑥, 𝑦 ∈ [−2.5,2.5]
+Force field: 𝐅 = −∇𝑈
+Multi-modal Test Function (Rastrigin):
+𝑃(𝑥, 𝑦) = 50 + 10𝑐𝑜𝑠(0.4𝜋𝑥)𝑠𝑖𝑛(0.4𝜋𝑦) + 5𝑒(−0.1(𝑥2+𝑦2)
+Domain: 𝑥, 𝑦 ∈ [−4,4].
+Pressure gradient drives fluid flow
+Test Function with Multiple Critical Points:
+𝑓(𝑥, 𝑦) = (𝑥2 + 𝑦 − 11)2 + (𝑥 + 𝑦2 − 7)2. Domain: 𝑥, 𝑦 ∈ [−6,6]
+Tasks
+Gradient Computation and Basic Visualization:
+For each function, create a mesh grid with appropriate resolution.
+Compute numerical gradients using gradient() function.
+Compute symbolic gradients for comparison (if Symbolic Toolbox available).
+Create 2×2 subplots showing:
+Surface plot of the function
+Contour plot with gradient vectors
+Gradient magnitude contour
+Streamlines of gradient field
+Gradient Field Analysis:
+For the temperature distribution:
+Plot temperature contours with heat flux vectors (−𝛻𝑇)
+Identify hot spots (maxima) and cold spots (minima)
+Compute maximum temperature gradient magnitude and location
+Analyze heat flow patterns from hot to cold regions
+For the potential energy surface:
+Plot potential energy contours with force vectors (−𝛻𝑈)
+Identify equilibrium points (where ∇U=0)
+Classify equilibrium points as stable/unstable using gradient behavior
+Trace gradient descent paths from different starting points
+Gradient Properties Verification:
+For each function, verify that gradient vectors are perpendicular to contour lines.
+Compute directional derivatives in specific directions (e.g., along x-axis, at 45°).
+Verify the gradient gives the direction of steepest ascent.
+Check if gradient fields are conservative (curl-free for 2D).
+Engineering Applications:
+For the pressure field:
+Plot pressure contours with pressure gradient vectors
+Compute pressure gradient magnitude
+Identify regions of high pressure gradient (potential flow acceleration zones)
+Simulate particle movement along gradient directions
+For Himmelblau's function:
+Plot gradient vectors showing multiple basins of attraction
+Identify all four minima by analyzing gradient vanishing points
+Show gradient descent paths converging to different minima
+Advanced Visualization Techniques:
+Create a 3D visualization showing:
+Surface plot of function
+Gradient vectors projected onto surface
+Contour lines on XY-plane
+Create an animation showing:
+Particle moving along gradient direction
+Gradient vector field evolving (if time-dependent function)
+Plot gradient magnitude as a separate surface
+Numerical Accuracy Analysis:
+Compare gradients computed with different step sizes (ℎ = 0.1, 0.01, 0.001).
+Compare numerical gradient with analytical/symbolic gradient.
+Compute and plot error between numerical and symbolic gradients.
+Test gradient computation on a noisy version of the function.
+Gradient in Optimization Context:
+For each function:
+Implement gradient descent algorithm using computed gradients
+Plot optimization path on contour plot
+Compare convergence from different starting points
+Analyze relationship between gradient magnitude and convergence rate
+For the potential energy function:
+Find minimum energy configuration using gradient information
+Plot convergence of gradient descent algorithm
+Results and Inference
+Summarize the geometric interpretation of gradients, their role in indicating function behavior, and their applications in engineering systems. Analyze how gradient visualization aids in understanding heat transfer, force fields, and optimization landscapes in intelligent mechanical systems.
+Viva Questions
+Explain the geometric interpretation of the gradient vector. Why is it perpendicular to level curves/surfaces?
+Answer: The gradient points in the direction of the steepest ascent on a functional landscape. Since moving along a level curve means there is no change in functional value ($df=0$), moving in the exact perpendicular direction yields the maximum absolute rate of change.
+How does the gradient indicate the direction of steepest ascent, and how is this property used in optimization algorithms?
+Answer: Taking the dot product of the gradient with a unit vector directional path yields the rate of change; this dot product is maximized when the path directly opposes the gradient. Gradient Descent (finding a minima) explicitly exploits this by constantly moving 'downhill' in the exact opposite direction of the gradient ($-\nabla f$).
+Compare numerical and symbolic gradient computation methods. What are the advantages and limitations of each?
+Answer: Numerical methods (like finite difference) approximate the gradient rapidly and unconditionally simply by jittering inputs, but induce numerical errors and struggle with noise. Symbolic gradient (`gradient(syms)` computing derivatives analytically) guarantees perfect accuracy but is computationally slow, fails on discrete data arrays, and cannot process non-differentiable step functions.
+Explain the relationship between gradient fields and conservative vector fields in physical systems.
+Answer: Conservative vector fields (like gravity or electrostatics) are mathematically identical to gradient fields. Their force vectors are perfectly equal to the negative gradient of their underlying scalar potential energy fields. Moving within these fields creates path-independent total work.
+How does gradient analysis help in understanding stability in mechanical systems and convergence in optimization algorithms?
+Answer: Gradient vanishing ($\nabla f = 0$) defines mechanical equilibrium spots or functional optima. High absolute gradients near an optimum indicate a high 'restoring force' ensuring stability (or rapid convergence algorithmically). Shallow gradients signify structural indifference or sluggish convergence.
+Discuss practical applications of gradient vector fields in intelligent systems such as thermal management, fluid dynamics, and robotic path planning.
+Answer: In robotics, Artificial Potential Fields (APF) dynamically construct a mathematical 'landscape' where obstacles are peaks (high potential) and the goal is a sink. The robot follows the steepest negative gradient path downhill smoothly around all obstacles into the goal.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Hessian Matrix to Identify the Concavity of the Surface
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Hessian Matrix to Identify the Concavity of the Surface
+Experiment Background:
+The Hessian matrix is a fundamental tool in multivariate calculus that captures second-order information about a function's behavior. For a scalar-valued function of multiple variables, the Hessian provides critical insights into the function's curvature, concavity, and convexity. In intelligent systems and mechanical engineering, Hessian analysis is essential for optimization, stability analysis, and understanding system behavior near critical points. This experiment focuses on computing and analyzing Hessian matrices in MATLAB to determine surface concavity, classify critical points, and understand quadratic approximations. Students will learn to compute Hessians numerically and symbolically, analyze eigenvalues to determine definiteness, and apply Hessian concepts to engineering optimization and stability problems.
+Lab Activity
+Computing Hessian matrices of scalar functions in MATLAB, analyzing eigenvalues to determine concavity/convexity, classifying critical points, and applying Hessian analysis to engineering optimization problems.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform Hessian computation and analysis in MATLAB.
+Description
+Details
+Tools Required
+MATLAB Command Window, Editor, Figure Window, Symbolic Math Toolbox
+Hessian Matrix
+𝜕2𝑓𝜕2𝑓
+𝜕𝑥2𝜕𝑥 𝜕y
+𝐻 =
+𝜕2𝑓𝜕2𝑓
+[𝜕y 𝜕x𝜕y2 ]
+PositiveDefinite
+Matrix
+All eigenvalues > 0, Local minimum (concave up).
+NegativeDefinite Matrix
+All eigenvalues < 0, Local maximum (concave down).
+Indefinite Matrix
+Eigenvalues have mixed signs are saddle point .
+Principal Minors
+Determinants of leading submatrices, used to test definiteness.
+SecondPartial Derivative Test
+Uses Hessian to classify critical points.
+Quadratic Form
+𝑄(𝑥) = 𝑥𝑇𝐻𝑥, represents local curvature.
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Execute Hessian computation and analysis commands.
+Workspace
+Inspect Hessian matrices, eigenvalues, eigenvectors.
+Editor / Script File
+Write scripts for Hessian analysis and visualization.
+Figure Window
+Display surface plots with curvature visualization.
+Current Folder
+Store Hessian analysis scripts and data files.
+MATLAB
+Functions
+hessian(), eig(), det(), chol(), surf(), contour(), quiver(), fimplicit3().
+MATLAB Commands & Formulas Used
+For each operation, give the commands with example:
+Operation
+Command(s)
+Symbolic Hessian
+H = hessian(f, [x, y])
+Evaluate Hessian at Point
+H_eval = double(subs(H, [x, y], [a, b]))
+Eigenvalue Analysis
+eigs = eig(H_eval)
+Test Positive Definiteness
+all(eig(H_eval) > 0) or chol(H_eval) (fails if not positive def)
+Numerical Hessian Approximation
+Apply gradient(FX) and gradient(FY) to construct 2x2 matrix elements.
+Compute Principal Minors
+det(H_eval(1:k, 1:k)) for k=1..n
+Quadratic Form Evaluation
+q = 0.5 * h' * H_eval * h
+Surface Curvature Visualization
+surf(X, Y, Z, eigen_map)
+Critical Point Classification
+Identifying if eig(H) are all positive (+/+), negative (-/-), or mixed (+/-).
+3D Quadratic Approximation
+T2 = f(a) + grad'*(x-a) + 0.5*(x-a)'*H*(x-a); fsurf(T2);
+Gaussian Curvature (for surfaces)
+Derived proportionally from det(H)
+Problem Statement
+An intelligent structural analysis system requires understanding the curvature and stability of mechanical components under load. The stress/strain energy functions, potential energy surfaces, and system response functions need Hessian analysis to determine convexity, identify optimal designs,andassessstability.
+Functions for Hessian Analysis:
+Potential Energy Surface (Mechanical Oscillator):
+𝑈(𝑥, 𝑦) = 𝑥4 + 𝑦4 − 4𝑥2 − 4𝑦2 + 𝑥𝑦. Domain: 𝑥, 𝑦 ∈ [−2.5,2.5]
+Critical points to analyze: (0,0), (±√2, 0), (0, ±√2)
+Stress Distribution Function:
+𝑆(𝑥, 𝑦) = 100 − 10𝑥2 − 5𝑦2 + 2𝑥3 − 3𝑥𝑦2. Domain: 𝑥, 𝑦 ∈ [−3,3]
+Analyze curvature for structural stability
+System Response Surface (Control System):
+𝑅(𝑥, 𝑦) = 𝑒(−0.2(𝑥2+𝑦2)(10 + 𝑐𝑜𝑠(2𝑥) + 𝑠𝑖𝑛(3𝑦)).
+Domain: 𝑥, 𝑦 ∈ [−4,4]
+Determine regions of convexity for controller design
+Test Function with Multiple Critical Points:
+𝑓(𝑥, 𝑦) = (1 − 𝑥)2 + 100(𝑦 − 𝑥2)2, (Rosenbrock function) Domain: 𝑥, 𝑦 ∈ [−2,2]
+Famous for curved, narrow valley
+Tasks
+Hessian Computation and Critical Point Analysis:
+For each function:
+Compute symbolic Hessian matrix using hessian().
+Find critical points by solving 𝛻𝑓 = 0.
+Evaluate Hessian at each critical point
+Compute eigenvalues and classify each critical point
+Create a table summarizing:
+Critical point coordinates
+Hessian eigenvalues
+Classification (min/max/saddle)
+Function value at critical point
+Eigenvalue Analysis and Definiteness Tests:
+For the potential energy surface:
+Compute eigenvalues at all critical points
+Test positive/negative definiteness using eigenvalue signs
+Test using principal minors (Sylvester's criterion)
+Test using Cholesky decomposition (chol() function)
+Compare all three methods
+Surface Curvature Visualization:
+For each function:
+Create surface plot
+Compute Hessian eigenvalues at grid points
+Create separate plots showing:
+Surface colored by Gaussian curvature
+Regions of positive/negative curvature
+Contour plot with convex/concave regions marked
+For the stress distribution function:
+Identify regions where Hessian is positive definite (convex, stable)
+Identify regions where Hessian is negative definite (concave, potentially unstable)
+Mark boundary between convex and concave regions
+Quadratic Approximation Analysis:
+For the Rosenbrock function at point (1,1):
+Compute quadratic approximation:  ()()
+()𝑇
+1  𝑇  ()
+𝑓 𝑥, 𝑦  ≈ 𝑓 1,1
++ 𝛻𝑓 1,1
+𝒉 +  𝒉
+2
+𝐻 1,1 𝒉
+Plot original function and quadratic approximation
+Compare shapes in the neighborhood of (1,1)
+Analyze how well Hessian captures local curvature
+Engineering Applications:
+For the potential energy surface:
+Relate Hessian eigenvalues to vibrational frequencies (if mass = 1)
+Determine stability of equilibrium points
+For stable points, compute approximate oscillation frequencies: 𝜔 = √𝜆
+𝑚
+For the stress distribution:
+Identify regions prone to buckling (negative curvature)
+Determine safe operating regions (positive curvature)
+Compute maximum allowable load based on curvature analysis
+Numerical Hessian Accuracy:
+Implement numerical Hessian computation using:
+Central differences on gradient
+Direct second-order finite differences
+Compare numerical Hessian with symbolic Hessian at selected points
+Analyze error as function of step size
+Test on noisy function data
+Advanced Analysis: Convexity and Optimization:
+For each function:
+Determine if function is convex over entire domain (Hessian positive semidefinite everywhere)
+For convex functions, verify global optimality of local minima
+Implement Newton's optimization method using Hessian
+Compare convergence with gradient-only methods
+For the system response surface:
+Identify convex region for controller linearization
+Determine valid operating region for linear controller design
+Advanced Analysis: Convexity and Optimization:
+Create an integrated visualization showing:
+3D surface plot
+Contour plot with gradient vectors
+Hessian eigenvalue contours
+Critical points with classification markers
+Create animation showing:
+Particle moving on surface
+Local quadratic approximation evolving
+Hessian eigenvalues changing along path
+Results and Inference
+Summarize how Hessian eigenvalues determine surface concavity, classify critical points, and inform stability analysis. Discuss the engineering significance of positive/negative curvature regions, the accuracy of quadratic approximations, and the role of Hessian analysis in optimization algorithms for intelligent mechanical systems.
+Viva Questions
+Explain how the Hessian matrix eigenvalues determine the concavity/convexity of a surface at a point.
+Answer: Since the Hessian is the matrix of second partial derivatives, it dictates 3D curvature. If all its eigenvalues are strictly positive, the point curves upward tightly like a bowl (Convex mapping to a local minimum). If strictly negative, it forms a peak (Concave local maximum). Mixed eigen signs signify a saddle structure.
+Describe the second derivative test for classifying critical points using the Hessian determinant and principal minors.
+Answer: If the determinant of the Hessian $D > 0$ and the first entry $f_{xx} > 0$, it is a local minimum. If $D > 0$ and $f_{xx} < 0$, it is a local maximum. If $D < 0$, the critical point is a saddle. This avoids directly computing eigenvalues via determinants of leading principal minors (Sylvester's criterion).
+How does the Hessian matrix relate to the curvature of a surface, and what is the geometric interpretation of its eigenvalues?
+Answer: The Hessian acts as a mathematical 'curvature tensor' operator. Its real eigenvalues directly signify the magnitude of the principal maximum and minimum orthogonal curvatures curving out from the evaluation point.
+Compare the computational and accuracy trade-offs between symbolic and numerical Hessian computation in MATLAB.
+Answer: Computing the Hessian requires $O(n^2)$ partial derivatives. Doing this symbolically provides perfect precision but quickly crashes computationally on high-variance algebraic operations. Numerically approximating it via difference operators runs arbitrarily fast but is notoriously sensitive to floating point rounding (machine epsilon limits).
+Explain the role of the Hessian in Newton's optimization method and why it can converge faster than gradient descent.
+Answer: While Gradient Descent treats the surface completely flatly linearly per step, Newton's Method scales the inverse Hessian against the gradient, explicitly mapping the surface quadratically via the exact curvature at that point. Thus, it can safely take a massive step directly to the valley floor in $O(1)$ operations on parabolic landscapes.
+Discuss practical applications of Hessian analysis in mechanical engineering, such as stability analysis of structures and optimization of system parameters.
+Answer: Hessian computations are used critically to identify structural buckling thresholds (loss of positive definite concavity). Additionally, it determines non-linear spring constants by evaluating potential energy functions' second derivatives around operating load equilibrium spots.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Experiment on Basic Probability Distributions Using MATLAB
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Experiment on Basic Probability Distributions Using MATLAB
+Experiment Background:
+Probability distributions form the mathematical foundation for modeling uncertainty in intelligent systems. In mechanical engineering applications, these distributions help analyze component reliability, quality control, manufacturing tolerances, and system performance under varying conditions. MATLAB provides comprehensive tools for working with probability distributions through its Statistics and Machine Learning Toolbox. This experiment introduces students to fundamental probability distributions including Normal, Exponential, Binomial, and Poisson distributions. Students will learn to generate random numbers from these distributions, compute probability density/mass functions (PDF/PMF), cumulative distribution functions (CDF), estimate parameters from data, and visualize distributions. By mastering these concepts, students gain essential skills for statistical analysis and probabilistic modeling in mechanical systems.
+Lab Activity
+Implementing and analyzing probability distributions using MATLAB to model real- world mechanical engineering scenarios.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to work with probability distributions in MATLAB.
+Description
+Details
+Tools Required
+MATLAB with Statistics and Machine Learning Toolbox, Command
+Window, Editor, and Workspace.
+ProbabilityDensity Function (PDF)
+A function that describes the relative likelihood for a continuous
+random variable to take on a given value. Example: normpdf(𝑥, 𝜇, 𝜎).
+Cumulative
+Distribution Function (CDF)
+A function that gives the probability that a random variable is less than or equal to a certain value. Example: normcdf(𝑥, 𝜇, 𝜎).
+RandomNumber
+Generation
+Generation of random numbers from specified distributions. Example:
+normrnd(𝜇, 𝜎, 𝑚, 𝑛).
+InverseCDF (Quantile Function)
+Returns the value of the random variable for a given probability.
+Syntax: norminv(𝑝, 𝜇, 𝜎).
+Parameter Estimation
+Process of estimating distribution parameters from sample data using functions like fitdist().
+Built-in Distribution Functions
+Predefined MATLAB functions for various distributions: norm, exp, binopdf/binocdf/binornd, poisspdf/poisscdf/poissrnd, etc.
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Used for entering distribution commands, generating random numbers, computing PDF/CDF values, and estimating parameters.
+Workspace
+Displays variables containing random samples, distribution parameters, and
+statistical results.
+Editor / Script File
+Stores MATLAB script files (.m files) for systematic implementation of distribution analysis and Monte Carlo simulations.
+Figure Window
+Displays graphical outputs including histogram plots, PDF/CDF curves, QQ- plots, and probability plots.
+StatisticalBuilt-in functions
+mean, std, var, Functions histogram, kstest for analysis and hypothesis testing.
+Probability Distribution-
+specific functions
+normpdf/normcdf, Distribution normrnd/norminv, exppdf/expcdf/exprnd, Functions binopdf/binocdf/binornd, poisspdf/poisscdf/poissrnd.
+MATLAB Commands Used
+For each operation, give the commands with example:
+Operation
+Command(s)
+Normal Distribution PDF
+y = normpdf(x, mu, sigma)
+Normal Distribution CDF
+p = normcdf(x, mu, sigma)
+Generate Normal Random Numbers
+r = normrnd(mu, sigma, [m, n]) or mu + sigma*randn(m, n)
+Normal Distribution Inverse
+x = norminv(p, mu, sigma)
+Exponential Distribution PDF
+y = exppdf(x, mu)
+Binomial Distribution PMF
+y = binopdf(k, n, p)
+Poisson Distribution PMF
+y = poisspdf(k, lambda)
+Fit Distribution to Data
+pd = fitdist(data, 'Normal')
+Plot Histogram with PDF
+histogram(data, 'Normalization', 'pdf'); hold on; fplot(@(x) normpdf(x,mu,sigma));
+Compute Distribution Statistics
+[M, V] = normstat(mu, sigma); mean(data); var(data);
+Problem Statement
+A mechanical component manufacturing company produces precision shafts. The quality control department needs to analyze various aspects of production using probability distributions. The followingscenarioshavebeenidentifiedforanalysis:
+Scenario 1: Diameter Tolerance Analysis:
+Shaft diameters are normally distributed with mean 𝜇 = 50.00 mm and standard deviation 𝜎 =
+0.05 mm. The acceptable tolerance range is 49.90 mm to 50.10 mm.
+Scenario 2: Component Lifetime Analysis:
+The lifetime of bearings follows an exponential distribution with mean lifetime 𝜇 = 5000 hours.
+Scenario 3: Defect Rate Analysis:
+In a production batch of 100 shafts, historical data shows a 2% defect rate. The number of defective shafts follows a binomial distribution.
+Scenario 4: Machine Breakdown Analysis:
+Machine breakdowns in the factory follow a Poisson process with average 𝜆 = 0.5 breakdowns per day.
+Tasks
+Normal Distribution Application:
+Generate 1000 random shaft diameters from the normal distribution.
+Plot the histogram of generated diameters with the theoretical PDF overlay.
+Calculate the percentage of shafts within tolerance limits.
+Determine the diameter values that contain 95% of all shafts.
+Exponential Distribution Application:
+Generate 500 random bearing lifetimes.
+Plot the empirical CDF and compare with theoretical CDF.
+Calculate the probability that a bearing lasts more than 6000 hours.
+Find the lifetime exceeded by 90% of bearings.
+Binomial Distribution Application:
+Calculate the probability of finding exactly 3 defective shafts in a batch.
+Compute the probability of finding 2 or fewer defective shafts.
+Generate 100 random samples of defect counts for 50 batches.
+Plot the PMF for defect counts.
+Poisson Distribution Application:
+Calculate the probability of exactly 2 breakdowns in a week (7 days).
+Compute the probability of no breakdowns in a day.
+Generate breakdown counts for 30 days and plot the results.
+Compare simulated average breakdown rate with theoretical 𝜆.
+Parameter Estimation:
+Generate sample data from a normal distribution with 𝜇 = 25, 𝜎 = 2.
+Estimate parameters using fitdist() function.
+Plot QQ-plot to check normality.
+Perform Kolmogorov-Smirnov test for goodness of fit.
+Results and Inference
+Please summarize the conclusions drawn from the experiment on implementing probability distributions in MATLAB for analyzing mechanical component manufacturing data. Discuss how these distributions help in quality control, reliability analysis, and decision-making processes in mechanical engineering applications.
+Viva Questions
+Explain the difference between PDF and PMF. When would you use each in mechanical engineering applications?
+Answer: A PDF (Probability Density Function) describes perfectly continuous outcomes, indicating relative likelihoods integrated over intervals (e.g., manufacturing shaft tolerance in microns). A PMF (Probability Mass Function) is purely discrete (e.g., counting exactly how many bearings broke down this week in integers).
+How does the Central Limit Theorem justify the common use of normal distribution in manufacturing quality control?
+Answer: The sum of independent random variables (like all the thousands of distinct physical factors contributing to minor machining errors on a lathe) will strictly tend toward the classic normal Gaussian bell curve distribution regardless of their individual strange distributions.
+Differentiate between the exponential and Weibull distributions for reliability analysis of mechanical components.
+Answer: The exponential distribution assumes a completely constant failure rate; parts do not "age" mathematically. Weibull is mathematically superior as its shape parameter actively tracks infant mortality components or late-stage fatigue/wear-out failures.
+Explain how MATLAB's random number generation works for different probability distributions. What is the role of seed in reproducibility?
+Answer: MATLAB creates a pseudo-random sequence of bits relying on complex non-linear mathematical operations (e.g. Mersenne Twister). Setting a 'seed' forces the algorithm to start operating on the precise same initial integer block, making 'random' simulations perfectly repeatable and testable.
+Describe how hypothesis testing using probability distributions can help in making decisions about production process improvements.
+Answer: Manufacturers use Z-tests and T-tests on new machinery against the old machinery's historical normal distributions, establishing statistical $p-value$ likelihoods of exactly whether their new process decreased failure probability significantly or merely randomly.
+How would you choose between binomial and Poisson distributions for modeling defect counts in manufacturing?
+Answer: The Binomial distribution requires a set maximum number of 'trials' with an independent percentage to fail. The Poisson distribution tracks arbitrarily rare, disjoint occurrences across continuous swaths of time or large material area limits, typically modeling defects like random inclusions in sheet metal.
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Linear Regression Analysis in MATLAB
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Linear Regression Analysis in MATLAB
+Experiment Background:
+Linear regression is a fundamental statistical method in intelligent systems for modeling the relationship between a dependent variable and one or more independent variables. In mechanical engineering applications, linear regression finds extensive use in predictive maintenance, performance analysis, quality control, and system optimization. This experiment introduces students to the mathematical foundations of linear regression, including the least squares method, and demonstrates its implementation in MATLAB. Students will learn to fit linear models to data, evaluate model performance using metrics like R-squared and root mean square error (RMSE), make predictions, and visualize results. Through hands-on implementation, students will develop skills essential for data analysis and predictive modeling in mechanical systems.
+Lab Activity
+Developing and implementing MATLAB programs to perform linear regression analysis on given datasets and interpreting the results for mechanical engineering applications.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to perform linear regression analysis in MATLAB.
+Description
+Details
+Tools Required
+MATLAB with Statistics and Machine Learning Toolbox, Curve Fitting Toolbox, Command Window, Editor, and Workspace.
+SimpleLinear Regression
+Modeling the relationship between a single independent variable and a dependent variable using the equation: 𝑦 = 𝛽₀ + 𝛽₁𝑥 + 𝜀 .
+MultipleLinear Regression
+Modeling the relationship between multiple independent variables and
+a dependent variable: 𝑦 = 𝛽₀ + 𝛽₁𝑥₁ + 𝛽₂𝑥₂ + . . . + 𝛽ₙ𝑥ₙ + 𝜀.
+LeastSquares Method
+A mathematical approach that minimizes the sum of squared residuals to find the optimal regression coefficients.
+Residuals
+Differences between observed values and values predicted by the regression model: 𝑒ᵢ = 𝑦ᵢ − ŷᵢ.
+Coefficientof
+Determination (𝑅²)
+Statistical measure that represents the proportion of variance in the dependent variable that is predictable from the independent variables.
+Built-inRegression Functions
+MATLABfunctions:polyfit(),polyval(),fitlm(),regress(), LinearModel.fit(), predict().
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Used for entering regression commands, computing coefficients, and evaluating model performance metrics.
+Workspace
+Displays variables containing datasets, regression coefficients, residuals, and performance metrics.
+Editor / Script File
+Stores MATLAB script files (.m files) for systematic implementation of
+regression analysis and prediction.
+Curve Fitting Tool
+Interactive tool for fitting various models to data and visualizing results (cftool).
+Figure Window
+Displays graphical outputs including scatter plots, regression lines, residual plots, and diagnostic plots.
+StatisticalBuilt-in functions
+corrcoef(), cov(), Functions mean(), std() for data analysis and correlation assessment. .
+Regression Functions
+polyfit(), polyval(), fitlm(), regress(), predict(), residuals() .
+MATLAB Commands Used
+For each operation, give the commands with example:
+Operation
+Excel Formula(s)
+Simple Linear Regression
+beta = polyfit(x, y, 1) or mdl = fitlm(x, y)
+Simple Linear Regression
+beta = polyfit(x, y, 1) or mdl = fitlm(x, y)
+Multiple Linear Regression
+beta = X \ y (where X includes column of ones)
+Calculate R-squared Value
+mdl.Rsquared.Ordinary
+Calculate Root Mean Square Error
+mdl.RMSE or sqrt(mean((y - y_hat).^2))
+Correlation Coefficient R
+R = corr(X, y) or Rmat = corrcoef(X)
+Problem Statement
+A mechanical engineering research team is investigating the relationship between various operational parameters and the performance of a hydraulic pump system. The team has collected experimental data under different operating conditions and needs to perform regression analysis todeveloppredictivemodels.
+Dataset 1: Pump Efficiency Analysis:
+The relationship between pump speed (RPM) and efficiency (%) is being studied: Speed (RPM): [1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400]
+Efficiency (%): [65, 68, 72, 74, 76, 78, 79, 80]
+Dataset 2: Engine Performance Analysis:
+The relationship between engine load (kW), temperature (°C), and fuel consumption (L/hr): Load (kW): [50, 75, 100, 125, 150, 175, 200, 225]
+Temp (°C): [80, 85, 90, 95, 100, 105, 110, 115]
+Fuel Consumption (L/hr): [12.1, 15.3, 18.2, 21.8, 25.1, 28.3, 31.5, 35.0]
+Dataset 3: Material Strength Analysis:
+Relationship between carbon content (%) and tensile strength (MPa) of steel: Carbon (%): [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+Strength (MPa): [420, 450, 480, 510, 530, 550, 565, 575]
+Dataset 4: Component Wear Analysis:
+Relationship between operating hours and wear depth (mm) of bearing surfaces: Hours: [0, 200, 400, 600, 800, 1000, 1200, 1400]
+Wear (mm): [0, 0.05, 0.12, 0.18, 0.25, 0.32, 0.40, 0.48]
+Tasks
+Simple Linear Regression Implementation:
+For Dataset 1 (Pump Efficiency), perform simple linear regression to model efficiency as a function of speed.
+Calculate regression coefficients (slope and intercept).
+Plot the data points and regression line with proper labels.
+Calculate and display 𝑅² value and RMSE.
+Predict efficiency for speeds of 1300 RPM and 2100 RPM.
+Residual Analysis:
+For Dataset 1, calculate and plot residuals.
+Analyze residual pattern to check assumptions of linear regression.
+Calculate mean of residuals (should be approximately zero).
+Check for homoscedasticity (constant variance of residuals).
+Multiple Linear Regression:
+For Dataset 2 (Engine Performance), perform multiple linear regression to model fuel consumption as a function of both load and temperature.
+Calculate regression coefficients for the model: Fuel = 𝛽₀ + 𝛽₁×Load + 𝛽₂×Temp.
+Compute the 𝑅² value and adjusted 𝑅².
+Predict fuel consumption for Load=160 kW and Temp=98°C.
+Compare with simple linear regression using only Load as predictor.
+Polynomial Regression (Extension):
+For Dataset 3 (Material Strength), try both linear and quadratic (2nd degree polynomial) regression.
+Compare 𝑅² values for both models.
+Determine which model provides better fit visually and statistically.
+Plot both regression curves along with data points.
+Model Validation and Prediction:
+For Dataset 4 (Component Wear), split data into training (first 6 points) and testing (last 2
+points).
+Fit linear model using training data.
+Test model on testing data and calculate prediction error.
+Calculate 95% prediction interval for wear at 1500 hours.
+Comprehensive Analysis:
+For all datasets, calculate correlation coefficients.
+Create a summary table comparing all regression models (coefficients, R², RMSE).
+Identify which relationship is most strongly linear based on statistical measures.
+Results and Inference
+Please summarize the conclusions drawn from the experiment on linear regression analysis in MATLAB. Discuss the relationships discovered in each mechanical engineering scenario, evaluate model performance, and explain how these regression models can be used for prediction, optimization, and decision-making in mechanical systems. Include insights on when linear regression is appropriate and when more complex models might be needed.
+Viva Questions
+Explain the mathematical derivation of the normal equations used in the least squares method for linear regression.
+Answer: To map $y = X \beta$, an error residual vector $E = y - X \beta$ is created. To minimize the sum of squared errors $||E||^2$, the derivative of $(y - X \beta)^T(y - X \beta)$ is taken with respect to $\beta$ and set explicitly to 0. This algebraically simplifies to the Normal Equations: $X^T X \hat{\beta} = X^T y$.
+What are the key assumptions of linear regression, and how would you test each assumption using MATLAB?
+Answer: 1) Linearity (check scatterplot matrix) 2) Independence (check residuals autocorrelation / Durbin-Watson) 3) Homoscedasticity- Constant variance (plot residuals against fitted values using `plotResiduals()`) 4) Normality of errors (run a Quantile-Quantile `qqplot()` or Kolmogorov-Smirnov test on residuals).
+Differentiate between R-squared and adjusted R-squared. When would you prefer one over the other?
+Answer: Every new useless variable added mechanically increases standard $R^2$ artificially. Adjusted $R^2$ actively decreases its score if mathematically useless arbitrary variable terms are added to 'game' the model. Always prefer Adjusted $R^2$ for evaluating complex multi-factor analyses.
+Explain the difference between interpolation and extrapolation in the context of regression predictions. Why is extrapolation risky?
+Answer: Interpolation evaluates points inside the bounds of the original training data coordinates where behavior is strongly constrained. Extrapolation guesses outputs beyond the trained limits, which is exceptionally dangerous as complex polynomials will diverge aggressively to infinity, or non-linear behavior outside typical operating ranges will violently break linear models.
+What is the purpose of residual analysis, and what patterns in residual plots indicate problems with the regression model?
+Answer: Residuals should look like a random shotgun blast centered precisely at $y=0$. If residuals track a 'u-shape', your model is improperly linear mapping a non-linear curvature. If residuals widen out like an expanding funnel (heteroscedasticity), model variability scales improperly.
+How would you compare the performance of different regression models (e.g., linear vs. quadratic) for the same dataset?
+Answer: By comparing out-of-sample Cross-Validation Error outputs (to prevent overfitting), strictly tracking Mean Squared Error (MSE), or checking their Akaike Information Criterion (AIC). An overly stiff linear model will wildly under-fit (low $R^2$), while a high-degree polynomial will violently over-fit (excellent $R^2$, atrocious test-data MSE).
+Department of Science & Humanities (Mathematics) VAP-Computational Problem Solving Using MATLAB
+Title of Experiment
+Generation and Analysis of Multivariate Data in MATLAB
+Name of the Student
+Registration Number
+Due Date of Submission:
+Date of Submission:
+Assessment Rubrics
+Description
+Marks Allotted
+Marks Secured
+Understanding of Mathematical Concepts and Problem Statement
+15
+MATLAB Code Implementation (Syntax, Logic, Correctness)
+30
+Execution and Output Verification (Graphs, Results, Accuracy)
+25
+Interpretation and Analysis of Results
+20
+Viva Questions / Conceptual Understanding
+10
+Total Marks
+100
+Signature of Course Faculty
+Activity Sheet
+Generation and Analysis of Multivariate Data in MATLAB
+Experiment Background:
+Multivariate data analysis is fundamental to intelligent systems in mechanical engineering, where multiple correlated variables often need to be considered simultaneously. Examples include analyzing relationships between engine parameters (RPM, temperature, pressure, fuel consumption), material properties (strength, hardness, ductility, conductivity), or manufacturing process variables (speed, feed rate, depth of cut, tool wear). This experiment introduces students to the generation, visualization, and analysis of multivariate data using MATLAB. Students will learn to generate multivariate normal distributions with specified mean vectors and covariance matrices, create correlated datasets with different dependency structures, perform principal component analysis (PCA) for dimensionality reduction, and visualize high-dimensional data using scatter plots, 3D plots, and parallel coordinate plots. These skills are essential for data- driven design, quality control, and system optimization in mechanical engineering.
+Lab Activity
+Developing MATLAB programs to generate, visualize, and analyze multivariate datasets relevant to mechanical engineering applications.
+Tools Required and Important Definitions
+Based on the given objective, list the various software tools required with their specifications to work with multivariate data in MATLAB.
+Description
+Details
+Tools Required
+MATLAB with Statistics and Machine Learning Toolbox, Command Window, Editor, and Workspace.
+Multivariate Normal Distribution
+A generalization of the normal distribution to multiple dimensions, characterized by mean vector 𝜇 and covariance matrix 𝛴.
+Covariance Matrix
+A square matrix where element (𝑖, 𝑗) represents the covariance between variables 𝑖 and 𝑗, with variances on the diagonal.
+Correlation Matrix
+A normalized version of covariance matrix with values between −1
+and 1, representing linear relationships between variables.
+Principal Component Analysis (PCA)
+A technique for reducing dimensionality while preserving variance, transformingcorrelatedvariablesintouncorrelatedprincipal
+components.
+Cholesky Decomposition
+Matrixfactorizationmethodusedforgeneratingcorrelated
+multivariate normal random variables: 𝛴 = 𝐿𝐿ᵀ.
+Built-in Multivariate Functions
+mvnrnd(), mvnpdf(), pca(), corr(), cov(), eig(), svd(), chol().
+Component Identification
+Before the experiment, write the procedure to identify the MATLAB components and their functions.
+MATLABComponentProcedure to Identify / PurposeCommand WindowUsed for entering commands to generate multivariate data, compute covariance/correlation matrices, and perform PCA.WorkspaceDisplays matrices containing multivariate datasets, mean vectors, covariance matrices, PCA results, and statistical measures.Editor / Script FileStores MATLAB script files (.m files) for systematic implementation of multivariate data generation and analysis.Figure WindowDisplays graphical outputs including scatter plot matrices, 3D scatter plots, biplots, parallel coordinate plots, and scree plots.Matrix Operationschol(), eig(), svd(), det(), trace(), norm() for covariance matrix processing.Statistical Functionsmvnpdf(), pca(), corr(), cov(), mean(), std().Visualization Functionsscatter(), scatter3(), plotmatrix(), biplot(), parallelcoords().MATLABComponentProcedure to Identify / PurposeCommand WindowUsed for entering commands to generate multivariate data, compute covariance/correlation matrices, and perform PCA.WorkspaceDisplays matrices containing multivariate datasets, mean vectors, covariance matrices, PCA results, and statistical measures.Editor / Script FileStores MATLAB script files (.m files) for systematic implementation of multivariate data generation and analysis.Figure WindowDisplays graphical outputs including scatter plot matrices, 3D scatter plots, biplots, parallel coordinate plots, and scree plots.Matrix Operationschol(), eig(), svd(), det(), trace(), norm() for covariance matrix processing.Statistical Functionsmvnpdf(), pca(), corr(), cov(), mean(), std().Visualization Functionsscatter(), scatter3(), plotmatrix(), biplot(), parallelcoords().
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Used for entering commands to generate multivariate data, compute covariance/correlation matrices, and perform PCA.
+Workspace
+Displays matrices containing multivariate datasets, mean vectors, covariance matrices, PCA results, and statistical measures.
+Editor / Script File
+Stores MATLAB script files (.m files) for systematic implementation of multivariate data generation and analysis.
+Figure Window
+Displays graphical outputs including scatter plot matrices, 3D scatter plots, biplots, parallel coordinate plots, and scree plots.
+Matrix Operations
+chol(), eig(), svd(), det(), trace(), norm() for covariance matrix processing.
+Statistical Functions
+mvnpdf(), pca(), corr(), cov(), mean(), std().
+Visualization Functions
+scatter(), scatter3(), plotmatrix(), biplot(), parallelcoords().
+MATLAB
+Component
+Procedure to Identify / Purpose
+Command Window
+Used for entering commands to generate multivariate data, compute covariance/correlation matrices, and perform PCA.
+Workspace
+Displays matrices containing multivariate datasets, mean vectors, covariance matrices, PCA results, and statistical measures.
+Editor / Script File
+Stores MATLAB script files (.m files) for systematic implementation of multivariate data generation and analysis.
+Figure Window
+Displays graphical outputs including scatter plot matrices, 3D scatter plots, biplots, parallel coordinate plots, and scree plots.
+Matrix Operations
+chol(), eig(), svd(), det(), trace(), norm() for covariance matrix processing.
+Statistical Functions
+mvnpdf(), pca(), corr(), cov(), mean(), std().
+Visualization Functions
+scatter(), scatter3(), plotmatrix(), biplot(), parallelcoords().
+MATLAB Commands Used
+For each operation, give the commands with example:
+Operation
+Excel Formula(s)
+Generate Multivariate Normal Data
+data = mvnrnd(mu, Sigma, N)
+Compute Covariance Matrix
+C = cov(data)
+Compute Correlation Matrix
+R = corr(data) or R = corrcoef(data)
+Cholesky Decomposition
+L = chol(Sigma, 'lower')
+Manual Generation
+Z = randn(N, d); data = repmat(mu,N,1) + Z * L'
+Compute Multivariate Normal PDF
+p = mvnpdf(X, mu, Sigma)
+Perform PCA
+[coeff, score, latent] = pca(data)
+Scatter Plot Matrix
+plotmatrix(data)
+3D Scatter Plot
+scatter3(data(:,1), data(:,2), data(:,3))
+Parallel Coordinates Plot
+parallelcoords(data)
+Biplot for PCA biplot
+biplot(coeff(:,1:2), 'Scores', score(:,1:2))
+Compute Eigenvalues
+e = eig(A)
+Problem Statement
+A mechanical engineering research laboratory is studying the relationships between multiple performance parameters of a turbocharger system. The team needs to generate and analyze multivariate datasets that simulate real operating conditions to develop predictive models and understandparameterinteractions.
+Scenario 1: Turbocharger Performance Parameters: The following parameters are correlated in actual operation: P1: Compressor Pressure Ratio (dimensionless)
+P2: Turbine Inlet Temperature (°𝐶) P3: Rotational Speed (𝑅𝑃𝑀 × 1000) P4: Efficiency (%)
+P5: Mass Flow Rate (𝑘𝑔/𝑠)
+Historical data suggests the following relationships:
+Pressure ratio and rotational speed are strongly positively correlated (0.8) Temperature and efficiency are moderately negatively correlated (−0.6) Mass flow rate has moderate positive correlation with pressure ratio (0.5) All variables have different variances reflecting their measurement scales
+Scenario 2: Engine Emission Characteristics:
+Three correlated emission parameters: E1: NOx emissions (𝑔/𝑘𝑊ℎ)
+E2: Particulate Matter (𝑚𝑔/𝑚³)
+E3: CO emissions (𝑔/𝑘𝑊ℎ)
+Known correlations from emission tests: NOx and PM are positively correlated (0.7)
+NOx and CO are weakly negatively correlated (−0.3)
+PM and CO are essentially uncorrelated (0.1)
+Scenario 3: Material Test Data:
+Four mechanical properties of steel alloys:
+M1: Tensile Strength (MPa) M2: Yield Strength (MPa) M3: Elongation (%)
+M4: Hardness (HRC) Expected correlations:
+Tensile and yield strength are highly correlated (0.9)
+Strength properties are negatively correlated with elongation (−0.6)
+Hardness is positively correlated with strength (0.7)
+Tasks
+Multivariate Normal Data Generation:
+For Scenario 1, define a 5 × 5 covariance matrix 𝛴 based on the given correlations and appropriate variances.
+Define a mean vector 𝜇 representing typical operating values for each parameter.
+Generate 500 samples using both mvnrnd() and manual Cholesky factorization methods.
+Verify that both methods produce datasets with similar statistical properties.
+Covariance and Correlation Analysis:
+For the generated turbocharger data, compute the sample covariance and correlation matrices.
+Compare the sample correlation matrix with the specified population correlations.
+Create a heatmap visualization of the correlation matrix.
+Calculate the determinant and condition number of the covariance matrix.
+Visualization of Multivariate Data:
+Create a scatter plot matrix (SPLOM) for all 5 turbocharger parameters.
+Generate 3D scatter plots for selected parameter triplets (e.g., P1-P2-P3).
+Create parallel coordinate plots to visualize all samples across all dimensions.
+Identify any outliers or patterns in the visualizations.
+Principal Component Analysis (PCA):
+Perform PCA on the turbocharger dataset (centered but not scaled).
+Calculate and plot the variance explained by each principal component.
+Create a scree plot to determine the number of meaningful components.
+Generate a biplot showing both loadings and scores for the first two PCs.
+Interpret what the principal components represent in engineering terms.
+Correlation Structure Manipulation:
+For Scenario 2, generate three datasets with the specified correlation structure.
+Vary the sample size (𝑛 = 50, 200, 1000) and observe how sample correlations approach population values.
+Generate datasets with different correlation strengths (0.3, 0.7, 0.9) to visualize the effect on scatter plots.
+Create a dataset with near-singular covariance matrix and observe its effects on PCA.
+Multivariate Data Transformation:
+Take the turbocharger dataset and apply different transformations:
+Standardization (z-score normalization)
+Min-max scaling to [0,1]
+Logarithmic transformation for positive-skewed variables
+Perform PCA on both original and transformed data.
+Compare the PCA results and interpret the differences.
+Data Generation with Specific Distributions:
+Generate a mixed multivariate dataset where:
+Two variables follow normal distribution
+One variable follows exponential distribution
+One variable follows uniform distribution
+Apply copula-based methods to impose correlation structure.
+Visualize the resulting multivariate distribution.
+Results and Inference
+Please summarize the conclusions drawn from the experiment on multivariate data generation and analysis in MATLAB. Discuss how different correlation structures affect the generated data, interpret PCA results in the context of mechanical engineering parameters, explain the importance of covariance matrix properties, and describe how these techniques can be applied to real-world mechanical system analysis. Include insights on when multivariate approaches are superior to univariate analysis.
+Viva Questions
+Explain the mathematical relationship between covariance matrix, correlation matrix, and the scale (variance) of individual variables.
+Answer: The diagonal of the covariance matrix literally is the variance of each individual isolated variable. The correlation matrix is a perfectly scaled version of the covariance matrix created by dividing each term by its variables' respective standard deviations, confining all values into exactly $-1$ to $1$.
+What is the geometric interpretation of eigenvalues and eigenvectors in the context of PCA and multivariate data?
+Answer: Eigenvectors geometrically represent orthogonal axis vectors rotating into the literal direction of maximum 'spread' (variance) within a high-dimensional data cloud. Their linked eigenvalues determine exactly the spatial length of the data stretch (the degree of variance) captured exclusively along that custom vector principal component.
+How does the Cholesky decomposition method work for generating correlated multivariate normal random variables?
+Answer: Any positive-definite covariance matrix $\Sigma$ can be factored cleanly into $\Sigma = L L^T$ using Cholesky Decomposition. Taking perfectly independent normal distributions $Z$ and matrix multiplying them by $L$ ($X=\mu + LZ$) mathematically forces the independent points to rigidly conform to the desired target multivariate correlation structure.
+Explain why the covariance matrix must be positive semi-definite. What happens if you attempt to use a matrix that doesn't satisfy this condition?
+Answer: Math dictates an absolute constraint that physical variance (the square of standard deviation) can only be $\ge 0$. A non-positive-definite matrix implies some linear combination of your variables mathematically projects a physically impossible "negative variance". The Cholesky decomposition root will catastrophically fail (generate undefined complex matrices).
+Differentiate between population parameters (𝜇, 𝛴) and sample statistics (𝑥̅, 𝑆) in multivariate analysis. How does sample size affect their agreement?
+What is the "curse of dimensionality" and how does PCA help mitigate it in mechanical engineering data analysis?
+Answer: Adding dimensions (e.g. new sensors) geometrically scales the volume of necessary training data, rapidly causing algorithmic sparsity and extreme calculation overhead. PCA compresses 100 correlated noisy temperature sensors down into strictly 2 meaningful Principal Component "Heat axes", permanently preserving $99\%$ of the analysis value while dropping 98 dimensions.
